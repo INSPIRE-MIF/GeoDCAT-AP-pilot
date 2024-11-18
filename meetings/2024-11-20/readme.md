@@ -8,7 +8,7 @@
     *	Testing focus (Specification and/or Transformation)
     * Progress achieved / Issues
     * Expectations / Proposals
-•	Specific pilot bits.
+*	Specific pilot bits.
     * ISO metadata High-Value Datasets tagging good practices (JRC) 5 minutes
     * Approaches to run the XSLT transformation (TBD) 5 minutes
     * Discussion 10 minutes
