@@ -13,9 +13,11 @@
 * Next meeting
 * AoB.
 
-## Presentation
+## Presentations and recording
 
-[Kick-off meeting Presentation](/presentations/20241002_GeoDCAT-AP_Pilot_KoM_v6.pdf) (JRC)
+[Kick-off meeting Presentation](meetings/2024-10-02/presentations/20241002_GeoDCAT-AP_Pilot_KoM_v6.pdf) (JRC)
+
+NOTE: recording not available due to technical difficulties with Webex. 
 
 ## Minutes
 
