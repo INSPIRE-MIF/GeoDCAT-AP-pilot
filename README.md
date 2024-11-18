@@ -16,4 +16,4 @@ For more infomation about the pilot, its purpose, objectives and outputs/results
 
 ## Good practices 
 
-Check the current good practices identified in the scope of the pilot [here]().
+Check the current good practices identified in the scope of the pilot [here](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/good-practices).
