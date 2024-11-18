@@ -15,7 +15,7 @@
 
 ## Presentation
 
-[Kick-off meeting Presentation]() (JRC)
+[Kick-off meeting Presentation](/presentations/20241002_GeoDCAT-AP_Pilot_KoM_v6.pdf) (JRC)
 
 ## Minutes
 
