@@ -16,12 +16,20 @@
 * Management of pilot materials. Next meeting & Wrap up (JRC) - 5 minutes
 * AoB (All) - 5 minutes
 
+## Participants
+
+TBC
+
 ## Presentations and recording
 
 TBC
 
 NOTE: recording pending. 
 
-## Minutes
+## Meeting summary
+
+TBC
+
+## Actions
 
 TBC
