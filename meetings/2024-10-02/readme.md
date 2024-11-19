@@ -30,7 +30,7 @@ The objective of the meeting was to lauch the ISO & GeoDCAT-AP pilot, present a 
 
 ### Introduction & Pilot proposal
 
-A presentation was delivered by the JRC including an introduction contextualising the pilot, the participants who volunteered to take part of the exercise (BE (Flanders), CZ, DK, IT, FI, NL, ES, SK, as well as OP, SEMIC and JRC), the general and specific objectives of the pilot, an enumeration of the expected outcomes and an initial timeline.
+A presentation was delivered by the JRC including an introduction contextualising the pilot, the participants who volunteered to take part of the exercise (BE (Flanders), CZ, DK, IT, FI, NL, ES, SK, as well as OP, SEMIC and JRC), the general and specific objectives of the pilot, an enumeration of the expected outcomes and an initial timeline (from October 2024 until mid-November).
 
 Check the presentation for further details.
 
