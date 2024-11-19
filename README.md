@@ -8,7 +8,7 @@ The GeoDCAT-AP pilot is one of the activities aimed at modernising the implement
 
 Its main purpose is facilitating the integration of INSPIRE metadata, and the corresponding reporting obligations, into a common Open Data flow, centralising the INSPIRE and High-Value Datasets reporting in the [European Data Portal](https://data.europa.eu/en) (DEU). In particular, the pilot is intended to test and evaluate the adequacy of the transformation of geospatial (ISO 19139-based) metadata into a DCAT-based metadata using the [GeoDCAT-AP 3.0.0](https://semiceu.github.io/GeoDCAT-AP/releases/3.0.0/) specification and its related [XSLT transformation](https://github.com/SEMICeu/iso-19139-to-dcat-ap/tree/main).
 
-It is carried out as part of the activities of the [INSPIRE Maintenance and Implementation Work Programme (MIWP) 2021 - 2024](https://wikis.ec.europa.eu/display/InspireMIG/INSPIRE+work+programme+2021-24).
+The pilot is carried out as part of the activities of the [INSPIRE Maintenance and Implementation Work Programme (MIWP) 2021-2024](https://wikis.ec.europa.eu/display/InspireMIG/INSPIRE+work+programme+2021-24).
 
 For more infomation about the pilot, its purpose, objectives and outputs/results and expected benefits, please read the [Pilot Concept Note](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/20241119_GeoDCAT-AP_Pilot-Concept_Note-v2.pdf).
 
