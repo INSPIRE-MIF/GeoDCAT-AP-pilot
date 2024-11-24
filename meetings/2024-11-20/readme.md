@@ -22,9 +22,9 @@ TBC
 
 ## Presentations and recording
 
-TBC
+Presentations can be downloaded [here](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2024-11-20/presentations).
 
-NOTE: recording pending. 
+Recording: link pending. 
 
 ## Meeting summary
 
