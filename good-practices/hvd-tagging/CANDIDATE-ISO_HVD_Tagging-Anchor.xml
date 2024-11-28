@@ -3,7 +3,7 @@
     <gmd:MD_Keywords>
 	    <!-- HVD Keyword -->
         <gmd:keyword>
-            <gmx:Anchor xlink:href="https://eur-lex.europa.eu/eli/reg_impl/2023/138/oj">High-value dataset</gmx:Anchor>
+            <gmx:Anchor xlink:href="http://data.europa.eu/eli/reg_impl/2023/138/oj">High-value dataset</gmx:Anchor>
         </gmd:keyword>
     </gmd:MD_Keywords>
 </gmd:descriptiveKeywords>
