@@ -1,0 +1,1 @@
+# Folder to store the good practice candidate proposal on High-Value Datasets (HVDs) tagging agreed during the Sprint 4 of the Working Group on GeoNetwork GeoDCAT-AP schema plugin (09/12/2024-11/12/2024).
