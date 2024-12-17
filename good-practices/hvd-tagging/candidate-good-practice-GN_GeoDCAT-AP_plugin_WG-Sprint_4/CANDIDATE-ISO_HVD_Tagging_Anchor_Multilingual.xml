@@ -1,0 +1,79 @@
+<!-- Multilingual ISO records -->
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd">
+	...
+	<gmd:language>
+		<gmd:LanguageCode codeListValue="eng">English</gmd:LanguageCode>
+	</gmd:language>
+	...
+	<gmd:locale>
+		<gmd:PT_Locale id="nl">
+			<gmd:languageCode>
+				<gmd:LanguageCode codeListValue="dut"/>
+			</gmd:languageCode>
+		</gmd:PT_Locale>
+	</gmd:locale>
+	...
+
+	<!-- HVD Free Keyword Section -->
+	<gmd:descriptiveKeywords>
+		<gmd:MD_Keywords xsi:type="gmd:PT_FreeText_PropertyType">>
+			<!-- HVD Keyword -->
+			<gmd:keyword>
+				<gmx:Anchor xlink:href="http://data.europa.eu/eli/reg_impl/2023/138/oj">High-value dataset</gmx:Anchor>
+				<gmd:PT_FreeText>
+					<gmd:textGroup>
+						<gmd:LocalisedCharacterString locale="#nl">High-value dataset</gmd:LocalisedCharacterString>
+					</gmd:textGroup>
+				</gmd:PT_FreeText>
+			</gmd:keyword>
+		</gmd:MD_Keywords>
+	</gmd:descriptiveKeywords>
+
+	<!-- HVD Thesaurus-Based Keywords Section -->
+	<gmd:descriptiveKeywords>
+		<gmd:MD_Keywords>
+			<!-- Category Keyword -->
+			<gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
+				<gmx:Anchor xlink:href="http://data.europa.eu/bna/c_dd313021">Earth observation and environment</gmx:Anchor>
+				<gmd:PT_FreeText>
+					<gmd:textGroup>
+						<gmd:LocalisedCharacterString locale="#nl">Aardobservatie en milieu</gmd:LocalisedCharacterString>
+					</gmd:textGroup>
+				</gmd:PT_FreeText>
+			</gmd:keyword>
+			<!-- Optional Subcategory Keyword-->
+			<gmd:keyword>
+				<gmx:Anchor xlink:href="http://data.europa.eu/bna/c_f399050e">Sea regions</gmx:Anchor>
+				<gmd:PT_FreeText>
+					<gmd:textGroup>
+						<gmd:LocalisedCharacterString locale="#nl">Zeegebieden</gmd:LocalisedCharacterString>
+					</gmd:textGroup>
+				</gmd:PT_FreeText>
+			</gmd:keyword>
+			<!-- Thesaurus Reference -->
+			<gmd:thesaurusName>
+				<gmd:CI_Citation>
+					<gmd:title xsi:type="gmd:PT_FreeText_PropertyType">>
+						<gmx:Anchor xlink:href="http://data.europa.eu/bna/asd487ae75">High-value dataset categories</gmx:Anchor>
+						<gmd:PT_FreeText>
+							<gmd:textGroup>
+								<gmd:LocalisedCharacterString locale="#nl">High-value dataset categorieën</gmd:LocalisedCharacterString>
+							</gmd:textGroup>
+						</gmd:PT_FreeText>
+					</gmd:title>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2023-09-05</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+				</gmd:CI_Citation>
+			</gmd:thesaurusName>
+		</gmd:MD_Keywords>
+	</gmd:descriptiveKeywords>
+...
+</gmd:MD_Metadata>
