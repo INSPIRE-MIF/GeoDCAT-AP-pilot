@@ -1,0 +1,42 @@
+<!-- HVD Free Keyword Section -->
+<gmd:descriptiveKeywords>
+    <gmd:MD_Keywords>
+	    <!-- HVD Keyword -->
+        <gmd:keyword>
+            <gmx:Anchor xlink:href="http://data.europa.eu/eli/reg_impl/2023/138/oj">High-value dataset</gmx:Anchor>
+        </gmd:keyword>
+    </gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+
+<!-- HVD Thesaurus-Based Keywords Section -->
+<gmd:descriptiveKeywords>
+    <gmd:MD_Keywords>
+        <!-- Category -->
+        <gmd:keyword>
+            <gmx:Anchor xlink:href="http://data.europa.eu/bna/c_dd313021">Earth observation and environment</gmx:Anchor>
+        </gmd:keyword>
+        <!-- Optional Subcategory -->
+        <gmd:keyword>
+            <gmx:Anchor xlink:href="http://data.europa.eu/bna/c_f399050e">Sea regions</gmx:Anchor>
+        </gmd:keyword>
+        <!-- Thesaurus Reference -->
+        <gmd:thesaurusName>
+            <gmd:CI_Citation>
+                <gmd:title>
+                    <gmx:Anchor xlink:href="http://data.europa.eu/bna/asd487ae75">High-value dataset categories</gmx:Anchor>
+                </gmd:title>
+                <gmd:date>
+                    <gmd:CI_Date>
+                        <gmd:date>
+                            <gco:Date>2023-09-27</gco:Date>
+                        </gmd:date>
+                        <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" 
+                                                codeListValue="publication"/>
+                        </gmd:dateType>
+                    </gmd:CI_Date>
+                </gmd:date>
+            </gmd:CI_Citation>
+        </gmd:thesaurusName>
+    </gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
