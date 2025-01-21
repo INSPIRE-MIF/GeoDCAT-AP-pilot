@@ -4,17 +4,17 @@
 
 *	Introduction (JRC)
     * Meeting objectives & Timeline recap
-*	Pilot progress (participants: BE-Flanders, DK, IT, FI, NL, ES, SK - presented by JRC), OP, JRC)
+*	Pilot progress (participants: BE-Flanders, DK, IT, FI, NL, ES, SK-presented by JRC, OP, JRC)
     *	Testing focus (Specification and/or Transformation)
     * Progress achieved / Issues
     * Expectations / Proposals
 *	Specific pilot bits.
     * ISO metadata High-Value Datasets tagging good practices (JRC)
     * Approaches to run the XSLT transformation (TBD)
-    * Discussion - 10 minutes
+    * Discussion
 * Pilot progress report (80th MIG-T Meeting) (All)
 * Management of pilot materials. Next meeting & Wrap up (JRC)
-* AoB (All) - 5 minutes
+* AoB (All)
 
 ## Participants
 
