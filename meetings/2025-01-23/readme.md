@@ -25,8 +25,7 @@
 
 ## Presentations and recording
 
-TBC
-Presentations can be downloaded [here]().
+Presentations can be downloaded [here](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2025-01-23/presentations).
 
 Recording: Available on request. 
 
