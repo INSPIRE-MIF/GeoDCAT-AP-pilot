@@ -1,4 +1,4 @@
-<!-- Multilingual ISO records -->
+<!-- Multilingual ISO 19139 records -->
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd">
 	...
 	<gmd:language>
@@ -34,8 +34,11 @@
 	<!-- HVD Thesaurus-Based Keywords Section -->
 	<gmd:descriptiveKeywords>
 		<gmd:MD_Keywords>
-			<!-- Category Keyword -->
-			<!-- Mandatory – Anchor encoding and the thesaurus value URL / Recommended use of the tag in English (even in a multi-lingual metadata) -->
+			<!-- Mandatory:	Provide either the HVD Category OR the HVD Subcategory -->
+			<!-- Optional:	Provide the other one --> 
+
+			<!-- HVD Category Keyword -->
+			<!-- Mandatory (if Category is provided) – Anchor encoding and the thesaurus value URL / Recommended use of the tag in the main language of the metadata -->
 			<gmd:keyword xsi:type="gmd:PT_FreeText_PropertyType">
 				<gmx:Anchor xlink:href="http://data.europa.eu/bna/c_dd313021">Earth observation and environment</gmx:Anchor>
 				<gmd:PT_FreeText>
@@ -44,8 +47,8 @@
 					</gmd:textGroup>
 				</gmd:PT_FreeText>
 			</gmd:keyword>
-			<!-- Optional Subcategory Keyword-->
-			<!-- Mandatory – Anchor encoding and the thesaurus value URL / Recommended use of the tag in English (even in a multi-lingual metadata) -->
+			<!-- HVD Subcategory Keyword-->
+			<!-- Mandatory (if Subcategory is provided) – Anchor encoding and the thesaurus value URL / Recommended use of the tag in the main language of the metadata -->
 			<gmd:keyword>
 				<gmx:Anchor xlink:href="http://data.europa.eu/bna/c_f399050e">Sea regions</gmx:Anchor>
 				<gmd:PT_FreeText>
@@ -58,7 +61,7 @@
 			<gmd:thesaurusName>
 				<gmd:CI_Citation>
 					<gmd:title xsi:type="gmd:PT_FreeText_PropertyType">>
-						<!-- Mandatory Anchor encoding and thesaurus URL / Recommended use of the tag in English (even in a multi-lingual metadata) -->
+						<!-- Mandatory Anchor encoding and thesaurus URL / Recommended use of the Thesaurus name in English (even if multi-lingual metadata - Reason: No translations of this name are available) -->
 						<gmx:Anchor xlink:href="http://data.europa.eu/bna/asd487ae75">High-value dataset categories</gmx:Anchor>
 						<gmd:PT_FreeText>
 							<gmd:textGroup>

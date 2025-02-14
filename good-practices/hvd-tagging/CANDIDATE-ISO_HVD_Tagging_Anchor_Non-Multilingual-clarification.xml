@@ -1,4 +1,4 @@
-<!-- Non-multilingual ISO records -->
+<!-- Non-multilingual ISO 19139 records -->
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd">
 	...
 	<!-- HVD Free Keyword Section -->
@@ -15,20 +15,23 @@
 	<!-- HVD Thesaurus-Based Keywords Section -->
 	<gmd:descriptiveKeywords>
 		<gmd:MD_Keywords>
-			<!-- Category Keyword -->
-			<!-- Mandatory – Anchor encoding and the thesaurus value URL / Recommended use of the tag in English -->
+			<!-- Mandatory:	Provide either the HVD Category OR the HVD Subcategory -->
+			<!-- Optional:	Provide the other one --> 
+
+			<!-- HVD Category Keyword -->
+			<!-- Mandatory (if Category is provided) – Anchor encoding and the thesaurus value URL / Recommended use of the tag in the main language of the metadata -->
 			<gmd:keyword>
 				<gmx:Anchor xlink:href="http://data.europa.eu/bna/c_dd313021">Earth observation and environment</gmx:Anchor>
 			</gmd:keyword>
-			<!-- Optional Subcategory Keyword-->
-			<!-- Mandatory – Anchor encoding and the thesaurus value URL / Recommended use of the tag in English -->
+			<!-- HVD Subcategory Keyword-->
+			<!-- Mandatory (if Subcategory is provided) – Anchor encoding and the thesaurus value URL / Recommended use of the tag in the main language of the metadata -->
 			<gmd:keyword>
 				<gmx:Anchor xlink:href="http://data.europa.eu/bna/c_f399050e">Sea regions</gmx:Anchor>
 			</gmd:keyword>
 			<!-- Thesaurus Reference -->
 			<gmd:thesaurusName>
 				<gmd:CI_Citation>
-				<!-- Mandatory Anchor encoding and thesaurus URL / Recommended use of the tag in English -->
+						<!-- Mandatory Anchor encoding and thesaurus URL / Recommended use of the Thesaurus name in English -->
 					<gmd:title>
 						<gmx:Anchor xlink:href="http://data.europa.eu/bna/asd487ae75">High-value dataset categories</gmx:Anchor>
 					</gmd:title>
