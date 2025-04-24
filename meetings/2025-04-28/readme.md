@@ -2,12 +2,12 @@
 
 ## Agenda
 
-*	Overview – Pilot status & progress (JRC) - 15 minutes
-      *	Ongoing activities.
-      *	Pilot Final Report (1st workng draft).
-      *	High-Value Datasets (geospatial) tagging good practice candidate.
-          * Voting results & potential INSPIRE MIG/MIG-T endorsement.
-*	[Harvesting in data.europa.eu – How does it work?](https://data.europa.eu/en) updates (OP / conterra) - 15 minutes
+* Overview – Pilot status & progress (JRC) - 15 minutes
+    * Ongoing activities.
+    * Pilot Final Report (1st workng draft).
+    * High-Value Datasets (geospatial) tagging good practice candidate.
+        * Voting results & potential INSPIRE MIG/MIG-T endorsement.
+* Harvesting in [data.europa.eu](https://data.europa.eu/en) – How does it work? (OP / conterra) - 15 minutes
 * Pilot issues - 65 minutes
     *	Summary (JRC) - 5 minutes
     * Discussion (selected issues) (All) - 60 minutes
