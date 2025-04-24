@@ -2,15 +2,14 @@
 
 ## Agenda
 
-*	Overview – Pilot status and ongoing activities (JRC) - 5 minutes
-*	High-Value Datasets tagging good practice candidate (JRC) - 5 minutes
-    * Voting results for potential INSPIRE MIG/MIG-T endorsement.
-*	[EDP / data.europa.eu](https://data.europa.eu/en) updates (OP / conterra) - 15 minutes
-    * Geoharvester.
-    * Reporting of High-Value Datasets.
-* Pilot progress and results - 70 minutes
-    * Pilot Final Report (1st workng draft) (JRC) - 5 minutes
-    *	Pilot issues summary (JRC) - 5 minutes
+*	Overview – Pilot status & progress (JRC) - 15 minutes
+      *	Ongoing activities.
+      *	Pilot Final Report (1st workng draft).
+      *	High-Value Datasets (geospatial) tagging good practice candidate.
+          * Voting results & potential INSPIRE MIG/MIG-T endorsement.
+*	[Harvesting in data.europa.eu – How does it work?](https://data.europa.eu/en) updates (OP / conterra) - 15 minutes
+* Pilot issues - 65 minutes
+    *	Summary (JRC) - 5 minutes
     * Discussion (selected issues) (All) - 60 minutes
         * [Pilot #2](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/2). Proposals related to the HVD tagging good practise and the XSL transformation - FI
         * [Pilot #4](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/4). Role of service metadata in the EDP, in HVD-reporting and in this pilot? - FI
