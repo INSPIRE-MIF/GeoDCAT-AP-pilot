@@ -4,7 +4,7 @@
 
 * Overview – Pilot status & progress (JRC) - 15 minutes
     * Ongoing activities.
-    * Pilot Final Report (1st workng draft).
+    * Pilot Final Report (1st working draft).
     * High-Value Datasets (geospatial) tagging good practice candidate.
         * Voting results & potential INSPIRE MIG/MIG-T endorsement.
 * Harvesting in [data.europa.eu](https://data.europa.eu/en) – How does it work? (OP / conterra) - 15 minutes
