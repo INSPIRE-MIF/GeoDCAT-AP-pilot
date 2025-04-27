@@ -38,11 +38,15 @@ The objectives of the meeting were:
 
 ###  High-Value Datasets (geospatial) tagging good practice candidate
 
-* The JRC delivered a detailed presentation of the High-Value Datasets (geospatial) tagging good practice candidate. The presentation version delivered in the meeting is accessible [here](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2025-01-23/presentations/20250123_GeoDCAT-AP_Pilot-01_HVD_tagging-JRC_v1.pptx).
+* The JRC delivered a detailed presentation of the High-Value Datasets (geospatial) tagging good practice candidate, one of the main results of the pilot. The presentation version delivered in the meeting is accessible [here](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2025-01-23/presentations/20250123_GeoDCAT-AP_Pilot-01_HVD_tagging-JRC_v1.pptx).
 NOTE: It was updated after this meeting based on the discussion, as explained below.
-* The INSPIRE MIG-T initiated the voting for its potential endorsement on 19 December 2024, which will remain open at least until beginning of February 2025. Until the date, some countries already participated on the voting (ES, IE, IT, RO, SK, FI, EE).
+* The INSPIRE MIG-T initiated the voting for its potential endorsement on 19 December 2024, which will remain open at least until beginning of February 2025. Until the date, some countries already participated on the voting (ES, IE, IT, RO, SK, FI, EE). Requests from clarification were received from NL and DE.
 * The presentation was used to explain and clarify the requirements and recommentations of the good practice candidate.
-* A discussion on this concerned started between the pilot participants, ending up with few refinements based on non-breaking changes. As a result, in agreement with the pilot participants, the High-Value Datasets tagging good practice candidate presentation was updated. The second and final version of this presentation is accessible [here](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2025-01-23/presentations/20250123_GeoDCAT-AP_Pilot-01_HVD_tagging-JRC_v2.pptx).
+* A discussion on this concerned started between the pilot participants, ending up with few refinements based on non-breaking changes (i.e. not invalidating the votes casted so far). The main agreements with pilot participants were:
+    * As commented by NL: the translations of the High-Value Dataset categories values in the corresponding thesaurus are available. What it is not currently available is the translation of the thesaurus name - reason why the English neutral name of it is used, even in multilingual metadata.
+    * Making either the High-Value Dataset category or the sub-category mandatory, since the sub-category indirectly determines the category - Particularly, the OP confirmed its agreement by email after this meeting.
+    * In the reference to the High-Value Dataset category thesaurus, making use of 'publication' dateType date equal to '2023-09-27'. 
+* As a result, in agreement with the pilot participants, the High-Value Datasets tagging good practice candidate presentation was updated. The second and final version of this presentation is accessible [here](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2025-01-23/presentations/20250123_GeoDCAT-AP_Pilot-01_HVD_tagging-JRC_v2.pptx).
 
 ### Pilot progress reports
 Each participant presented a short report on the their progress, including a summary of the results achieved, an enumeration of the issues identified on GitHub (with references to the corresponding GitHub repositories) and their initial set of conclusions from the pilot (of any).
@@ -62,8 +66,7 @@ Check the [pilot progress presentations](https://github.com/INSPIRE-MIF/GeoDCAT-
 
 The following agreements were reached between the pilot participants.
 
-* JRC to update the presentation describing the High-Value Datasets (geospatial) tagging good practice candidate, based on the agreements of the related discussion hold in this meeting. The main (non-breaking) changes are:
-    * PENDING 
+* JRC to update the presentation describing the High-Value Datasets (geospatial) tagging good practice candidate, based on the agreements of the related discussion hold in this meeting. 
 * Analyse the pilot issues published on GitHub ([Pilot repository](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues) / [SEMIC GeoDCAT-AP repository](https://github.com/SEMICeu/GeoDCAT-AP/issues) / [SEMIC XSLT repository](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues)) and the [pilot progress presentations](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2025-01-23/presentations) delivered in this meeting, summarising the results achieved by participants until the date.
 * Participants to consider the use of [this GitHub repository](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues) for sharing additional issues and outcomes stemming from the pilot, for their potential discussion and integration with the rest of participants' results.
 * Start the first draft of the Pilot Final Report and promote contributions and discussion by the next pilot meeting.
