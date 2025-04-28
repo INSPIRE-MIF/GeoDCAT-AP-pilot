@@ -32,7 +32,7 @@
 
 ## Presentations and recording
 
-Presentations can be downloaded [here](TBC).
+Presentations can be downloaded [here](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2025-04-28/presentations).
 
 Recording: TBC. 
 
