@@ -7,7 +7,7 @@
     * Pilot Final Report (1st working draft).
     * High-Value Datasets (geospatial) tagging good practice candidate.
         * Voting results & potential INSPIRE MIG/MIG-T endorsement.
-* Harvesting in [data.europa.eu](https://data.europa.eu/en) – How does it work? (OP / conterra) - 15 minutes
+* Harvesting in [data.europa.eu](https://data.europa.eu/en) – How does it work? (OP / con terra) - 15 minutes
 * Pilot issues - 65 minutes
     *	Summary (JRC) - 5 minutes
     * Discussion (selected issues) (All) - 60 minutes
@@ -26,9 +26,9 @@
 
 ## Participants
 
-* Member States: .
-* European Commission: .
-* Contractors: .
+* Member States: Belgium (BE-Flanders), Czech Republic (CZ), Denmark (DK), France (FR), Finland (FI), the Netherlands (NL), Spain (ES).
+* European Commission: Publications Office of the European union (OP), Directorate-General for Digital Services SEMIC Group (DIGIT-SEMIC), Directorate-General Joint Research Centre (JRC).
+* Contractors: con terra.
 
 ## Presentations and recording
 
