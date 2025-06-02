@@ -16,7 +16,7 @@
         * [Pilot #3](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/3). Proposal to add hvdCategory as optional to GeoDCAT-AP 3.0 - FI
         * [SEMIC GeoDCAT-AP #143](https://github.com/SEMICeu/GeoDCAT-AP/issues/143). Guidance on the use of prov:qualifiedAttribution on Dataset would be welcome - NL
         * GeoDCAT-AP mapping / Extended mapping:
-            * [SEMIC XSLT #70](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/70). gmd:purpose -> how to map? (suggested also to dct:description) - DK
+            * [SEMIC XSLT #70](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/70). `gmd:purpose` mapped to `dct:description`? - DK
             * Mapping: GMD optional attributes not mapped to geoDCAT - ES
         * Useful to have a common place to share national XSLTs for local uses - FR  
 *	Pilot way forward (All) - 15 minutes
@@ -96,13 +96,15 @@ The participants discussed about the specific topics summarised below:
   
 * [SEMIC GeoDCAT-AP #143](https://github.com/SEMICeu/GeoDCAT-AP/issues/143). Guidance on the use of `prov:qualifiedAttribution` on Dataset would be welcome - NL
     * This issue was long discussed. SEMIC explained the [different dimensions to consider](https://github.com/SEMICeu/GeoDCAT-AP/issues/143#issuecomment-2834566480) regarding the issue. 
-    * As preliminary conclusion, if the main roles are modelled as direct propoerties in the GeoDCAT-AP profile that takes precedence to the use of the `prov:qualifiedAttribution` construct. The suggestion is to make this explicit in the GeoDCAT-AP 3 document. A separate discussion would be needed regarding the codelist specifying agent roles (and their values).
+    * As preliminary conclusion, if the main roles are modelled as direct properties in the GeoDCAT-AP profile that takes precedence to the use of the `prov:qualifiedAttribution` construct. The suggestion is to make this explicit in the GeoDCAT-AP 3 document. A separate discussion would be needed regarding the codelist specifying agent roles (and their values).
     * The issue is proposed for further discussion in the Fifth Pilot meeting, with the view of agreeing on a concrete action.
 
 * GeoDCAT-AP mapping / Extended mapping:
-    * [SEMIC XSLT #70](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/70). gmd:purpose -> how to map? (suggested also to dct:description) - DK
-      TBC
-
+    * [SEMIC XSLT #70](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/70). `gmd:purpose` mapped to `dct:description`? - DK
+          * GeoDCAT-AP 3 currently maps the (optional) `gmd:purpose` ISO metadata element to `dct:description`.
+          * The approach is valid, since the purpose of a dataset could be undertood as a description, but this apporach has pros and cons. Mainly, several ISO elements are mapped to `dct:description`, so that the specific nature of purpose gets lost in GeoDCAT-AP.
+          * After the discussion of the [four alternative approaches](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/70#issuecomment-2828635837) traced in the thread, the pilot participants expressed preferrence for the first one - Create a `geodcatap:purpose` property and update the XSLT to map `gmd:purpose` to it.
+      
     * Mapping: GMD optional attributes not mapped to geoDCAT - ES
       TBC
 
