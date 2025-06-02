@@ -58,7 +58,12 @@ Additional contributions by participants, particularly to each participant's sec
 
 con terra delivered on behalf of the OP a presentation explaining how the harvesting in [data.europa.eu](https://data.europa.eu/en) works, including a detailed description of the harvesting process, where the transformation to GeoDCAT-AP takes place, the role of the Geoharvester in the workflow, and the capabilities of this component.
 
-The Geoharvester has been already updated to comply to GeoDCAT-AP 3 and is now able to process the geospatial HVD taging good practice candidate, and is available in the development environment. conterra tested with this system the catalogues from participating MSs in this environment. Any feednack is welcome.
+Some Geocatalogues harvest other (lower-level) geocatalogues and are afterwards harvested by the national Open Data catalogue. This led to some confusions in the past. 
+In short, if a Geocatalogue is harvested directly by data.europa.eu, there is no need to apply the transformation by the MS. This is done by data.europa.eu directly.
+
+The Geoharvester has been already updated to comply to GeoDCAT-AP 3 and is now able to process the geospatial HVD taging good practice candidate, and is available in the development environment. conterra tested with this system the catalogues from participating MSs in this environment, noting whether HVDs were detected or not. Any feedback from participating MSs is welcome.
+
+con terra reported two old-known issues (detailed in the presentation) not recorded as GitHub issues. They are concern to metadata quality / encoding issues.
 
 The presentation is available [here](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2025-04-28/presentations/20250428_02_Harvesting_in_data.europa.eu-OPconterra.pdf).
 
