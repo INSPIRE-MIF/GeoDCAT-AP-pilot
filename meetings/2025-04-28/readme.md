@@ -80,7 +80,8 @@ Many issues have been already identified to be ready for their submission to SEM
 The participants discussed about the specific topics summarised below:
 
 * [Pilot #2](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/2). Proposals related to the HVD tagging good practise and the XSL transformation - FI
-TBC
+Answers to the two proposals raised in this issue thread were given.
+A pending topic - to be clarified and discussed within the INSPIRE community - is how refer in the future to other legislations, such as the ones from the PriorityDatasets codelist, in GeoDCAT-AP. This is the main purpose of [this separated thread](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/115).
   
 * [Pilot #4](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/4). Role of service metadata in the EDP, in HVD-reporting and in this pilot? - FI
 TBC
