@@ -56,12 +56,17 @@ Additional contributions by participants, particularly to each participant's sec
 
 ### Harvesting in [data.europa.eu](https://data.europa.eu/en)	
 
+con terra delivered on behalf of the OP a presentation explaining how the harvesting in [data.europa.eu](https://data.europa.eu/en) works, including a detailed description of the harvesting process, where the transformation to GeoDCAT-AP takes place, the role of the Geoharvester in the workflow, and the capabilities of this component.
 
-### Pilot issues	
+The Geoharvester has been already updated to comply to GeoDCAT-AP 3 and is now able to process the geospatial HVD taging good practice candidate, and is available in the development environment. conterra tested with this system the catalogues from participating MSs in this environment. Any feednack is welcome.
 
+The presentation is available [here](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2025-04-28/presentations/20250428_02_Harvesting_in_data.europa.eu-OPconterra.pdf).
 
-### Relevant discussion	
+### Pilot issues and relevant discussion	
 
+The JRC presented an [Excel spreadsheet](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/final-report/ISO-GeoDCAT-AP_Pilot_issues_v1_20250428.xlsx) summarising the Pilot issues received so far, showing its status.
+
+Many issues have been already identified to be ready for their submission to SEMIC. On the other hand, a selected set of issue were selected for discussion in this meeting (detailed in the agenda and in the discussion overview below).
 
 The participants discussed about the specific topics summarised below:
 
