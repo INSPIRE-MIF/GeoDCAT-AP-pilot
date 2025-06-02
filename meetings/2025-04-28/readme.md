@@ -74,7 +74,8 @@ TBC
 
 ###  DCAT-AP schema plugin for GeoNetwork – Update 
 
-TBC
+BE-Flanders provided an update of the activities of the 'DCAT-AP schema plugin integration in GeoNetwork’ Working Group. 
+The presentation is available [here](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2025-04-28/presentations/20250428_03_DCAT_Schema_Plugin_WG_update-BE_Flanders.pptx).
 
 ## Actions
 
