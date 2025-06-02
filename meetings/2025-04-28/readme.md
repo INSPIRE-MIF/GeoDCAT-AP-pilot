@@ -91,7 +91,8 @@ The participants discussed about the specific topics summarised below:
     * A [Beta version tool](https://data.europa.eu/apps/hvd-reporting-tool/detail.html) is available in data.europa.eu to help MS to report an comply with HVD reporting obligations. The tool is not fully complete yet and will be improved in the future. The objective is that, for every national catalogue, it will be possible to check the status of the HVD reporting obligations for corresponding country.
   
 * [Pilot #3](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/3). Proposal to add hvdCategory as optional to GeoDCAT-AP 3.0 - FI
-TBC
+    * This issue was long discussed and it was highlighted the convenience of only using `dcatap:hvdCategory` for denoting High-value datasets, and the semantic implications on GeoDCAT-AP / DCAT-AP.
+    * The issue is proposed for further discussion in the Fifth Pilot meeting, focusing on the posibility to consider [point 2 of this latter proposal](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/3#issuecomment-2830076532).
   
 * [SEMIC GeoDCAT-AP #143](https://github.com/SEMICeu/GeoDCAT-AP/issues/143). Guidance on the use of prov:qualifiedAttribution on Dataset would be welcome - NL
 TBC
