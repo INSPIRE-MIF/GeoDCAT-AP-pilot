@@ -101,9 +101,9 @@ The participants discussed about the specific topics summarised below:
 
 * GeoDCAT-AP mapping / Extended mapping:
     * [SEMIC XSLT #70](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/70). `gmd:purpose` mapped to `dct:description`? - DK
-          * GeoDCAT-AP 3 currently maps the (optional) `gmd:purpose` ISO metadata element to `dct:description`.
-          * The approach is valid, since the purpose of a dataset could be undertood as a description, but this apporach has pros and cons. Mainly, several ISO elements are mapped to `dct:description`, so that the specific nature of purpose gets lost in GeoDCAT-AP.
-          * After the discussion of the [four alternative approaches](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/70#issuecomment-2828635837) traced in the thread, the pilot participants expressed preferrence for the first one - Create a `geodcatap:purpose` property and update the XSLT to map `gmd:purpose` to it.
+        * GeoDCAT-AP 3 currently maps the (optional) `gmd:purpose` ISO metadata element to `dct:description`.
+        * The approach is valid, since the purpose of a dataset could be undertood as a description, but this apporach has pros and cons. Mainly, several ISO elements are mapped to `dct:description`, so that the specific nature of purpose gets lost in GeoDCAT-AP.
+        * After the discussion of the [four alternative approaches](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/70#issuecomment-2828635837) traced in the thread, the pilot participants expressed preferrence for the first one - Create a `geodcatap:purpose` property and update the XSLT to map `gmd:purpose` to it.
       
     * Mapping: GMD optional attributes not mapped to geoDCAT - ES
       TBC
