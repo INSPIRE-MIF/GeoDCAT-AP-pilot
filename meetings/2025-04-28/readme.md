@@ -92,10 +92,12 @@ The participants discussed about the specific topics summarised below:
   
 * [Pilot #3](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/3). Proposal to add hvdCategory as optional to GeoDCAT-AP 3.0 - FI
     * This issue was long discussed and it was highlighted the convenience of only using `dcatap:hvdCategory` for denoting High-value datasets, and the semantic implications on GeoDCAT-AP / DCAT-AP.
-    * The issue is proposed for further discussion in the Fifth Pilot meeting, focusing on the posibility to consider [point 2 of this latter proposal](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/3#issuecomment-2830076532).
+    * The issue is proposed for further discussion in the Fifth Pilot meeting, focusing on the suitability of consider [point 2 of this latter proposal](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/3#issuecomment-2830076532).
   
-* [SEMIC GeoDCAT-AP #143](https://github.com/SEMICeu/GeoDCAT-AP/issues/143). Guidance on the use of prov:qualifiedAttribution on Dataset would be welcome - NL
-TBC
+* [SEMIC GeoDCAT-AP #143](https://github.com/SEMICeu/GeoDCAT-AP/issues/143). Guidance on the use of `prov:qualifiedAttribution` on Dataset would be welcome - NL
+    * This issue was long discussed. SEMIC explained the [different dimensions to consider](https://github.com/SEMICeu/GeoDCAT-AP/issues/143#issuecomment-2834566480) regarding the issue. 
+    * As preliminary conclusion, if the main roles are modelled as direct propoerties in the GeoDCAT-AP profile that takes precedence to the use of the `prov:qualifiedAttribution` construct. The suggestion is to make this explicit in the GeoDCAT-AP 3 document. A separate discussion would be needed regarding the codelist specifying agent roles (and their values).
+    * The issue is proposed for further discussion in the Fifth Pilot meeting, with the view of agreeing on a concrete action.
 
 * GeoDCAT-AP mapping / Extended mapping:
     * [SEMIC XSLT #70](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/70). gmd:purpose -> how to map? (suggested also to dct:description) - DK
