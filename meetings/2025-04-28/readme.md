@@ -70,7 +70,27 @@ Many issues have been already identified to be ready for their submission to SEM
 
 The participants discussed about the specific topics summarised below:
 
+* [Pilot #2](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/2). Proposals related to the HVD tagging good practise and the XSL transformation - FI
 TBC
+  
+* [Pilot #4](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/4). Role of service metadata in the EDP, in HVD-reporting and in this pilot? - FI
+TBC
+  
+* [Pilot #3](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/3). Proposal to add hvdCategory as optional to GeoDCAT-AP 3.0 - FI
+TBC
+  
+* [SEMIC GeoDCAT-AP #143](https://github.com/SEMICeu/GeoDCAT-AP/issues/143). Guidance on the use of prov:qualifiedAttribution on Dataset would be welcome - NL
+TBC
+
+* GeoDCAT-AP mapping / Extended mapping:
+    * [SEMIC XSLT #70](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/70). gmd:purpose -> how to map? (suggested also to dct:description) - DK
+      TBC
+
+    * Mapping: GMD optional attributes not mapped to geoDCAT - ES
+      TBC
+
+* Useful to have a common place to share national XSLTs for local uses - FR
+TBC  
 
 ###  DCAT-AP schema plugin for GeoNetwork – Update 
 
