@@ -38,15 +38,42 @@ Recording: Available on request.
 
 ## Meeting summary
 
-TBC
+The objectives of the meeting were:
+* Inform about the status of the ongoing pilot activities, including the Pilot Final report and the geospatial HVD tagging good practice candidate.
+* Explain how the harvesting in [data.europa.eu](https://data.europa.eu/en) with a detailed presentation delivered by con terra/OP.
+* Provide a summary of the pilot issues, its status, and on a selected set of issues (detailed in the agenda).
+* Provide and update of the work of the DCAT-AP schema plugin for GeoNetwork working gorup lead by BE-Flanders.
+* Agree on the next steps in view of finishing the pilot work by June 2025. 
+
+### Pilot status & progress	
+
+The JRC provided a short presentation reporting the ongoing pilot activities.
+
+* A first draft of the Pilot Final report is available [here](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/final-report).
+Additional contributions by participants, particularly to each participant's seccion in Chapter 3 and 4, are expected before the next pilot meeting. Deadline traced in the actions.
+
+* The [geospatial HVD tagging good practice candidate](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/good-practices/hvd-tagging) is ready. After the conciliation meetings with Member States which expressed concerns about the good practice, the whole 19 Member States which participated in the consultation voted positively. The plan is to present this good practice candidate for endorsement in the [82 INSPIRE MIG-T Meeting](https://wikis.ec.europa.eu/spaces/InspireMIG/pages/177046460/82nd+MIG-T+meeting+2025-06-27).
+
+### Harvesting in [data.europa.eu](https://data.europa.eu/en)	
+
+
+### Pilot issues	
+
 
 ### Relevant discussion	
 
+
 The participants discussed about the specific topics summarised below:
+
+TBC
+
+###  DCAT-AP schema plugin for GeoNetwork – Update 
 
 TBC
 
 ## Actions
 
 The following agreements were reached between the pilot participants.
+* Each participant to revise the [first draft of the final report](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/final-report) and provide contributions by 21 May 2025.
+* The next (Fifth) meeting of the pilot ideally will take place in the week from 26 to 30 May 2025, depending on participants' availability.
 * TBC
