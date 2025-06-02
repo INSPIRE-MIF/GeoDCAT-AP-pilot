@@ -80,16 +80,15 @@ Many issues have been already identified to be ready for their submission to SEM
 The participants discussed about the specific topics summarised below:
 
 * [Pilot #2](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/2). Proposals related to the HVD tagging good practise and the XSL transformation - FI
-Answers to the two proposals raised in this issue thread were given.
-A pending topic - to be clarified and discussed within the INSPIRE community - is how refer in the future to other legislations, such as the ones from the PriorityDatasets codelist, in GeoDCAT-AP. This is the main purpose of [this separated thread](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/115).
+    * Answers to the two proposals raised in this issue thread were given.
+    * A pending topic - to be clarified and discussed within the INSPIRE community - is how refer in the future to other legislations, such as the ones from the PriorityDatasets codelist, in GeoDCAT-AP. This is the main purpose of [this separated thread](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/115).
   
 * [Pilot #4](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/4). Role of service metadata in the EDP, in HVD-reporting and in this pilot? - FI
-The different views expressed in this issue thread were further explained and clarified.
-A remark for further reflection - In the [DCAT-AP High Value Datasets](https://semiceu.github.io/uri.semic.eu-generated/DCAT-AP/releases/2.2.0-hvd/) metadata profile there is a clear encouragement to mark the service metadata. The INSPIRE community should discuss how to do this.
-SEMIC stressed the importance of APIs in the HVD Implementing Regulation, and that this is translated into the concept of 'data service'. Thus, these services should be subject to search and be appropiately described with metadata within HVD reporting. If the API / data service is considered as a distribution, it will no be appearing in the HVD reporting and therefore not shown as an API. 
-Further guidance and discussion is needed on how to represent HVD services in INSPIRE metadata. The importance of encoding them as sevices is ackownledged.
-
-A [Beta version tool](https://data.europa.eu/apps/hvd-reporting-tool/detail.html) is available in data.europa.eu to help MS to report an comply with HVD reporting obligations. The tool is not fully complete yet and will be improved in the future. The objective is that, for every national catalogue, it will be possible to check the status of the HVD reporting obligations for corresponding country.
+    * The different views expressed in this issue thread were further explained and clarified.
+    * A remark for further reflection - In the [DCAT-AP High Value Datasets](https://semiceu.github.io/uri.semic.eu-generated/DCAT-AP/releases/2.2.0-hvd/) metadata profile there is a clear encouragement to mark the service metadata. The INSPIRE community should discuss how to do this.
+    * SEMIC stressed the importance of APIs in the HVD Implementing Regulation, and that this is translated into the concept of 'data service'. Thus, these services should be subject to search and be appropiately described with metadata within HVD reporting. If the API / data service is considered as a distribution, it will no be appearing in the HVD reporting and therefore not shown as an API. 
+    * Further guidance and discussion is needed on how to represent HVD services in INSPIRE metadata. The importance of encoding them as sevices is ackownledged.
+    * A [Beta version tool](https://data.europa.eu/apps/hvd-reporting-tool/detail.html) is available in data.europa.eu to help MS to report an comply with HVD reporting obligations. The tool is not fully complete yet and will be improved in the future. The objective is that, for every national catalogue, it will be possible to check the status of the HVD reporting obligations for corresponding country.
   
 * [Pilot #3](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/3). Proposal to add hvdCategory as optional to GeoDCAT-AP 3.0 - FI
 TBC
