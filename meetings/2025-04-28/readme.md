@@ -61,11 +61,11 @@ con terra delivered on behalf of the OP a presentation explaining how the harves
 Some Geocatalogues harvest other (lower-level) geocatalogues and are afterwards harvested by the national Open Data catalogue. This led to some confusions in the past. 
 In short, if a Geocatalogue is harvested directly by data.europa.eu, there is no need to apply the transformation by the MS. This is done by data.europa.eu directly.
 
-This situation does not prevent the existence of “metadata duplicates” in data.europa.eu - e.g. in DE both gov.data (Open Data catalogue) and the Geocatalogue are harvested. gov.data partially harvests the geocatalogues and, therefore, this could create some duplications. In such cases, it is not easy to decide which source is preferable. This problem is subject to study.
+This situation does not help in preventing “metadata duplicates” in data.europa.eu - e.g. in DE both gov.data (Open Data catalogue) and the Geocatalogue are harvested. gov.data partially harvests the geocatalogues. Therefore, this could create some duplications. In such cases, it is not easy to decide which source is preferable. Preventing this problem in the future is a subject of study.
 
 The Geoharvester has been already updated to comply to GeoDCAT-AP 3 and is now able to process the geospatial HVD taging good practice candidate, and is available in the development environment. conterra tested with this system the catalogues from participating MSs in this environment, noting whether HVDs were detected or not. Any feedback from participating MSs is welcome.
 
-con terra reported two old-known issues (detailed in the presentation) not recorded as GitHub issues. They are concern to metadata quality / encoding issues.
+con terra reported two old-known issues concerning to metadata quality / encoding issues in data.europa.eu (detailed in the presentation). These are not traced on GitHub, but explained in the presention for helping MSs to avoid them in their metadata records.
 
 The presentation is available [here](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2025-04-28/presentations/20250428_02_Harvesting_in_data.europa.eu-OPconterra.pdf).
 
