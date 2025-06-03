@@ -9,7 +9,9 @@
 * Pilot issues - 80 minutes
     *	Summary (JRC) - 5 minutes
     * Discussion (selected issues) (All) - 75 minutes
-        * Open issues pending from past meeting (still pending to concrete)
+        * Open issues pending from past meeting:
+            * [Pilot #3](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/3). Proposal to add hvdCategory as optional to GeoDCAT-AP 3.0 - FI
+            * [SEMIC GeoDCAT-AP #143](https://github.com/SEMICeu/GeoDCAT-AP/issues/143). Guidance on the use of prov:qualifiedAttribution on Dataset would be welcome - NL 
         * [Pilot #8](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/8). All formats (gmd:distributionFormat) is listed in each dcat:Distribution - DK
         * [Pilot #9](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/9). Transformation: Distribution, LandingPage and Documentation - FI
         * [Pilot #10](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/10). Proposal to determine distribution format from ISO gmx:mimeFileType - LU
