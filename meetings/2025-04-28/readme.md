@@ -111,7 +111,7 @@ The participants discussed about the specific topics summarised below:
 * Useful to have a common place to share national XSLTs for local uses - FR
     * FR proposed to have a common repository to share national ISO to GeoDCAT-AP XSLT transformations available across EU.
     * This repository could be also used to share XSLT transformations used by specific systems (e.g. data.europa.eu) or specific software tools (e.g. GeoNetwork).
-    * The proposal was agreed and accepted, differentiating what is generic from what is national.
+    * The proposal was agreed and accepted, differentiating which ones are generic and which ones nationally-used.
 
 ###  DCAT-AP schema plugin for GeoNetwork – Update 
 
