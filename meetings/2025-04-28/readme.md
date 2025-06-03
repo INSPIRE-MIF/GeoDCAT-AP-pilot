@@ -17,7 +17,7 @@
         * [SEMIC GeoDCAT-AP #143](https://github.com/SEMICeu/GeoDCAT-AP/issues/143). Guidance on the use of prov:qualifiedAttribution on Dataset would be welcome - NL
         * GeoDCAT-AP mapping / Extended mapping:
             * [SEMIC XSLT #70](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/70). `gmd:purpose` mapped to `dct:description`? - DK
-            * Mapping: GMD optional attributes not mapped to geoDCAT - ES
+            * Mapping: GMD optional attributes not mapped to GeoDCAT - ES
         * Useful to have a common place to share national XSLTs for local uses - FR  
 *	Pilot way forward (All) - 15 minutes
     * Brainstorming
@@ -105,11 +105,13 @@ The participants discussed about the specific topics summarised below:
         * The approach is valid, since the purpose of a dataset could be undertood as a description, but this apporach has pros and cons. Mainly, several ISO elements are mapped to `dct:description`, so that the specific nature of purpose gets lost in GeoDCAT-AP.
         * After the discussion of the [four alternative approaches](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/70#issuecomment-2828635837) traced in the thread, the pilot participants expressed preferrence for the first one - Create a `geodcatap:purpose` property and update the XSLT to map `gmd:purpose` to it.
       
-    * Mapping: GMD optional attributes not mapped to geoDCAT - ES
-      TBC
+    * Mapping: GMD optional attributes not mapped to GeoDCAT - ES
+        * Mainly referred also to `gmd:purpose`, as [SEMIC XSLT #70](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/70). 
 
 * Useful to have a common place to share national XSLTs for local uses - FR
-TBC  
+    * FR proposed to have a common repository to share national ISO to GeoDCAT-AP XSLT transformations available across EU.
+    * This repository could be also used to share XSLT transformations used by specific systems (e.g. data.europa.eu) or specific software tools (e.g. GeoNetwork).
+    * The proposal was agreed and accepted, differentiating what is generic from what is national.
 
 ###  DCAT-AP schema plugin for GeoNetwork – Update 
 
@@ -120,5 +122,6 @@ The presentation is available [here](https://github.com/INSPIRE-MIF/GeoDCAT-AP-p
 
 The following agreements were reached between the pilot participants.
 * Each participant to revise the [first draft of the final report](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/final-report) and provide contributions by 21 May 2025.
+* Update the status of the issues discussed in this meeting.
+* Open a section in the ISO & GeoDCAT-AP Pilot GitHub repository to share a page linking diferent XSLT transformations available, including few descriptive properties. FR to propose the structure for this page.
 * The next (Fifth) meeting of the pilot ideally will take place in the week from 26 to 30 May 2025, depending on participants' availability.
-* TBC
