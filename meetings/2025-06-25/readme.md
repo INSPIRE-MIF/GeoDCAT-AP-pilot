@@ -1,6 +1,6 @@
 # Sixth Pilot Meeting (25 June 2025)
 
-## Agenda
+## Agenda (draft)
 
 * Overview – Pilot status & progress (JRC) - 15 minutes
     * Ongoing activities.
