@@ -27,9 +27,9 @@ For more infomation about the pilot, its purpose, objectives and outputs/results
   
 * [Fourth Meeting](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2025-04-28) (28 April 2025)
   
-* [Fifth Meeting](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2025-06-03). (3 June 2025)
+* [Fifth Meeting](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2025-06-03) (3 June 2025)
 
-* [Sixth Meeting](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2025-06-25). (25 June 2025)
+* [Sixth Meeting](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2025-06-25) (25 June 2025)
 
 ## Good practices 
 
