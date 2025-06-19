@@ -10,7 +10,7 @@
     *	Summary (JRC) - 5 minutes
     * Discussion (selected issues) (All) - 50 minutes
         * List of issues (TDB)
-*	Continuation of the pilot (OP/SEMIC/JRC) - 15 minutes
+*	Continuation of the support to HVD reporting (OP/SEMIC/JRC) - 15 minutes
 * AoB (All) - 5 minutes
 
 ## Participants
