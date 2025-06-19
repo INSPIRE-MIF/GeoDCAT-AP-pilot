@@ -42,4 +42,4 @@ Check the current good practices identified in the scope of the pilot [here](htt
 * on the related XSLT transformation: to be reported at https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues
 
 ### Other issues
-* on the management of the pilot, including specific proposals related to the pilot structure, methodology, outputs, results: to be reported at https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues
+* issues for further discussion within the INSPIRE community, or concerned to the management of the pilot (including specific proposals related to the pilot structure, methodology, outputs, results): to be reported at https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues
