@@ -9,7 +9,7 @@
 * Pilot issues - 55 minutes
     *	Summary (JRC) - 5 minutes
     * Discussion (selected issues) (All) - 50 minutes
-        * List of issue (TBC)
+        * List of issues (TBC)
 *	Continuation of the support to HVD reporting (JRC/OP/SEMIC) - 15 minutes
 * AoB (All) - 5 minutes
 
