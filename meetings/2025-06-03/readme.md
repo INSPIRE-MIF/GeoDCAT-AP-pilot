@@ -25,20 +25,34 @@
 
 ## Participants
 
-TBC
-* Member States: .
-* European Commission: .
-* Contractors: .
+* Member States: Czech Republic (CZ), Denmark (DK), France (FR), Italy (IT), Finland (FI), the Netherlands (NL), Spain (ES).
+* European Commission: Publications Office of the European union (OP), Directorate-General for Digital Services SEMIC Group (DIGIT-SEMIC), Directorate-General Joint Research Centre (JRC).
+* Contractors: con terra.
 
 ## Presentations and recording
 
-TBC 
+Presentations can be downloaded [here](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2025-06-03/presentations).
+
+Recording: Available on request. 
 
 ## Meeting summary
 
-TBC
+The objectives of the meeting were:
+* Inform about the status of the ongoing pilot activities, including the Pilot Final report and the geospatial HVD tagging good practice candidate and its potential endorsement by the INSPIRE MIG-T.
+* Provide a summary of the pilot issues, its status, and discussion on a selected set of issues (detailed in the agenda).
+* Propose possible research topics for a potential continuation of the pilot.
+* Agree on the next steps in view of finishing the pilot work by June 2025. 
 
+## Meeting summary
 
+### Pilot status & progress	
+
+The JRC provided a [short presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2025-06-03/presentations/20250603_01_GeoDCAT-AP_Pilot-00_Overview-JRC.pptx) reporting on the ongoing pilot activities.
+
+* A second draft of the Pilot Final report is available [here](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/final-report).
+Additional contributions by participants, particularly to Chapter 6 (Pilot Conclusions), are expected before the next pilot meeting. Deadline traced in the actions.
+
+* The [geospatial HVD tagging good practice candidate](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/good-practices/hvd-tagging) is ready. It will be presented for endorsement at the [82 INSPIRE MIG-T Meeting](https://wikis.ec.europa.eu/spaces/InspireMIG/pages/177046460/82nd+MIG-T+meeting+2025-06-27).
 
 ### Pilot issues and relevant discussion	
 
@@ -80,7 +94,16 @@ The participants discussed about the specific issues summarised below:
 * [Pilot #11](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/11). Have you faced issues when transforming service and multilingual metadata? - FI
     * Called for feedback of issues detected when transforming multilingual datasets, depending on the use of the core or extended profile. 
 
+### Potential continuation of the pilot
+
+* The JRC delivered a presentation to propose possible research topics for a potential continuation of the pilot. Particularly, a proposal for developing an Artificial Intelligence (AI)-powered metadata editor for geospatial data, which could help simplifying certain metadata management activities.
+  
+* Participants provided feedback, and gave additional ideas to support specific technical tasks: data-service linking simplification, geo-HVD tagging good practice, metadata encoding changes,                finetuning of codelists, language-related transformations.
+
 ## Actions
 
 The following agreements were reached between the pilot participants.
-* TBC
+* DK, ES, IT, FI and NL volunteered to help drafting the Chapter 6 (Pilot Conclusions) ofthe Pilot Final report-
+* Volunteers to revise the [second draft of the final report](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/final-report) and provide contributions by 19 June 2025.
+* Update the status of the issues discussed in this meeting.
+* The next (Sixth) meeting of the pilot ideally will take place in the week from 16 to 20 June 2025, depending on participants' availability.
