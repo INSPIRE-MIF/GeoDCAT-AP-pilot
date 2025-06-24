@@ -1,6 +1,6 @@
 # Sixth Pilot Meeting (25 June 2025)
 
-## Agenda (Draft)
+## Agenda
 
 * Overview – Pilot status & progress (JRC) - 15 minutes
     * Ongoing activities.
@@ -9,7 +9,11 @@
 * Pilot issues - 55 minutes
     *	Summary (JRC) - 5 minutes
     * Discussion (selected issues) (All) - 50 minutes
-        * List of issues (TBC)
+        * [SEMIC GeoDCAT-AP #68](https://github.com/SEMICeu/GeoDCAT-AP/issues/68). Example 35 Using Multiple dcat:bbox
+        * [SEMIC XSLT #64](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/64). Multiple geometry serialisations for dcat:bbox - NL / FI
+        * [SEMIC XSLT #76](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/76). Multiple instances of locn:geometry and dcat:bbox - IT
+        * [SEMIC GeoDCAT-AP #175](https://github.com/SEMICeu/DCAT-AP/issues/175). SHACL: Constraints on locn:geometry, dcat:bbox, and dcat:centroid
+        * [SEMIC GeoDCAT-AP #265](https://github.com/SEMICeu/DCAT-AP/issues/265). Usage of location properties dcat:bbox and dcat:centroid
 *	Continuation of the support to HVD reporting (JRC/OP/SEMIC) - 15 minutes
 * AoB (All) - 5 minutes
 
