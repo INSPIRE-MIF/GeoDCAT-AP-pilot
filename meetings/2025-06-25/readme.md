@@ -19,14 +19,15 @@
 
 ## Participants
 
-TBC
-* Member States: .
-* European Commission: .
-* Contractors: .
+* Member States: Czech Republic (CZ), Denmark (DK), Finland (FI), the Netherlands (NL), Spain (ES).
+* European Commission: Publications Office of the European union (OP), Directorate-General for Digital Services SEMIC Group (DIGIT-SEMIC), Directorate-General Joint Research Centre (JRC).
+* Contractors: con terra.
 
 ## Presentations and recording
 
-TBC 
+Presentations can be downloaded [here](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2025-06-25/presentations).
+
+Recording: Available on request. 
 
 ## Meeting summary
 
