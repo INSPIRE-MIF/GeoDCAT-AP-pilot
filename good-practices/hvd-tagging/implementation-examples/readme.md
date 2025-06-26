@@ -1,4 +1,4 @@
-# This folder contains examples of ISO 19115 dataset metadata records implementing the (geospatial) High-Value Datasets tagging good practice.
+# Examples of ISO 19115 metadata records implementing the (geospatial) High-Value Datasets tagging good practice.
 
 ## Example from Denmark (DK)
 
