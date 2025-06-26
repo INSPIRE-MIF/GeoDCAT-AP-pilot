@@ -12,7 +12,7 @@
 
   * The folder **[/implementation-examples](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/good-practices/hvd-tagging/implementation-examples)** contain examples of ISO 19115 dataset metadata records implementing this (geospatial) High-Value Datasets tagging good practice.
     
-  * The folder **[/proposal-GN_GeoDCAT-AP_plugin_WG-Sprint_3](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/good-practices/hvd-tagging/clarification-GeoDCAT-AP_pilot_WG-3rd_Meeting)** contains the proposal discussed during the 4th Sprint of the working group on the GeoDCAT-AP Schema plugin for GeoNetwork. 
+  * The folder **[/proposal-GN_GeoDCAT-AP_plugin_WG-Sprint_3](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/good-practices/hvd-tagging/clarification-GeoDCAT-AP_pilot_WG-3rd_Meeting)** contains the first proposal discussed during the 4th Sprint of the working group on the GeoDCAT-AP Schema plugin for GeoNetwork. 
 
   * The folder **[/candidate-good-practice-GN_GeoDCAT-AP_plugin_WG-Sprint_4](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/good-practices/hvd-tagging/candidate-good-practice-GN_GeoDCAT-AP_plugin_WG-Sprint_4)** contains the proposal discussed during the 4th Sprint of the working group on the GeoDCAT-AP Schema plugin for GeoNetwork.
 
