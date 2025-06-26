@@ -1,4 +1,4 @@
-# Folder to store materials related to the good practice on Geospatial High-Value Datasets (HVDs) tagging
+# Good practice on Geospatial High-Value Datasets (HVDs) tagging
 
 * The root of this folder contains the **final candidate good practice** presented during the [81 INSPIRE MIG-T Meeting](https://wikis.ec.europa.eu/spaces/InspireMIG/pages/152803212/81st+MIG-T+meeting+2025-02-14), which has been submitted for voting on its potential endorsement by MIG-T:
 
