@@ -1,8 +1,9 @@
 
-# Data Service Linking Simplification: Good Practice guidelines
+# Geospatial High-Value Datasets (HVDs) tagging: Good Practice guidelines
 
 `Version: 1.0`
-`Date: 2022-06-19`
+`Date: 2025-06-26`
+`Note: This specification is a DRAFT - Work in progress`
 
 ## Table of Contents
 
