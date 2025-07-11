@@ -14,7 +14,7 @@
         * [SEMIC XSLT #76](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/76). Multiple instances of locn:geometry and dcat:bbox - IT
         * [SEMIC GeoDCAT-AP #175](https://github.com/SEMICeu/DCAT-AP/issues/175). SHACL: Constraints on locn:geometry, dcat:bbox, and dcat:centroid
         * [SEMIC GeoDCAT-AP #265](https://github.com/SEMICeu/DCAT-AP/issues/265). Usage of location properties dcat:bbox and dcat:centroid
-*	Continuation of the support to HVD reporting (JRC/OP/SEMIC) - 15 minutes
+*	Continuation of the support to geospatial HVD reporting (JRC/OP/SEMIC) - 15 minutes
 * AoB (All) - 5 minutes
 
 ## Participants
@@ -31,15 +31,44 @@ Recording: Available on request.
 
 ## Meeting summary
 
+The objectives of the meeting were:
+* Inform about the status of the ongoing pilot activities, including the Pilot Final report and the geospatial HVD tagging good practice candidate and its potential endorsement by the INSPIRE MIG-T.
+* Provide a summary of the pilot issues, its status, and discussion on a selected set of issues (detailed in the agenda).
+* Present the objectives for the activities to continue the support to geospatial High-Value Datasets reporting until February 2027. 
+
+### Pilot status & progress	
+
+The JRC provided a [short presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2025-06-25/presentations/20250625_01_GeoDCAT-AP_Pilot-00_Overview-JRC_v2.pptx) reporting on the ongoing pilot activities.
+
+* A third draft (almost final) of the Pilot Final report is available [here](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/final-report/previous-versions/ISO%26GeoDCAT-AP_Pilot_report_v3.2-20250625.docx).
+Final comments and contributions by participants are welcomed until the deadline traced in the actions.
+
+* The [geospatial HVD tagging good practice candidate](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/good-practices/hvd-tagging) is ready. It will be presented for endorsement at the [82 INSPIRE MIG-T Meeting](https://wikis.ec.europa.eu/spaces/InspireMIG/pages/177046460/82nd+MIG-T+meeting+2025-06-27).
+
+### Pilot issues and relevant discussion	
+
+The participants discussed about the specific issues summarised below:
+
 TBC
 
-### Relevant discussion	
+### Continuation of the support to geospatial HVD reporting	
 
-The participants discussed about the specific topics summarised below:
+Based on outcomes ofthe pilot summarised in the Pilot Final report, a set of objectives for the continuation of the support to geospatial HVD reporting - including a second phase of the ISO & GeoDCAT-AP pilot and other potential activities - were presented to participants. They could be focused on four areas: (a) Efficient support to geospatial HVD harvesting and reporting; (b) Guidelines for HVD reporting for the geospatial community; (c) Alignment of INSPIRE to Open Data flows under the GreenData4All; and (d) Research on the potential use of AI-powered metadata tools.
 
-TBC
+The outcomes of the pilot will be consolidated until 04 Jul 2025. 
+
+A meeting between the relevant EU-level services (mainly the SEMIC Group of DIGIT, the OP, and the JRC) will take place in mid-July to agree on the activities to support HVD reporting until the next HVD reporting deadline, due in February 2027. It will be used to assign responsibilities and resources, and coordinate the activities of these services.
+
+News on the final plan of activities will be shared with the MS by September 2025. And update of the GeoDCAT-AP XSLT transformation will be possibly targeted by December 2025.
+Next steps on this regard are traced in the actions.
+
+An update of the GeoDCAT-AP XSLT transformation will be possibly targeted by December 2025 (TBC with the SEMIC group of DIGIT).
 
 ## Actions
 
 The following agreements were reached between the pilot participants.
-* TBC
+* Volunteers to revise the [third draft of the final report]([https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/final-report](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/final-report/previous-versions/ISO%26GeoDCAT-AP_Pilot_report_v3.2-20250625.docx)) and provide contributions by 27 June 2025.
+* Update the status of the issues discussed in this meeting.
+* The JRC will consolidate the outcomes of the pilot until 04 Jul 2025. 
+* The JRC will organise a meeting between the relevant EU-level services (mainly the SEMIC Group of DIGIT, the OP, and the JRC) in mid-July 2025 to agree on the activities to support geospatial HVD reporting until the next HVD reporting deadline, due in February 2027. It will be used to assign responsibilities and resources, and coordinate the activities of these services.
+* The JRC will share with the MS news on the final plan of activities to support geospatial HVD reporting by September 2025. 
