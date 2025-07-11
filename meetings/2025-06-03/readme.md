@@ -43,8 +43,6 @@ The objectives of the meeting were:
 * Propose possible research topics for a potential continuation of the pilot.
 * Agree on the next steps in view of finishing the pilot work by June 2025. 
 
-## Meeting summary
-
 ### Pilot status & progress	
 
 The JRC provided a [short presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2025-06-03/presentations/20250603_01_GeoDCAT-AP_Pilot-00_Overview-JRC.pptx) reporting on the ongoing pilot activities.
