@@ -55,11 +55,9 @@ TBC
 
 Based on outcomes ofthe pilot summarised in the Pilot Final report, a set of objectives for the continuation of the support to geospatial HVD reporting - including a second phase of the ISO & GeoDCAT-AP pilot and other potential activities - were presented to participants. They could be focused on four areas: (a) Efficient support to geospatial HVD harvesting and reporting; (b) Guidelines for HVD reporting for the geospatial community; (c) Alignment of INSPIRE to Open Data flows under the GreenData4All; and (d) Research on the potential use of AI-powered metadata tools.
 
-The outcomes of the pilot will be consolidated until 04 Jul 2025. 
+The outcomes of the pilot are still being consolidated until the beginnning of July 2025. 
+And update of the GeoDCAT-AP XSLT transformation will be possibly targeted by December 2025.
 
-A meeting between the relevant EU-level services (mainly the SEMIC Group of DIGIT, the OP, and the JRC) will take place in mid-July to agree on the activities to support HVD reporting until the next HVD reporting deadline, due in February 2027. It will be used to assign responsibilities and resources, and coordinate the activities of these services.
-
-News on the final plan of activities will be shared with the MS by September 2025. And update of the GeoDCAT-AP XSLT transformation will be possibly targeted by December 2025.
 Next steps on this regard are traced in the actions.
 
 An update of the GeoDCAT-AP XSLT transformation will be possibly targeted by December 2025 (TBC with the SEMIC group of DIGIT).
