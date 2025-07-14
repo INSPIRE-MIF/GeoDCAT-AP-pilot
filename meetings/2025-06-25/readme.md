@@ -58,14 +58,15 @@ Final comments and contributions by participants are welcomed until the deadline
 
 ### Continuation of the support to geospatial HVD reporting	
 
-Based on outcomes ofthe pilot summarised in the Pilot Final report, a set of objectives for the continuation of the support to geospatial HVD reporting - including a second phase of the ISO & GeoDCAT-AP pilot and other potential activities - were presented to participants. They could be focused on four areas: (a) Efficient support to geospatial HVD harvesting and reporting; (b) Guidelines for HVD reporting for the geospatial community; (c) Alignment of INSPIRE to Open Data flows under the GreenData4All; and (d) Research on the potential use of AI-powered metadata tools.
+* Based on outcomes ofthe pilot summarised in the Pilot Final report, a set of objectives for the continuation of the support to geospatial HVD reporting - including a second phase of the ISO & GeoDCAT-AP pilot and other potential activities - were presented to participants. They could be focused on four areas: (a) Efficient support to geospatial HVD harvesting and reporting; (b) Guidelines for HVD reporting for the geospatial community; (c) Alignment of INSPIRE to Open Data flows under the GreenData4All; and (d) Research on the potential use of AI-powered metadata tools.
 
-The outcomes of the pilot are still being consolidated until the beginnning of July 2025. 
-And update of the GeoDCAT-AP XSLT transformation will be possibly targeted by December 2025.
+* The outcomes of the pilot are still being consolidated until the beginnning of July 2025. 
 
-Next steps on this regard are traced in the actions.
+* An update of the GeoDCAT-AP XSLT transformation will be possibly targeted by December 2025.
 
-An update of the GeoDCAT-AP XSLT transformation will be possibly targeted by December 2025 (TBC with the SEMIC group of DIGIT).
+* Next steps on this regard are traced in the actions.
+
+* An update of the GeoDCAT-AP XSLT transformation will be possibly targeted by December 2025 (TBC with the SEMIC group of DIGIT).
 
 ## Actions
 
