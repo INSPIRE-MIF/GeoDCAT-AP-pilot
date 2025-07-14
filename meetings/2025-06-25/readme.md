@@ -47,9 +47,14 @@ Final comments and contributions by participants are welcomed until the deadline
 
 ### Pilot issues and relevant discussion	
 
-The participants discussed about the specific issues summarised below:
+* The JRC reported that the issues concerning the XSLT transformation of HVD properties according to the good practice for tagging of geospatial HVDs, are to be considered resolved and are now pending implementation. The more complex issues, for example those having to do with enhanced mapping of services etc., remain open and will be included in the follow-up of the pilot. A [summary of the issues and proposed action](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/final-report/ISO-GeoDCAT-AP_Pilot_issues_v3_FinalReport.xlsx) is available in the Pilot repository and a preview of the document was shared.
 
-TBC
+* Additional room was given to the discussion of the misalignment of how coordinates of bounding boxes and centroids are expressed between GeoDCAT-AP, DCAT-AP and the current XSLT transformation.
+
+* SEMIC (Bert Van Nuffelen) provided additional context and explained that the issue should be reviewed both from the perspective of the publisher of the original information and that of harvesting portals.
+  
+* The community was also invited to consider that any approach the geospatial community may endorse, will likely be followed by non-geospatial data publishers that are not necessarily well-equipped to handle multiple or various serialisations and geospatial standards. For this reason, being able to endorse a minimal common denominator by the geospatial community will be beneficial for a wider audience.
+
 
 ### Continuation of the support to geospatial HVD reporting	
 
