@@ -94,9 +94,9 @@ The participants discussed about the specific issues summarised below:
 
 ### Potential continuation of the pilot
 
-* The JRC delivered a presentation to propose possible research topics for a potential continuation of the pilot. Particularly, a proposal for developing an Artificial Intelligence (AI)-powered metadata editor for geospatial data, which could help simplifying certain metadata management activities.
+* The JRC delivered a presentation to propose possible research topics for a potential continuation of the pilot. Particularly, a proposal for developing an Artificial Intelligence (AI)-powered metadata editor for geospatial data, which could help simplifying certain metadata management activities.
   
-* Participants provided feedback, and gave additional ideas to support specific technical tasks: data-service linking simplification, geo-HVD tagging good practice, metadata encoding changes,                finetuning of codelists, language-related transformations.
+* Participants provided feedback, and gave additional ideas to support specific technical tasks: data-service linking simplification, geo-HVD tagging good practice, metadata encoding changes, finetuning of codelists, language-related transformations.
 
 ## Actions
 
