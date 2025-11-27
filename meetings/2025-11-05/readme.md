@@ -10,7 +10,7 @@
         * Meeting periodicity
 * GeoDCAT-AP v3.0.1 draft / XSLT updates (SEMIC - TBC) - 10 minutes
 * data.europa.eu / Geoharvester updates (OP / conterra) - 10 minutes
-* Participants updates (Member States) - 50 minutes
+* Participant's updates (Member States) - 50 minutes
 * Open discussion (All) - 20 minutes
 * Wrap-up & Next meeting - 5 minutes
 * AoB (All) - 5 minutes
