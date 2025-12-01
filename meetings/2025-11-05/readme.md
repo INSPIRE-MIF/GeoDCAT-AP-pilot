@@ -3,7 +3,7 @@
 ## Agenda
 
 * Welcome
-* GeoDCAT-AP v3.0.1 draft / XSLT updates (SEMIC - TBC) - 10 minutes
+* GeoDCAT-AP v3.0.1 draft / XSLT updates (SEMIC) - 10 minutes
 * Pilot status (JRC) - 15 minutes
     * Phase 1 overview
     * Phase 2
