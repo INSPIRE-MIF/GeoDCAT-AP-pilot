@@ -4,13 +4,13 @@
 
 * Welcome
 * GeoDCAT-AP v3.0.1 draft / XSLT updates (SEMIC) - 10 minutes
-* Pilot status (JRC) - 15 minutes
+* data.europa.eu / Geoharvester updates (OP / conterra) - 10 minutes
+* Pilot working plan (JRC) - 15 minutes
     * Phase 1 overview
     * Phase 2
         * Objectives proposed
         * Working groups
         * Meeting periodicity
-* data.europa.eu / Geoharvester updates (OP / conterra) - 10 minutes
 * Participant's updates (Member States) - 50 minutes
 * Open discussion (All) - 20 minutes
 * Wrap-up & Next meeting - 5 minutes
