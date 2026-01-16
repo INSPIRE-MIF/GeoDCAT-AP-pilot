@@ -24,7 +24,7 @@
 
 ## Presentations and recording
 
-Presentations can be downloaded [here]().
+Presentations can be downloaded [here](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2025-12-05/presentations).
 
 Recording: . 
 
