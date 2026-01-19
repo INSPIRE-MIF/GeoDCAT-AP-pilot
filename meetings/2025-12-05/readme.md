@@ -31,7 +31,32 @@ Recording: Available on request.
 ## Meeting summary
 
 The objectives of the meeting were:
-*  Xxx
+* restart the activity after the end of Phase 1.
+* provide information on the update of the SEMIC assets - the GeoDCAT-AP specification and XSLT transformation (presented by SEMIC), news from data.europa.eu (by OP).
+* propose concrete objectives and a working plan proposal for Phase 2 (by JRC).
+* report on relevant participant's updates, including feedback from Phase 1, needs and interests for Phase 2.
+* discuss and agree on the final objectives and related organisational matters.
+
+### GeoDCAT-AP v3.0.1 draft / XSLT updates (SEMIC)
+
+Xxx
+
+### data.europa.eu / Geoharvester updates (OP / conterra)	
+
+Xxx
+
+### Pilot working plan (JRC)
+
+The JRC provided a short overview of the activities performed during Phase 1 of the Pilot (October 2024 – June 2025). The focus was put in summarising the main results achieved, the conclusions and the remaining challenges in Phase 2, expected to span from December 2025 until February 2027.
+These challenges include:
+* smooth integration of geospatial metadata into data.europa.eu (support to MS, geospatial data filtering in the catalogue, etc.).
+* quantitive evaluation of metadata transformation maturity.
+* consistency and timely update of all transformation assets available, beyond those from SEMIC.
+* specific aspects, such as a common approach for describing data services and API endpoints, and the evaluation of potential metadata information losses when INSPIRE-compliant metadata records are transformed into GeoDCAT-AP.
+
+Subsequently, the JRC presented a working plan proposal for Phase 2, expected to run from December 2025 until February 2027. The [proposal](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2025-12-05/presentations/20251205_03_ISO%26GeoDCAT-AP_Pilot_Ph%202-Working_plan-JRC.pptx) included a list of objectives and potential working teams taking into account the previously mentioned challenges. 
+
+The aim of the proposal was to gather feedback from participants and promote active discussion between them to reach consensus on the final objectives and working plan for Phase 2. 
 
 ### Participant's updates (Pilot reports from Member States)
 Each participant presented a short national report, including news on their progress with the transformation from ISO to GeoDCAT-AP, the status of migration of their tools to DCAT / GeoDCAT-AP v3, and any other topics considered of interest. The Member States were expressely requested to:
@@ -53,11 +78,19 @@ Check the [pilot progress presentations](https://github.com/INSPIRE-MIF/GeoDCAT-
 
 Unfortunately, there was no time to deliver the report from BE-Flanders. This country will be given a longer space for providing their report in the next pilot meeting. 
 
-### Topic 1
+### Relevant discussion	
 
-Xxx
+After an active and productive discussion between participants, and considering their feedback and updates (previous agenda item), and agreement was reached on the wroking plan for Phase 2. 
 
-### Topic 2	
+Several ad-hoc working teams will be set to focus on different aspects and the challenges mentioned above:
 
-Xxx
+* Working team T-1. Support to the alignment of INSPIRE to data.europa.eu:
+
+    * Sub-working team T-1A. Management of geospatial metadata harvesting and reporting issues.
+
+    * Sub-working g team T-1B. Specific analysis and good practices for INSPIRE-data.europa.eu alignment. 
+
+* Working team T-2. Exploration of the use of AI-powered tools for metadata management.
+
+According to the plan, bi-monthly pilot meetings will be organised starting from January 2026, with at least one monthly working team meetings in between (more if needed). Experts who volunteered to help pushing each working team will be contacted from mid-January to mid-February 2026 to kick-off the teams as soon as possible.
 ...
