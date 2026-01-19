@@ -78,19 +78,53 @@ Check the [pilot progress presentations](https://github.com/INSPIRE-MIF/GeoDCAT-
 
 Unfortunately, there was no time to deliver the report from BE-Flanders. This country will be given a longer space for providing their report in the next pilot meeting. 
 
-### Relevant discussion	
+### Open discussion
 
-After an active and productive discussion between participants, and considering their feedback and updates (previous agenda item), and agreement was reached on the wroking plan for Phase 2. 
+After an active and productive discussion between participants, and considering their feedback and updates (previous agenda item), and agreement was reached on the working plan for Phase 2. Stated below.
 
-Several ad-hoc working teams will be set to focus on different aspects and the challenges mentioned above:
+## Agreements / Actions
 
-* Working team T-1. Support to the alignment of INSPIRE to data.europa.eu:
+### Working teams: Objectives & Tasks
 
-    * Sub-working team T-1A. Management of geospatial metadata harvesting and reporting issues.
+**Action 1**. The JRC will set two ad-hoc working teams (the first one split in two sub-teams) will be set to focus on different aspects and the challenges mentioned above:
 
-    * Sub-working g team T-1B. Specific analysis and good practices for INSPIRE-data.europa.eu alignment. 
+* **Working team T-1**. Support to the alignment of INSPIRE to data.europa.eu:
+  
+    * **Sub-working team T-1A**. Management of geospatial metadata harvesting and reporting issues.
+ 
+      _Objective_: A forum for discussing issues, submitted (or to be submitted) to the relevant SEMIC GitHub repositories in the scope of geospatial datasets reporting (ISO / INSPIRE to GeoDCAT-AP), including geospatial High-Value Datasets.
+      
+      _Tasks_:
+      1. Identification of potential harvesting and reporting issues in the SEMIC repositories
+      2. Community discussion and agreement on targeted solutions in GeoDCAT-AP
+      3. GeoDCAT-AP specification and XSLT transformation updates (by SEMIC) 
+      4. Inputs for / Outputs from T-1B working team
 
-* Working team T-2. Exploration of the use of AI-powered tools for metadata management.
+    * **Sub-working g team T-1B**. Specific analysis and good practices for INSPIRE-data.europa.eu alignment.
+ 
+      _Objective_: Team for performing specific analysis, discussing on and formalising common good practices in the scope of the alignment and integration of INSPIRE into data.europa.eu.
 
-According to the plan, bi-monthly pilot meetings will be organised starting from January 2026, with at least one monthly working team meetings in between (more if needed). Experts who volunteered to help pushing each working team will be contacted from mid-January to mid-February 2026 to kick-off the teams as soon as possible.
-...
+      _Tasks_:
+      1. Drafting the Geospatial High-Value Datasets tagging good practice specification  
+      2. Analysis of potential metadata information losses in the ISO-to-GeoDCAT-AP transformation
+      3. Agreement on a good practice for describing Data Services / APIs
+      4. Discussion the need to cover (selected) remaining gaps (e.g., candidates: related  to INSPIRE / HVD reporting, geospatial data filtering in data.europa.eu, analysis of specific changes needed to the TGs)
+      5. Inputs for / Outputs from T-1A working team
+
+* **Working team T-2**. Exploration of the use of AI-powered tools for metadata management.
+
+  _Objective_: Team to explore and support the use of AI-assisted tools in metadata generation, and other potential uses in metadata management tasks.
+
+  _Tasks_:
+  1. Exploration and testing of AI-assisted tools for metadata generation
+  2. Identification of other areas where AI-assisted tools may be used to support metadata management
+  3. Other tasks (to be agreed)
+
+### Working plan & Roadmap 
+  
+**Action 2**. The JRC will organise bi-monthly pilot meetings starting from January-February 2026, with at least one monthly working team meetings in between (more if needed).
+
+**Action 3**. The JRC will contact the experts who volunteered to help pushing each working team from mid-January to mid-February 2026
+
+**Action 4**. The JRC will kick-off the working teams as soon as possible, with the support of the mentioned experts.
+
