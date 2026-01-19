@@ -39,11 +39,12 @@ The objectives of the meeting were:
 
 ### GeoDCAT-AP v3.0.1 draft / XSLT updates (SEMIC)
 
-Xxx
+PENDING (0:05 - 0:15)
+PENDING (0:15 - 0:29) Questions from aprticipants
 
 ### data.europa.eu / Geoharvester updates (OP / conterra)	
 
-Xxx
+PENDING (0:29 - 0:39)
 
 ### Pilot working plan (JRC)
 
