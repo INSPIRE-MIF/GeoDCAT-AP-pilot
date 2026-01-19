@@ -41,11 +41,11 @@ Each participant presented a short national report, including news on their prog
 The countries mainly highlighted the following needs:
 * Follow up and coordination with the policy process for the revision of the INSPIRE Directive (DK, FI, FR). 
 * Follow up and coordination with the ISO/AWI TS 19115-5 working group (Geographic information — Metadata Part 5: DCAT mapping) (DK, FI, NL).
-* Analyse the potential updates needed for the INSPIRE Technical guidelines (IT).
 * Coordination between the different existing transformations, at EU, national and sofware level (DK). 
     * Engagement with the GeoNetwork community for doing so with those available in this software tool (DK, FI, NL).
     * Engagement with the CKAN community for the same purpose. 
-* Coordination between the pilot and the SEMIC roadmaps (NL). 
+* Coordination between the pilot and the SEMIC roadmaps (NL).
+* Analyse the potential updates needed for the INSPIRE Technical guidelines (IT).
 * Remind the procedure on how to tag issues in the SEMIC repositories (FR), provide example implementations (FR).
 * Present the results from the first High-Value Datasets reporting to incentivise Member States (SK).
 
