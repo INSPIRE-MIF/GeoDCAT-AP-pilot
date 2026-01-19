@@ -31,7 +31,7 @@ Recording: Available on request.
 ## Meeting summary
 
 The objectives of the meeting were:
-* restart the activity after the end of Phase 1.
+* restart the activity after the end of Phase 1, officially launching Phase 2.
 * provide information on the update of the SEMIC assets - the GeoDCAT-AP specification and XSLT transformation (presented by SEMIC), news from data.europa.eu (by OP).
 * propose concrete objectives and a working plan proposal for Phase 2 (by JRC).
 * report on relevant participant's updates, including feedback from Phase 1, needs and interests for Phase 2.
