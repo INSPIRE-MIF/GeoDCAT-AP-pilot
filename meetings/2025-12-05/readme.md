@@ -18,15 +18,15 @@
 
 ## Participants
 
-* Member States: .
-* European Commission: .
-* Contractors: .
+* Member States: Belgium (BE-Flanders), Czech Republic (CZ), Croatia (HR), Denmark (DK), Italy (IT), Finland (FI), France (FR), the Netherlands (NL), Slovakia (SK), Spain (ES).
+* European Commission: Publications Office of the European union (OP), Directorate-General for Digital Services SEMIC Group (DIGIT-SEMIC), Directorate-General Joint Research Centre (JRC).
+* Contractors: con terra.
 
 ## Presentations and recording
 
 Presentations can be downloaded [here](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2025-12-05/presentations).
 
-Recording: . 
+Recording: Available on request. 
 
 ## Meeting summary
 
