@@ -143,6 +143,8 @@ After an active and productive discussion between participants, and considering 
 
 **Action 7**. The JRC will revise the [issues summary spreadsheet](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/final-report/ISO-GeoDCAT-AP_Pilot_issues_v3_FinalReport.xlsx) from Pilot Phase 1 and will promote the transfer of relevant specification and XSLT-related issues into the SEMIC repositories, pointing out to SEMIC which one are in principle ready for implementation.
 
+**Action 8**. SEMIC will organise the public consultation of the latest GeoDCAT-AP draft (agreed to be versioned as v3.1.0) by the end of 2025 with the aim to publish it shortly after, as soon as possible.
+
 ## ANNEX - Working teams agreed for Pilot Phase 2
 
 * **Working team T-1**. Support to the alignment of INSPIRE to data.europa.eu:
