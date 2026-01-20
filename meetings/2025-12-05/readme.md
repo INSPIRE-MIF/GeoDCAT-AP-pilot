@@ -63,7 +63,7 @@ On the other hand,
     * Pilot-specific: [#71](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/71), [#72](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/72)
     * Others: [#74](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/74), [#77](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/77), [#78](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/78), [#84](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/84)
 
-PENDING (0:15 - 0:29) Questions from aprticipants
+PENDING (0:15 - 0:29) Questions from participants
 
 ### data.europa.eu / Geoharvester updates (OP / conterra)	
 
