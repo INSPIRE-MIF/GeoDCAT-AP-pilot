@@ -39,7 +39,30 @@ The objectives of the meeting were:
 
 ### GeoDCAT-AP v3.0.1 draft / XSLT updates (SEMIC)
 
-PENDING (0:05 - 0:15)
+SEMIC provided an overview of the status of the [GeoDCAT-AP v3.0.1 draft](https://semiceu.github.io/GeoDCAT-AP/drafts/3.0.1) and related XSLT updates.
+
+* 13 GeoDCAT-AP specification issues ave been resolved:
+    * On codelists: [#84](https://github.com/SEMICeu/GeoDCAT-AP/issues/84), [#138](https://github.com/SEMICeu/GeoDCAT-AP/issues/138), [#153](https://github.com/SEMICeu/GeoDCAT-AP/issues/153)
+    * Editorial: [#149](https://github.com/SEMICeu/GeoDCAT-AP/issues/149), [#146](https://github.com/SEMICeu/GeoDCAT-AP/issues/146), [#153](https://github.com/SEMICeu/GeoDCAT-AP/issues/153)
+    * Pilot-specific: [#143](https://github.com/SEMICeu/GeoDCAT-AP/issues/143), [#136](https://github.com/SEMICeu/GeoDCAT-AP/issues/136), [#144](https://github.com/SEMICeu/GeoDCAT-AP/issues/144), [#154](https://github.com/SEMICeu/GeoDCAT-AP/issues/154) / [XSLT#70](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/70)
+    * Answered questions: [#137](https://github.com/SEMICeu/GeoDCAT-AP/issues/137), [152](https://github.com/SEMICeu/GeoDCAT-AP/issues/152)
+* 4 XSLT issues have been resolved 
+    * Pilot-specific: [#73](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/73), [#83](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/83) 
+    * Others: [#79](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/79), [#85](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/85)
+
+Note that resoved issues are tagged as 'status:resolution-provided' in the corresponding repositories: [specification](https://github.com/SEMICeu/GeoDCAT-AP/) / [XSLT](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues?q=label%3Astatus%3Aresolution-provided)
+
+Detailed explanation of each of the issues resolved were provided in the presentation.
+
+On the other hand, 
+* 8 GeoDCAT-AP specification issues are still pending for feedback (tagged as 'feedback-requested' in the corresponding repositories):
+    * Pilot-specific: [#142](https://github.com/SEMICeu/GeoDCAT-AP/issues/142), [#150](https://github.com/SEMICeu/GeoDCAT-AP/issues/150), [#154](https://github.com/SEMICeu/GeoDCAT-AP/issues/154)
+    * Others: [#135](https://github.com/SEMICeu/GeoDCAT-AP/issues/135), [#139](https://github.com/SEMICeu/GeoDCAT-AP/issues/139), [#140](https://github.com/SEMICeu/GeoDCAT-AP/issues/140), [#147](https://github.com/SEMICeu/GeoDCAT-AP/issues/147), [#151](https://github.com/SEMICeu/GeoDCAT-AP/issues/151)
+
+* 6 XSLT issues are still pending for feedback
+    * Pilot-specific: [#71](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/71), [#72](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/72)
+    * Others: [#74](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/74), [#77](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/77), [#78](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/78), [#84](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/84)
+
 PENDING (0:15 - 0:29) Questions from aprticipants
 
 ### data.europa.eu / Geoharvester updates (OP / conterra)	
@@ -128,4 +151,9 @@ After an active and productive discussion between participants, and considering 
 **Action 3**. The JRC will contact the experts who volunteered to help pushing each working team from mid-January to mid-February 2026
 
 **Action 4**. The JRC will kick-off the working teams as soon as possible, with the support of the mentioned experts.
+
+### Other actions 
+
+**Action 5**. Participants to provide feedback on issues [#142](https://github.com/SEMICeu/GeoDCAT-AP/issues/142), [#150](https://github.com/SEMICeu/GeoDCAT-AP/issues/150), [#154](https://github.com/SEMICeu/GeoDCAT-AP/issues/154), [#135](https://github.com/SEMICeu/GeoDCAT-AP/issues/135), [#139](https://github.com/SEMICeu/GeoDCAT-AP/issues/139), [#140](https://github.com/SEMICeu/GeoDCAT-AP/issues/140), [#147](https://github.com/SEMICeu/GeoDCAT-AP/issues/147), [#151](https://github.com/SEMICeu/GeoDCAT-AP/issues/151), and on [other issues related to GeoDCAT-AP](https://github.com/SEMICeu/GeoDCAT-AP/issues?q=state%3Aopen%20label%3A%22feedback-requested%22) - in preparation for working team T-1A.
+
 
