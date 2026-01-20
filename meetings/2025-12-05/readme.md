@@ -54,7 +54,7 @@ Note that resoved issues are tagged as 'status:resolution-provided' in the corre
 
 Detailed explanation of each of the issues resolved were provided in the presentation.
 
-On the other hand, 
+On the other hand,
 * 8 GeoDCAT-AP specification issues are still pending for feedback (tagged as 'feedback-requested' in the corresponding repositories):
     * Pilot-specific: [#142](https://github.com/SEMICeu/GeoDCAT-AP/issues/142), [#150](https://github.com/SEMICeu/GeoDCAT-AP/issues/150), [#154](https://github.com/SEMICeu/GeoDCAT-AP/issues/154)
     * Others: [#135](https://github.com/SEMICeu/GeoDCAT-AP/issues/135), [#139](https://github.com/SEMICeu/GeoDCAT-AP/issues/139), [#140](https://github.com/SEMICeu/GeoDCAT-AP/issues/140), [#147](https://github.com/SEMICeu/GeoDCAT-AP/issues/147), [#151](https://github.com/SEMICeu/GeoDCAT-AP/issues/151)
@@ -78,9 +78,19 @@ Additionally, The JRC proposed to stick to the SEMIC repositories ([specificatio
 
 The OP claried where the ISO 19139 to GeoDCAT-AP metadata transformation is taking place for ingesting data into data.europa.eu
 * Option A. In the European Data Portal Geoharvester - this option is used to harvest and transform geospatial ISO metadata from CSW national discovery endpoints. It requires that the geospatial High-Value Datasets tagging good practice is properly used in ISO metadata records. 
-* Potion B. Directly deliver (Geo-)DCAT-AP metadata from the national level to the European Data Portal - these metadata are harvested from data.europa.eu, responsibility of the transformation remains on the countries.
+* Option B. Directly deliver national (Geo-)DCAT-AP metadata to the European Data Portal - these metadata are harvested from data.europa.eu, the responsibility of the ISO to GeoDCAT-AP transformation remains on the countries.
 
-14 geocatalogues are currently opting for Option A above, which may e complemented with other geospatial information present in the corresponding national open data catalogues.
+14 geocatalogues are currently opting for Option A for ingesting geospatial information into the European Data Portal, which may be complemented with other geospatial information present in the national open data catalogues.
+
+Additionally, the OP provided details about the data.europa.eu Geoharvester. This system has its own XSLT transformation (not the SEMIC reference one) and it is aligned to GeoDCAT-AP v3 since January 2025. Furtheremore it implements the agreements on the geospatial High-Value Datasets tagging good practice. Updated documentation is available [here](https://dataeuropa.gitlab.io/data-provider-manual/hvd/annotation_in_geometadata/).
+
+The OP periodically follows up the updates on the SEMIC XSLT tranformation in order to update data.europa.eu transformationwhen necessary. Specifically, the OP is also preparing documentation explaining the differences between the SEMIC reference XSLT transformation and the one used by the Geoharvester. 
+
+In the future, data.europa.eu is planning: 
+* the alignment to the new version of the SEMIC reference XSLT.
+* an update of libraries.
+* to support to dataset series.
+* the enhancement of dataset distributions accordiing to the INSPIRE data-service linking simplification ggod practice.
 
 ### Pilot working plan (JRC)
 
