@@ -80,6 +80,8 @@ The OP claried where the ISO 19139 to GeoDCAT-AP metadata transformation is taki
 * Option A. In the European Data Portal Geoharvester - this option is used to harvest and transform geospatial ISO metadata from CSW national discovery endpoints. It requires that the geospatial High-Value Datasets tagging good practice is properly used in ISO metadata records. 
 * Potion B. Directly deliver (Geo-)DCAT-AP metadata from the national level to the European Data Portal - these metadata are harvested from data.europa.eu, responsibility of the transformation remains on the countries.
 
+14 geocatalogues are currently opting for Option A above, which may e complemented with other geospatial information present in the corresponding national open data catalogues.
+
 ### Pilot working plan (JRC)
 
 The JRC provided a short overview of the activities performed during Phase 1 of the Pilot (October 2024 – June 2025). [Pilot Phase 1 Final Report](https://data.europa.eu/doi/10.2760/9289518) was published in August 2025. 
