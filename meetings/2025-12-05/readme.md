@@ -122,7 +122,28 @@ After an active and productive discussion between participants, and considering 
 
 ### Working teams: Objectives & Tasks
 
-**Action 1**. The JRC will set two ad-hoc working teams (the first one split in two sub-teams) will be set to focus on different aspects and the challenges mentioned above:
+**Action 1**. The JRC will set two ad-hoc working teams (the first one split in two sub-teams) will be set to focus on different aspects and the challenges mentioned above. The list of working teams is available in the [ANNEX](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/edit/main/meetings/2025-12-05/readme.md#annex---working-teams-agreed-for-pilot-phase-2) of these minutes:
+
+### Working Plan & Roadmap 
+  
+**Action 2**. The JRC will organise bi-monthly pilot (general) meetings starting from January-February 2026, with at least one monthly working team meetings (per each working team) in between (more if needed). A roadmap will be presented in the next pilot meeting.
+
+**Action 3**. The JRC will contact the experts who volunteered to help pushing each working team from mid-January to mid-February 2026
+
+**Action 4**. The JRC will kick-off the working teams as soon as possible, with the support of the mentioned experts.
+
+### Other actions 
+
+**Action 5**. In preparation for working team T-1A, pilot participants to provide feedback on issues: 
+- [#142](https://github.com/SEMICeu/GeoDCAT-AP/issues/142), [#150](https://github.com/SEMICeu/GeoDCAT-AP/issues/150), [#154](https://github.com/SEMICeu/GeoDCAT-AP/issues/154), [#135](https://github.com/SEMICeu/GeoDCAT-AP/issues/135), [#139](https://github.com/SEMICeu/GeoDCAT-AP/issues/139), [#140](https://github.com/SEMICeu/GeoDCAT-AP/issues/140), [#147](https://github.com/SEMICeu/GeoDCAT-AP/issues/147), [#151](https://github.com/SEMICeu/GeoDCAT-AP/issues/151)
+- the question on SHACL shapes namespace prefix raised by SEMIC: [#145](https://github.com/SEMICeu/GeoDCAT-AP/issues/145)
+- Additionally, on [other issues related to GeoDCAT-AP](https://github.com/SEMICeu/GeoDCAT-AP/issues?q=state%3Aopen%20label%3A%22feedback-requested%22).
+
+**Action 6**. Participants to use the SEMIC repositories ([specification](https://github.com/SEMICeu/GeoDCAT-AP/issues) / [XSLT tranformation](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/)) to publish any new issues identified in Phase 2 of the pilot.
+
+**Action 7**. The JRC will revise the [issues summary spreadsheet](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/final-report/ISO-GeoDCAT-AP_Pilot_issues_v3_FinalReport.xlsx) from Pilot Phase 1 and will promote the transfer of relevant specification and XSLT-related issues into the SEMIC repositories, pointing out to SEMIC which one are in principle ready for implementation.
+
+## ANNEX - Working teams agreed for Pilot Phase 2
 
 * **Working team T-1**. Support to the alignment of INSPIRE to data.europa.eu:
   
@@ -155,24 +176,7 @@ After an active and productive discussion between participants, and considering 
   - Exploration and testing of AI-assisted tools for metadata generation
   - Identification of other areas where AI-assisted tools may be used to support metadata management
   - Other tasks (to be agreed)
-
-### Working Plan & Roadmap 
-  
-**Action 2**. The JRC will organise bi-monthly pilot (general) meetings starting from January-February 2026, with at least one monthly working team meetings (per each working team) in between (more if needed). A roadmap will be presented in the next pilot meeting.
-
-**Action 3**. The JRC will contact the experts who volunteered to help pushing each working team from mid-January to mid-February 2026
-
-**Action 4**. The JRC will kick-off the working teams as soon as possible, with the support of the mentioned experts.
-
-### Other actions 
-
-**Action 5**. In preparation for working team T-1A, pilot participants to provide feedback on issues: 
-- [#142](https://github.com/SEMICeu/GeoDCAT-AP/issues/142), [#150](https://github.com/SEMICeu/GeoDCAT-AP/issues/150), [#154](https://github.com/SEMICeu/GeoDCAT-AP/issues/154), [#135](https://github.com/SEMICeu/GeoDCAT-AP/issues/135), [#139](https://github.com/SEMICeu/GeoDCAT-AP/issues/139), [#140](https://github.com/SEMICeu/GeoDCAT-AP/issues/140), [#147](https://github.com/SEMICeu/GeoDCAT-AP/issues/147), [#151](https://github.com/SEMICeu/GeoDCAT-AP/issues/151)
-- the question n SHACL shapes namespace prefix raised by SEMIC: [#145](https://github.com/SEMICeu/GeoDCAT-AP/issues/145)
-- Additionally on [other issues related to GeoDCAT-AP](https://github.com/SEMICeu/GeoDCAT-AP/issues?q=state%3Aopen%20label%3A%22feedback-requested%22).
-
-**Action 6**. Participants to use the SEMIC repositories ([specification](https://github.com/SEMICeu/GeoDCAT-AP/issues) / [XSLT tranformation](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/)) to publish any new issues identified in Phase 2 of the pilot.
-
-**Action 7**. The JRC will revise the [issues summary spreadsheet](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/final-report/ISO-GeoDCAT-AP_Pilot_issues_v3_FinalReport.xlsx) from Pilot Phase 1 and will promote the transfer of relevant specification and XSLT-related issues into the SEMIC repositories, pointing out to SEMIC which one are in principle ready for implementation.
+ 
+    
 
 
