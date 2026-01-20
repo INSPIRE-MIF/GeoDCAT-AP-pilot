@@ -76,7 +76,9 @@ Additionally, The JRC proposed to stick to the SEMIC repositories ([specificatio
 
 ### data.europa.eu / Geoharvester updates (OP / conterra)	
 
-PENDING (0:29 - 0:39)
+The OP claried where the ISO 19139 to GeoDCAT-AP metadata transformation is taking place for ingesting data into data.europa.eu
+* Option A. In the European Data Portal Geoharvester - this option is used to harvest and transform geospatial ISO metadata from CSW national discovery endpoints. It requires that the geospatial High-Value Datasets tagging good practice is properly used in ISO metadata records. 
+* Potion B. Directly deliver (Geo-)DCAT-AP metadata from the national level to the European Data Portal - these metadata are harvested from data.europa.eu, responsibility of the transformation remains on the countries.
 
 ### Pilot working plan (JRC)
 
@@ -143,7 +145,7 @@ After an active and productive discussion between participants, and considering 
 
 **Action 7**. The JRC will revise the [issues summary spreadsheet](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/final-report/ISO-GeoDCAT-AP_Pilot_issues_v3_FinalReport.xlsx) from Pilot Phase 1 and will promote the transfer of relevant specification and XSLT-related issues into the SEMIC repositories, pointing out to SEMIC which one are in principle ready for implementation.
 
-**Action 8**. SEMIC will organise the public consultation of the latest GeoDCAT-AP draft (agreed to be versioned as v3.1.0) by the end of 2025 with the aim to publish it shortly after, as soon as possible.
+**Action 8**. SEMIC will organise the public consultation of the latest GeoDCAT-AP draft (agreed to be versioned as v3.1.0) by the end of 2025 with the aim to publish the release shortly after. Open issues should be discussed in upcoming pilot working team and/or SEMIC meetings, to be considered as candidates in future releases.
 
 ## ANNEX - Working teams agreed for Pilot Phase 2
 
