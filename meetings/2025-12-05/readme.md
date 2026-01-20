@@ -63,7 +63,16 @@ On the other hand,
     * Pilot-specific: [#71](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/71), [#72](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/72)
     * Others: [#74](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/74), [#77](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/77), [#78](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/78), [#84](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/84)
 
-PENDING (0:15 - 0:29) Questions from participants
+SEMIC also raised some questions: 
+* on the versioning of the next GeoDCAT-AP draft - either v3.0.1 or v3.1.0: the community expressed preference for the second one, since a new property (Purpose) was added to this draft specification.
+* on SHACL shapes namespace prefix: [#145](https://github.com/SEMICeu/GeoDCAT-AP/issues/145)
+
+Some of the issues identified during Phase 1 of the pilot, from those referenced in the [issues summary spreadsheet](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/final-report/ISO-GeoDCAT-AP_Pilot_issues_v3_FinalReport.xlsx), might have not been identifed yet to be resolved by SEMIC. There is a need to come back to them to check its status.
+
+The JRC informed that the [issues summary spreadsheet](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/final-report/ISO-GeoDCAT-AP_Pilot_issues_v3_FinalReport.xlsx) was updated until July 2025 when the [Pilot Phase 1 Final Report](https://data.europa.eu/doi/10.2760/9289518) was in process of publication.
+The JRC will check the spreadsheet and will promote the transfer of specification and XSLT-related issues into the SEMIC repositories.
+
+Additionally, The JRC proposed to stick to the SEMIC repositories ([specification](https://github.com/SEMICeu/GeoDCAT-AP/issues) / [XSLT tranformation](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/)) for new issues identified in Phase 2 of the pilot, if possible only using the [pilot repository](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues) for pilot organisational matters.
 
 ### data.europa.eu / Geoharvester updates (OP / conterra)	
 
@@ -71,7 +80,10 @@ PENDING (0:29 - 0:39)
 
 ### Pilot working plan (JRC)
 
-The JRC provided a short overview of the activities performed during Phase 1 of the Pilot (October 2024 – June 2025). The focus was put in summarising the main results achieved, the conclusions and the remaining challenges in Phase 2, expected to span from December 2025 until February 2027.
+The JRC provided a short overview of the activities performed during Phase 1 of the Pilot (October 2024 – June 2025). [Pilot Phase 1 Final Report](https://data.europa.eu/doi/10.2760/9289518) was published in August 2025. 
+
+The focus of the presentation was put in summarising the main results achieved, the conclusions and the remaining challenges in Phase 2, expected to span from December 2025 until February 2027.
+
 These challenges include:
 * smooth integration of geospatial metadata into data.europa.eu (support to MS, geospatial data filtering in the catalogue, etc.).
 * quantitive evaluation of metadata transformation maturity.
@@ -154,6 +166,13 @@ After an active and productive discussion between participants, and considering 
 
 ### Other actions 
 
-**Action 5**. Participants to provide feedback on issues [#142](https://github.com/SEMICeu/GeoDCAT-AP/issues/142), [#150](https://github.com/SEMICeu/GeoDCAT-AP/issues/150), [#154](https://github.com/SEMICeu/GeoDCAT-AP/issues/154), [#135](https://github.com/SEMICeu/GeoDCAT-AP/issues/135), [#139](https://github.com/SEMICeu/GeoDCAT-AP/issues/139), [#140](https://github.com/SEMICeu/GeoDCAT-AP/issues/140), [#147](https://github.com/SEMICeu/GeoDCAT-AP/issues/147), [#151](https://github.com/SEMICeu/GeoDCAT-AP/issues/151), and on [other issues related to GeoDCAT-AP](https://github.com/SEMICeu/GeoDCAT-AP/issues?q=state%3Aopen%20label%3A%22feedback-requested%22) - in preparation for working team T-1A.
+**Action 5**. In preparation for working team T-1A, pilot participants to provide feedback on issues: 
+- [#142](https://github.com/SEMICeu/GeoDCAT-AP/issues/142), [#150](https://github.com/SEMICeu/GeoDCAT-AP/issues/150), [#154](https://github.com/SEMICeu/GeoDCAT-AP/issues/154), [#135](https://github.com/SEMICeu/GeoDCAT-AP/issues/135), [#139](https://github.com/SEMICeu/GeoDCAT-AP/issues/139), [#140](https://github.com/SEMICeu/GeoDCAT-AP/issues/140), [#147](https://github.com/SEMICeu/GeoDCAT-AP/issues/147), [#151](https://github.com/SEMICeu/GeoDCAT-AP/issues/151)
+- the question n SHACL shapes namespace prefix raised by SEMIC: [#145](https://github.com/SEMICeu/GeoDCAT-AP/issues/145)
+- Additionally on [other issues related to GeoDCAT-AP](https://github.com/SEMICeu/GeoDCAT-AP/issues?q=state%3Aopen%20label%3A%22feedback-requested%22).
+
+**Action 6**. Participants to use the SEMIC repositories ([specification](https://github.com/SEMICeu/GeoDCAT-AP/issues) / [XSLT tranformation](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/)) to publish any new issues identified in Phase 2 of the pilot.
+
+**Action 7**. The JRC will revise the [issues summary spreadsheet](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/final-report/ISO-GeoDCAT-AP_Pilot_issues_v3_FinalReport.xlsx) from Pilot Phase 1 and will promote the transfer of relevant specification and XSLT-related issues into the SEMIC repositories, pointing out to SEMIC which one are in principle ready for implementation.
 
 
