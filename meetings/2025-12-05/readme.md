@@ -72,7 +72,7 @@ Some of the issues identified during Phase 1 of the pilot, from those referenced
 The JRC informed that the [issues summary spreadsheet](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/final-report/ISO-GeoDCAT-AP_Pilot_issues_v3_FinalReport.xlsx) was updated until July 2025 when the [Pilot Phase 1 Final Report](https://data.europa.eu/doi/10.2760/9289518) was in process of publication.
 The JRC will check the spreadsheet and will promote the transfer of specification and XSLT-related issues into the SEMIC repositories.
 
-Additionally, The JRC proposed to stick to the SEMIC repositories ([specification](https://github.com/SEMICeu/GeoDCAT-AP/issues) / [XSLT tranformation](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/)) for new issues identified in Phase 2 of the pilot, if possible only using the [pilot repository](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues) for pilot organisational matters.
+Additionally, The JRC proposed to stick to the SEMIC repositories ([specification](https://github.com/SEMICeu/GeoDCAT-AP/issues) / [XSLT transformation](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/)) for new issues identified in Phase 2 of the pilot, if possible only using the [pilot repository](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues) for pilot organisational matters.
 
 ### data.europa.eu / Geoharvester updates (OP / conterra)	
 
@@ -84,7 +84,7 @@ The OP claried where the ISO 19139 to GeoDCAT-AP metadata transformation is taki
 
 Additionally, the OP provided details about the data.europa.eu Geoharvester. This system has its own XSLT transformation (not the SEMIC reference one) and it is aligned to GeoDCAT-AP v3 since January 2025. Furtheremore it implements the agreements on the geospatial High-Value Datasets tagging good practice. Updated documentation is available [here](https://dataeuropa.gitlab.io/data-provider-manual/hvd/annotation_in_geometadata/).
 
-The OP periodically follows up the updates on the SEMIC XSLT tranformation in order to update data.europa.eu transformationwhen necessary. Specifically, the OP is also preparing documentation explaining the differences between the SEMIC reference XSLT transformation and the one used by the Geoharvester. 
+The OP periodically follows up the updates on the SEMIC XSLT transformation in order to update data.europa.eu transformationwhen necessary. Specifically, the OP is also preparing documentation explaining the differences between the SEMIC reference XSLT transformation and the one used by the Geoharvester. 
 
 In the future, data.europa.eu is planning: 
 * the alignment to the new version of the SEMIC reference XSLT.
@@ -153,7 +153,7 @@ After an active and productive discussion between participants, and considering 
 - the question on SHACL shapes namespace prefix raised by SEMIC: [#145](https://github.com/SEMICeu/GeoDCAT-AP/issues/145)
 - Additionally, on [other issues related to GeoDCAT-AP](https://github.com/SEMICeu/GeoDCAT-AP/issues?q=state%3Aopen%20label%3A%22feedback-requested%22).
 
-**# Action 6**. Participants to use the SEMIC repositories ([specification](https://github.com/SEMICeu/GeoDCAT-AP/issues) / [XSLT tranformation](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/)) to publish any new issues identified in Phase 2 of the pilot.
+**# Action 6**. Participants to use the SEMIC repositories ([specification](https://github.com/SEMICeu/GeoDCAT-AP/issues) / [XSLT transformation](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/)) to publish any new issues identified in Phase 2 of the pilot.
 
 **# Action 7**. The JRC will revise the [issues summary spreadsheet](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/final-report/ISO-GeoDCAT-AP_Pilot_issues_v3_FinalReport.xlsx) from Pilot Phase 1 and will promote the transfer of relevant specification and XSLT-related issues into the SEMIC repositories, pointing out to SEMIC which one are in principle ready for implementation.
 
