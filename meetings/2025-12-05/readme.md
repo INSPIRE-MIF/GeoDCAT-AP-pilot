@@ -4,7 +4,7 @@
 
 * Welcome
 * GeoDCAT-AP v3.0.1 draft / XSLT updates (SEMIC) - 10 minutes
-* data.europa.eu / Geoharvester updates (OP / conterra) - 10 minutes
+* data.europa.eu / Geoharvester updates (OP / con terra) - 10 minutes
 * Pilot working plan (JRC) - 15 minutes
     * Phase 1 overview
     * Phase 2
@@ -74,9 +74,9 @@ The JRC will check the spreadsheet and will promote the transfer of specificatio
 
 Additionally, The JRC proposed to stick to the SEMIC repositories ([specification](https://github.com/SEMICeu/GeoDCAT-AP/issues) / [XSLT transformation](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/)) for new issues identified in Phase 2 of the pilot, if possible only using the [pilot repository](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues) for pilot organisational matters.
 
-### data.europa.eu / Geoharvester updates (OP / conterra)	
+### data.europa.eu / Geoharvester updates (OP / con terra)	
 
-The OP claried where the ISO 19139 to GeoDCAT-AP metadata transformation is taking place for ingesting data into data.europa.eu
+The OP clarified where the ISO 19139 to GeoDCAT-AP metadata transformation is taking place for ingesting data into data.europa.eu
 * Option A. In the European Data Portal Geoharvester - this option is used to harvest and transform geospatial ISO metadata from CSW national discovery endpoints. It requires that the geospatial High-Value Datasets tagging good practice is properly used in ISO metadata records. 
 * Option B. Directly deliver national (Geo-)DCAT-AP metadata to the European Data Portal - these metadata are harvested from data.europa.eu, the responsibility of the ISO to GeoDCAT-AP transformation remains on the countries.
 
@@ -84,13 +84,13 @@ The OP claried where the ISO 19139 to GeoDCAT-AP metadata transformation is taki
 
 Additionally, the OP provided details about the data.europa.eu Geoharvester. This system has its own XSLT transformation (not the SEMIC reference one) and it is aligned to GeoDCAT-AP v3 since January 2025. Furtheremore it implements the agreements on the geospatial High-Value Datasets tagging good practice. Updated documentation is available [here](https://dataeuropa.gitlab.io/data-provider-manual/hvd/annotation_in_geometadata/).
 
-The OP periodically follows up the updates on the SEMIC XSLT transformation in order to update data.europa.eu transformationwhen necessary. Specifically, the OP is also preparing documentation explaining the differences between the SEMIC reference XSLT transformation and the one used by the Geoharvester. 
+The OP periodically follows up the updates on the SEMIC XSLT transformation in order to update data.europa.eu transformation when necessary. Specifically, the OP is also preparing documentation explaining the differences between the SEMIC reference XSLT transformation and the one used by the Geoharvester. 
 
 In the future, data.europa.eu is planning: 
 * the alignment to the new version of the SEMIC reference XSLT.
 * an update of libraries.
 * to support to dataset series.
-* the enhancement of dataset distributions accordiing to the INSPIRE data-service linking simplification ggod practice.
+* the enhancement of dataset distributions accordiing to the INSPIRE data-service linking simplification good practice.
 
 ### Pilot working plan (JRC)
 
@@ -136,7 +136,7 @@ After an active and productive discussion between participants, and considering 
 
 ### Working teams: Objectives & Tasks
 
-**# Action 1**. The JRC will set two ad-hoc working teams (the first one split in two sub-teams) will be set to focus on different aspects and the challenges mentioned above. The list of working teams is available in the [ANNEX](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/edit/main/meetings/2025-12-05/readme.md#annex---working-teams-agreed-for-pilot-phase-2) of these minutes:
+**# Action 1**. The JRC will set two ad-hoc working teams (the first one split in two sub-teams) to focus on different aspects and the challenges mentioned above. The list of working teams is available in the [ANNEX](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/edit/main/meetings/2025-12-05/readme.md#annex---working-teams-agreed-for-pilot-phase-2) of these minutes:
 
 ### Working Plan & Roadmap 
   
