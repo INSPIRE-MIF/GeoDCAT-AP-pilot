@@ -136,7 +136,9 @@ After an active and productive discussion between participants, and considering 
 
 ### Working teams: Objectives & Tasks
 
-**[ ] Action 1**. The JRC will set two ad-hoc working teams (the first one split in two sub-teams) to focus on different aspects and the challenges mentioned above. The list of working teams is available in the [ANNEX](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/edit/main/meetings/2025-12-05/readme.md#annex---working-teams-agreed-for-pilot-phase-2) of these minutes:
+[ ] Xxx
+
+**# [ ] Action 1**. The JRC will set two ad-hoc working teams (the first one split in two sub-teams) to focus on different aspects and the challenges mentioned above. The list of working teams is available in the [ANNEX](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/edit/main/meetings/2025-12-05/readme.md#annex---working-teams-agreed-for-pilot-phase-2) of these minutes:
 
 ### Working Plan & Roadmap 
   
