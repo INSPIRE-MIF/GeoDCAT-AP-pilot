@@ -136,15 +136,13 @@ After an active and productive discussion between participants, and considering 
 
 ### Working teams: Objectives & Tasks
 
-[ ] Xxx
-
-**# [ ] Action 1**. The JRC will set two ad-hoc working teams (the first one split in two sub-teams) to focus on different aspects and the challenges mentioned above. The list of working teams is available in the [ANNEX](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/edit/main/meetings/2025-12-05/readme.md#annex---working-teams-agreed-for-pilot-phase-2) of these minutes:
+**# [x] Action 1**. The JRC will set two ad-hoc working teams (the first one split in two sub-teams) to focus on different aspects and the challenges mentioned above. The list of working teams is available in the [ANNEX](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/edit/main/meetings/2025-12-05/readme.md#annex---working-teams-agreed-for-pilot-phase-2) of these minutes:
 
 ### Working Plan & Roadmap 
   
 **# [ ] Action 2**. The JRC will organise bi-monthly pilot (general) meetings starting from January-February 2026, with at least one monthly working team meetings (per each working team) in between (more if needed). A roadmap will be presented in the next pilot meeting.
 
-**# Action 3**. The JRC will contact the experts who volunteered to help pushing each working team from mid-January to mid-February 2026
+**# [x] Action 3**. The JRC will contact the experts who volunteered to help pushing each working team from mid-January to mid-February 2026
 
 **# [ ] Action 4**. The JRC will kick-off the working teams as soon as possible, with the support of the mentioned experts.
 
@@ -159,7 +157,7 @@ After an active and productive discussion between participants, and considering 
 
 **# [ ] Action 7**. The JRC will revise the [issues summary spreadsheet](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/final-report/ISO-GeoDCAT-AP_Pilot_issues_v3_FinalReport.xlsx) from Pilot Phase 1 and will promote the transfer of relevant specification and XSLT-related issues into the SEMIC repositories, pointing out to SEMIC which one are in principle ready for implementation.
 
-**# [ ] Action 8**. SEMIC will organise the public consultation of the latest GeoDCAT-AP draft (agreed to be versioned as v3.1.0) by the end of 2025 with the aim to publish the release shortly after. Open issues should be discussed in upcoming pilot working team and/or SEMIC meetings, to be considered as candidates in future releases.
+**# [x] Action 8**. SEMIC will organise the public consultation of the latest GeoDCAT-AP draft (agreed to be versioned as v3.1.0) by the end of 2025 with the aim to publish the release shortly after. Open issues should be discussed in upcoming pilot working team and/or SEMIC meetings, to be considered as candidates in future releases.
 
 ## ANNEX - Working teams agreed for Pilot Phase 2
 
