@@ -19,7 +19,9 @@ For more infomation about the pilot, its purpose, objectives and outputs/results
 
 ## Pilot Meetings / Progress
 
-* [Kick-off Meeting](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2024-10-02) (2 October 2024)
+### Phase 1
+
+* [Kick-off Meeting Phase 1](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2024-10-02) (2 October 2024)
 
 * [Second Meeting](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2024-11-20) (20 November 2024)
   
@@ -30,6 +32,12 @@ For more infomation about the pilot, its purpose, objectives and outputs/results
 * [Fifth Meeting](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2025-06-03) (3 June 2025)
 
 * [Sixth Meeting](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2025-06-25) (25 June 2025)
+
+### Phase 2
+
+* [Kick-off Meeting Phase 2](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2025-12-05) (5 December 2025)
+
+* Future meetings
 
 ## Good practices 
 
