@@ -6,7 +6,7 @@
 * Pilot Phase 2 Working Teams - Objectives & Set up (JRC) -  10 minutes
 * Latest GeoDCAT-AP release - v3.1.0 (SEMIC) - 10 minutes
 * Repositories for sharing and discussing issues - Procedure Remainder (JRC & SEMIC) - 5 minutes
-* ISO-GeoDCAT-AP Issues - Guided Discussion (SEMIC & JRC & All) - max. 90 minutes
+* ISO-GeoDCAT-AP Issues - Guided Discussion (JRC & SEMIC & All) - max. 90 minutes
 * Summary of actions from the meeting (JRC) - 5 minutes
 * AoB (All)
 
