@@ -14,8 +14,8 @@ For more infomation about the pilot, its purpose, objectives and outputs/results
 
 ## Participants
 
-* **Member States**: Belgium (BE-Flanders), Czech Republic (CZ), Denmark (DK), Italy (IT), Finland (FI), France (FR), the Netherlands (NL), Spain (ES), Slovakia (SK).
-* **European Commission**: Publications Office of the European union (OP), Directorate-General for Digital Services SEMIC Group (DIGIT-SEMIC), Directorate-General Joint Research Centre (JRC).
+* **Member States**: Belgium (BE-Flanders), Croatia (HR), Czech Republic (CZ), Denmark (DK), Italy (IT), Latvia (LV), Finland (FI), France (FR), Germany (DE), Malta (MT), the Netherlands (NL), Spain (ES), Slovakia (SK).
+* **European Commission**: Publications Office of the European union (OP), Directorate-General for Digital Services SEMIC Group (DIGIT-SEMIC), Directorate-General Joint Research Centre (JRC), and the European Environment Agency (EEA).
 
 ## Pilot Meetings / Progress
 
