@@ -12,9 +12,9 @@
 
 ## Participants
 
-* Member States: .
-* European Commission: .
-* Contractors: .
+* Member States: Representatives of the Member States participating in the pilot.
+* European Commission: Publications Office of the European Union (OP), Directorate-General for Digital Services SEMIC Group (DIGIT-SEMIC), Directorate-General Joint Research Centre (JRC), the European Environment Agency (EEA).
+* Contractors: con terra, Epsilon Italia.
 
 ## Presentations and recording
 
@@ -25,7 +25,45 @@ Recording: Available on request.
 ## Meeting summary
 
 The objectives of the meeting were:
-* 
+* Explaining the purpose of Phase 2 and why specialised working groups are needed.
+    * Generally define the scope, expected deliverables and timelines for each working team (T-1A, T-1B, T-2).
+    * Clarify the working plan (independent work with regular cross‑team coordination) and potential interactions between them.
+* Presenting the key changes introduced in GeoDCAT-AP version 3.1.0.
+    * Highlight which changes may affect the current work of the working teams (especially the mapping of distributions and high‑value‑data‑set handling).
+    * Provide the link to the changelog and the release artefacts
+* Identifying the procedure and the GitHub repositories that will be used during Phase 2 of the pilot for raising, gathering community inputs and reaching agreements.
+* Reviewing the most critical open issues and refresh the community about them.
+    * Gathering community feedback on existing proposals.
+    * Highlighting the importance of community participation on GitHub to identify common solutions and reach future consensus.
+* Recap any important decisions taken and trace specific actions for future working team meetings.
+
+The JRC opened the meeting, welcoming the participants and confirming the agenda. 
+
+###  Pilot Phase 2 Working Teams – Objectives & Set up
+The JRC delivered a presentation explaining the purpose of Phase 2 and, more concretely, the different specialised working teams created. These will operate independently but in a coordinated manner:
+*	T-1A (the one kicked-off in this meeting). Working team focused on managing issues with an impact on geospatial metadata harvesting and reporting of geospatial High-Value Datasets (HVDs), scoped in the integration of INSPIRE geospatial assets into data.europa.eu (hence, highly related to the ISO-to-GeoDCAT-AP mapping and transformation).
+*	T-1B. Working team focused on specific analysis and good practices for the alignment of INSPIRE into data.europa.eu which deserve special attention and/or require substantial effort - mainly highlighting:
+    *	Formalisation of the geospatial HVD tagging good practice.
+    *	Agreement on a good practice for the description of data service / APIs, and related mapping and transformation issues.
+    *	Analysis of potential metadata information losses in the ISO-to-GeoDCAT-AP transformation.
+    *	Identification of any remaining gaps and discussion on the need for tackling them.
+*	T-2. Working team focused on explore the use of Artificial Intelligence (AI) assisted tools in metadata generation, and other potential uses in metadata management tasks.
+
+The initial plan is to organise working team meetings monthly, supported by continuous coordination, and bi-monthly / quarterly general pilot meetings to exchange progress and updates.
+
+### Latest GeoDCAT AP release – v3.1.0
+...
+(new purpose property, conformity‑and‑data‑quality pattern, deprecation of the INSPIRE maintenance‑frequency list, alignment of media‑type handling, etc.)
+
+### Repositories for sharing and discussing issues - Procedure Remainder
+...
+    * the SEMIC repositories: [for GeoDCAT-AP specification issues](https://github.com/SEMICeu/GeoDCAT-AP/issues) / [for GeoDCAT-AP XSLT transformations issues](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues).
+    * the ISO & GeoDCAT-AP pilot repository: only [for discussing issues concerned to the management of the pilot](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues)
+Emphasise that the old Excel summary will be retired and that all tracking will be done directly on GitHub.
+
+### ISO-GeoDCAT-AP Issues - Guided Discussion
+...
+most critical open issues (e.g., distribution mapping, high‑value‑data‑set good practice, applicable‑legislation code list, parent‑identifier mapping, coupled‑resource wording, etc.).
 
 ## Agreements / Actions
 
