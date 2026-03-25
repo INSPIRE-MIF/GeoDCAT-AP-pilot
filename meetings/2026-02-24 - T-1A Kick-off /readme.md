@@ -12,8 +12,8 @@
 
 ## Participants
 
-* Member States: Representatives of the Member States participating in the pilot.
-* European Commission: Publications Office of the European Union (OP), Directorate-General for Digital Services SEMIC Group (DIGIT-SEMIC), Directorate-General Joint Research Centre (JRC), the European Environment Agency (EEA).
+* Member States: Belgium (BE-Flanders), Denmark (DK), Italy (IT), Latvia (LV), Malta (MT), Finland (FI), Germany (DE), the Netherlands (NL), Spain (ES).
+* European Commission: Directorate-General for Environment (ENV), Publications Office of the European Union (OP), Directorate-General for Digital Services SEMIC Group (DIGIT-SEMIC), Directorate-General Joint Research Centre (JRC), the European Environment Agency (EEA).
 * Contractors: con terra, Epsilon Italia.
 
 ## Presentations and recording
@@ -29,8 +29,6 @@ The objectives of the meeting were:
     * Generally define the scope, expected deliverables and timelines for each working team (T-1A, T-1B, T-2).
     * Clarify the working plan (independent work with regular cross‑team coordination) and potential interactions between them.
 * Presenting the key changes introduced in GeoDCAT-AP version 3.1.0.
-    * Highlight which changes may affect the current work of the working teams (especially the mapping of distributions and high‑value‑data‑set handling).
-    * Provide the link to the changelog and the release artefacts
 * Identifying the procedure and the GitHub repositories that will be used during Phase 2 of the pilot for raising, gathering community inputs and reaching agreements.
 * Reviewing the most critical open issues and refresh the community about them.
     * Gathering community feedback on existing proposals.
@@ -52,18 +50,24 @@ The JRC delivered a presentation explaining the purpose of Phase 2 and, more c
 The initial plan is to organise working team meetings monthly, supported by continuous coordination, and bi-monthly / quarterly general pilot meetings to exchange progress and updates.
 
 ### Latest GeoDCAT AP release – v3.1.0
-...
-(new purpose property, conformity‑and‑data‑quality pattern, deprecation of the INSPIRE maintenance‑frequency list, alignment of media‑type handling, etc.)
+
+SEMIC described the main changes from [version 3.0.0](https://semiceu.github.io/GeoDCAT-AP/releases/3.0.0/) and provided the link to the [version 3.1.0 changelog](https://semiceu.github.io/GeoDCAT-AP/releases/3.1.0/CHANGELOG.html), which summarises all the release artefacts.
+
+Additionally, the changes which may affect the current work of the working teams were highlighted, especially the mapping of distributions and handling of geospatial HVDs. 
 
 ### Repositories for sharing and discussing issues - Procedure Remainder
-...
-    * the SEMIC repositories: [for GeoDCAT-AP specification issues](https://github.com/SEMICeu/GeoDCAT-AP/issues) / [for GeoDCAT-AP XSLT transformations issues](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues).
-    * the ISO & GeoDCAT-AP pilot repository: only [for discussing issues concerned to the management of the pilot](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues)
-Emphasise that the old Excel summary will be retired and that all tracking will be done directly on GitHub.
+
+SEMIC and the JRC reminded about the intended use of the pilot repositories - In summary, using:
+* the SEMIC repositories: [for GeoDCAT-AP specification issues](https://github.com/SEMICeu/GeoDCAT-AP/issues) / [for GeoDCAT-AP XSLT transformations issues](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues).
+* the ISO & GeoDCAT-AP pilot repository: only [for discussing issues concerned to the management of the pilot](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues)
+
+The JRC emphasised that the Excel summary spreadsheet from pìlot Phase 1 will not be longer maintained. All activity, discussions and agreements will be tracked directly on the mabove-entioned GitHub repositories.
 
 ### ISO-GeoDCAT-AP Issues - Guided Discussion
-...
-most critical open issues (e.g., distribution mapping, high‑value‑data‑set good practice, applicable‑legislation code list, parent‑identifier mapping, coupled‑resource wording, etc.).
+
+The JRC provided a [presentation]() summarising the most burning issues in the content of the ISO-to-GeoDCAT-AP mappinf and transformation.
+
+Most critical open issues (e.g., distribution mapping, high‑value‑data‑set good practice, applicable‑legislation code list, parent‑identifier mapping, coupled‑resource wording, etc.).
 
 ## Agreements / Actions
 
