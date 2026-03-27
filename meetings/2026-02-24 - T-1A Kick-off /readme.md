@@ -18,7 +18,7 @@
 
 ## Presentations and recording
 
-Presentations can be downloaded [here]().
+Presentations can be downloaded [here](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-02-24%20-%20T-1A%20Kick-off%20/presentations).
 
 Recording: Available on request. 
 
@@ -38,7 +38,7 @@ The objectives of the meeting were:
 The JRC opened the meeting, welcoming the participants and confirming the agenda. 
 
 ###  Pilot Phase 2 Working Teams – Objectives & Set up
-The JRC delivered a presentation explaining the purpose of Phase 2 and, more concretely, the different specialised working teams created. These will operate independently but in a coordinated manner:
+The JRC delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-02-24%20-%20T-1A%20Kick-off%20/presentations/20260224_01_ISO%26GeoDCAT-AP_Pilot_Ph%202-T1-A_Kick_off-JRC.pptx) explaining the purpose of Phase 2 and, more concretely, the different specialised working teams created. These will operate independently but in a coordinated manner:
 *	T-1A (the one kicked-off in this meeting). Working team focused on managing issues with an impact on geospatial metadata harvesting and reporting of geospatial High-Value Datasets (HVDs), scoped in the integration of INSPIRE geospatial assets into data.europa.eu (hence, highly related to the ISO-to-GeoDCAT-AP mapping and transformation).
 *	T-1B. Working team focused on specific analysis and good practices for the alignment of INSPIRE into data.europa.eu which deserve special attention and/or require substantial effort - mainly highlighting:
     *	Formalisation of the geospatial HVD tagging good practice.
@@ -65,7 +65,7 @@ The JRC emphasised that the Excel summary spreadsheet from pìlot Phase 1 will n
 
 ### ISO-GeoDCAT-AP Issues - Guided Discussion
 
-The JRC provided a [presentation]() summarising the most burning issues in the content of the ISO-to-GeoDCAT-AP mappinf and transformation.
+The JRC provided a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-02-24%20-%20T-1A%20Kick-off%20/presentations/20260224_03_ISO%26GeoDCAT-AP_Pilot_Ph%202-T1-A_ISO-GeoDCAT-AP%20Issues-JRC.pptx) summarising the most burning issues in the context of the ISO-to-GeoDCAT-AP mapping and transformation.
 
 Most critical open issues (e.g., distribution mapping, high‑value‑data‑set good practice, applicable‑legislation code list, parent‑identifier mapping, coupled‑resource wording, etc.).
 
