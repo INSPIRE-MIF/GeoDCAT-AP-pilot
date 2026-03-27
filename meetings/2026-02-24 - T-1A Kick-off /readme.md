@@ -91,12 +91,9 @@ The JRC provided a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilo
 
 ## Agreements / Actions
 
-* Action 1. Close the following issues: 
-    * [Pilot #3](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/3)
-    * [Pilot #7](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/7)
-    * [Pilot #2](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/2)
-* Action 2. Open a new issue thread to discuss 'how to refer in the future to other legislations different from theELI-codes of High Value Dataset/ODD legislation, such as the ones from the PriorityDatasets codelist, in GeoDCAT-AP'. This topic was pending from [Pilot #2](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/2), which is now closed.
-    * The new issue is already open and available: [SEMICeu/GeoDCAT-AP#173](https://github.com/SEMICeu/GeoDCAT-AP/issues/173)
-* Action 3. Regarding [GeoDCAT-AP #134](https://github.com/SEMICeu/GeoDCAT-AP/issues/134), keep it open asking the community if something else in the thread needs to be revisited now that the geospatial HVD tagging good practice has been agreed and implemented in the SEMIC XSLT.
-* Action 4. Regarding [GeoDCAT-AP #140](https://github.com/SEMICeu/GeoDCAT-AP/issues/140), add to GeoDCAT-AP section 'A.7.6 Coupled resource' a note (and an XML example) explaining that INSPIRE allows a more simple implementation of the Coupled Resource linkage (e.g. a URI pointing to the dataset or dataset series metadata record, instead to pointing to the dataset or dataset series).
-* Action 5. 
+- [x] **Action 1**. Close the following issues: [Pilot #3](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/3) / [Pilot #7](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/7) / [Pilot #2](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/2)
+- [x] **Action 2**. Open a new issue thread to discuss 'how to refer in the future to other legislations different from theELI-codes of High Value Dataset/ODD legislation, such as the ones from the PriorityDatasets codelist, in GeoDCAT-AP'. This topic was pending from [Pilot #2](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/2), which is now closed.
+    - The new issue is already open and available: [SEMICeu/GeoDCAT-AP#173](https://github.com/SEMICeu/GeoDCAT-AP/issues/173)
+- [x] **Action 3**. Regarding [GeoDCAT-AP #134](https://github.com/SEMICeu/GeoDCAT-AP/issues/134), keep it open asking the community if something else in the thread needs to be revisited now that the geospatial HVD tagging good practice has been agreed and implemented in the SEMIC XSLT.
+- [x] **Action 4**. Regarding [GeoDCAT-AP #140](https://github.com/SEMICeu/GeoDCAT-AP/issues/140), it was decided to add to GeoDCAT-AP section 'A.7.6 Coupled resource' a note (and an XML example) explaining that INSPIRE allows a more simple implementation of the Coupled Resource linkage (e.g. a URI pointing to the dataset or dataset series metadata record, instead to pointing to the dataset or dataset series).
+- [ ] **Action 5**. 
