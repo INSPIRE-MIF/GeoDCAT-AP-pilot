@@ -69,7 +69,7 @@ The JRC provided a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilo
 
 * Most critical issues / Prioritised issues
     * Distributions and their mapping in GeoDCAT-AP
-        * [Geo-DCAT-AP #139](https://github.com/SEMICeu/GeoDCAT-AP/issues/139) (main issue on the mapping of distributions)
+        * Main issue: [Geo-DCAT-AP #139](https://github.com/SEMICeu/GeoDCAT-AP/issues/139) - Mapping for Resource locator (On-line resource)
         * Related ones: [Pilot #9](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/9); [XSLT #57](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/57); [Geo-DCAT-AP #135](https://github.com/SEMICeu/GeoDCAT-AP/issues/135); [XSLT #74](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/74); [XSLT #98](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/98); [Pilot #8](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/8); 
 
     * Identification of HVDs
@@ -97,4 +97,6 @@ The JRC provided a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilo
     * [Pilot #2](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/2)
 * Action 2. Open a new issue thread to discuss 'how to refer in the future to other legislations different from theELI-codes of High Value Dataset/ODD legislation, such as the ones from the PriorityDatasets codelist, in GeoDCAT-AP'. This topic was pending from [Pilot #2](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/2), which is now closed.
     * The new issue is already open and available: [SEMICeu/GeoDCAT-AP#173](https://github.com/SEMICeu/GeoDCAT-AP/issues/173)
-* Action 3. 
+* Action 3. Regarding [GeoDCAT-AP #134](https://github.com/SEMICeu/GeoDCAT-AP/issues/134), keep it open asking the community if something else in the thread needs to be revisited now that the geospatial HVD tagging good practice has been agreed and implemented in the SEMIC XSLT.
+* Action 4. Regarding [GeoDCAT-AP #140](https://github.com/SEMICeu/GeoDCAT-AP/issues/140), add to GeoDCAT-AP section 'A.7.6 Coupled resource' a note (and an XML example) explaining that INSPIRE allows a more simple implementation of the Coupled Resource linkage (e.g. a URI pointing to the dataset or dataset series metadata record, instead to pointing to the dataset or dataset series).
+* Action 5. 
