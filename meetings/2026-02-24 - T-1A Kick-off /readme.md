@@ -61,13 +61,33 @@ SEMIC and the JRC reminded about the intended use of the pilot repositories - In
 * the SEMIC repositories: [for GeoDCAT-AP specification issues](https://github.com/SEMICeu/GeoDCAT-AP/issues) / [for GeoDCAT-AP XSLT transformations issues](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues).
 * the ISO & GeoDCAT-AP pilot repository: only [for discussing issues concerned to the management of the pilot](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues)
 
-The JRC emphasised that the Excel summary spreadsheet from pìlot Phase 1 will not be longer maintained. All activity, discussions and agreements will be tracked directly on the mabove-entioned GitHub repositories.
+The JRC emphasised that the Excel summary spreadsheet from pìlot Phase 1 will not be longer maintained. All activity, discussions and agreements will be tracked directly on the above-entioned GitHub repositories.
 
 ### ISO-GeoDCAT-AP Issues - Guided Discussion
 
 The JRC provided a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-02-24%20-%20T-1A%20Kick-off%20/presentations/20260224_03_ISO%26GeoDCAT-AP_Pilot_Ph%202-T1-A_ISO-GeoDCAT-AP%20Issues-JRC.pptx) summarising the most burning issues in the context of the ISO-to-GeoDCAT-AP mapping and transformation.
 
-Most critical open issues (e.g., distribution mapping, high‑value‑data‑set good practice, applicable‑legislation code list, parent‑identifier mapping, coupled‑resource wording, etc.).
+* Most critical issues / Prioritised issues
+    * Distributions and their mapping in GeoDCAT-AP
+        * [Geo-DCAT-AP #139](https://github.com/SEMICeu/GeoDCAT-AP/issues/139) (main issue on the mapping of distributions)
+        * Related ones: [Pilot #9](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/9); [XSLT #57](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/57); [Geo-DCAT-AP #135](https://github.com/SEMICeu/GeoDCAT-AP/issues/135); [XSLT #74](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/74); [XSLT #98](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/98); [Pilot #8](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/8); 
+
+    * Identification of HVDs
+        * [Pilot #3](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/3) / [GeoDCAT-AP #147](https://github.com/SEMICeu/GeoDCAT-AP/issues/147) / [Pilot #7](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/7) - The three issues related to the implementation of the geospatial HVD tagging good practice, are now implemented in the SEMIC XSLT.
+        * [Pilot #2](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/2) - proposals related to the HVD-tagging good practice and the XSL transformation, now clarified with the implementation of the good practice in the SEMIC XSLT.
+        * [GeoDCAT-AP #134](https://github.com/SEMICeu/GeoDCAT-AP/issues/134) - Lack of information retrieval when having to process Anchor encodings.
+
+* Less prioritised issues:
+    * [GeoDCAT-AP #140](https://github.com/SEMICeu/GeoDCAT-AP/issues/140) - Coupled resource
+    * [XSLT #78](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/78) - parentIdentifier ISO metadata field not mapped to DCAT-AP / GeoDCAT-AP
+
+* ISSUES NOT DISCUSSED:
+    * [XSLT #84](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/84) - Support for gmd:status
+    * [XSLT #64](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/64) - Multiple geometry serialisations for dcat:bbox
+    * [Pilot #11](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/11) - Issues transforming service and multilingual metadata
+    * [XSLT #71](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/71) - Support for more than one dataset identifier
+    * [XSLT #72](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/72) - Duplicity of schema:startDate/schema:endDate after transformation
+    * [GeoDCAT-AP #171](https://github.com/SEMICeu/GeoDCAT-AP/issues/171) - OGC EPSG Coordinate Reference Systems Register too narrow?
 
 ## Agreements / Actions
 
