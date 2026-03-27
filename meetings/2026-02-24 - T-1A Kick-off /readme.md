@@ -79,7 +79,7 @@ The JRC provided a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilo
 
 * Less prioritised issues:
     * [GeoDCAT-AP #140](https://github.com/SEMICeu/GeoDCAT-AP/issues/140) - Coupled resource
-    * [XSLT #78](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/78) - parentIdentifier ISO metadata field not mapped to DCAT-AP / GeoDCAT-AP
+    * [XSLT #78](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/78) - Identifiers in ISO metadata / parentIdentifier not mapped to DCAT-AP or GeoDCAT-AP
 
 * ISSUES NOT DISCUSSED:
     * [XSLT #84](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/84) - Support for gmd:status
@@ -91,9 +91,14 @@ The JRC provided a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilo
 
 ## Agreements / Actions
 
-- [x] **Action 1**. Close the following issues: [Pilot #3](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/3) / [Pilot #7](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/7) / [Pilot #2](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/2)
-- [x] **Action 2**. Open a new issue thread to discuss 'how to refer in the future to other legislations different from theELI-codes of High Value Dataset/ODD legislation, such as the ones from the PriorityDatasets codelist, in GeoDCAT-AP'. This topic was pending from [Pilot #2](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/2), which is now closed.
+- [ ] **Action 1**. The INSPIRE commmunity is requested to revise the list of open issues above and provide relevant feedback. This is especially needed for the issues concerned to Distributions and their mapping in GeoDCAT-AP - i.e.,:
+    - Main issue: [Geo-DCAT-AP #139](https://github.com/SEMICeu/GeoDCAT-AP/issues/139) - Mapping for Resource locator (On-line resource)
+    - Related ones: [Pilot #9](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/9); [XSLT #57](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/57); [Geo-DCAT-AP #135](https://github.com/SEMICeu/GeoDCAT-AP/issues/135); [XSLT #74](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/74); [XSLT #98](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/98); [Pilot #8](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/8);  
+- [x] **Action 2**. Close the following issues: [Pilot #3](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/3) / [Pilot #7](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/7) / [Pilot #2](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/2)
+- [x] **Action 3**. Open a new issue thread to discuss 'how to refer in the future to other legislations different from theELI-codes of High Value Dataset/ODD legislation, such as the ones from the PriorityDatasets codelist, in GeoDCAT-AP'. This topic was pending from [Pilot #2](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/2), which is now closed.
     - The new issue is already open and available: [SEMICeu/GeoDCAT-AP#173](https://github.com/SEMICeu/GeoDCAT-AP/issues/173)
-- [x] **Action 3**. Regarding [GeoDCAT-AP #134](https://github.com/SEMICeu/GeoDCAT-AP/issues/134), keep it open asking the community if something else in the thread needs to be revisited now that the geospatial HVD tagging good practice has been agreed and implemented in the SEMIC XSLT.
-- [x] **Action 4**. Regarding [GeoDCAT-AP #140](https://github.com/SEMICeu/GeoDCAT-AP/issues/140), it was decided to add to GeoDCAT-AP section 'A.7.6 Coupled resource' a note (and an XML example) explaining that INSPIRE allows a more simple implementation of the Coupled Resource linkage (e.g. a URI pointing to the dataset or dataset series metadata record, instead to pointing to the dataset or dataset series).
-- [ ] **Action 5**. 
+- [x] **Action 4**. Regarding [GeoDCAT-AP #147](https://github.com/SEMICeu/GeoDCAT-AP/issues/147), it was raised the need to analyse how to help users to understand the information across the different SEMIC standards and navigate through them easily. The idea is to enhance the documentation to help the users. 
+ need to analyse how to help users to understand the information across the different standards and navigate through them easily (enhance the documentation).
+- [x] **Action 5**. Regarding [GeoDCAT-AP #134](https://github.com/SEMICeu/GeoDCAT-AP/issues/134), keep it open asking the community if something else in the thread needs to be revisited now that the geospatial HVD tagging good practice has been agreed and implemented in the SEMIC XSLT.
+- [x] **Action 6**. Regarding [GeoDCAT-AP #140](https://github.com/SEMICeu/GeoDCAT-AP/issues/140), it was decided to add to GeoDCAT-AP section 'A.7.6 Coupled resource' a note (and an XML example) explaining that INSPIRE allows a more simple implementation of the Coupled Resource linkage (e.g. a URI pointing to the dataset or dataset series metadata record, instead to pointing to the dataset or dataset series).
+- [x] **Action 7**. Regarding [XSLT #78](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/78) and the mapping of the parentIdentifier ISO metadata field, it was decided to consider the mapping proposed by the work in the ISO TC211 internal draft of ISO/TS 19115-5, which defines the mapping of ISO metadata to DCAT at global (international) level. In that mapping, the parentIdentifier field is mapped to dcat:inSeries.
