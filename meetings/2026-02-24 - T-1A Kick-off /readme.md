@@ -70,15 +70,15 @@ The JRC provided a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilo
 * Most critical issues / Prioritised issues
     * Distributions and their mapping in GeoDCAT-AP
         * [Geo-DCAT-AP #139](https://github.com/SEMICeu/GeoDCAT-AP/issues/139) (main issue on the mapping of distributions)
-        * Related ones: [Pilot #9](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/9); [XSLT #57](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/57); [Geo-DCAT-AP #135](https://github.com/SEMICeu/GeoDCAT-AP/issues/135); [XSLT #74](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/74); [XSLT #98](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/98); [Pilot #8](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/8); 
+        * Related ones: [Pilot #9](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/9); [XSLT #57](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/57); [Geo-DCAT-AP #135](https://github.com/SEMICeu/GeoDCAT-AP/issues/135); [XSLT #74](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/74); [XSLT #98](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/98); [Pilot #8](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/8); 
 
     * Identification of HVDs
         * [Pilot #3](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/3) / [GeoDCAT-AP #147](https://github.com/SEMICeu/GeoDCAT-AP/issues/147) / [Pilot #7](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/7) - The three issues related to the implementation of the geospatial HVD tagging good practice, are now implemented in the SEMIC XSLT.
         * [Pilot #2](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/2) - proposals related to the HVD-tagging good practice and the XSL transformation, now clarified with the implementation of the good practice in the SEMIC XSLT.
-        * [GeoDCAT-AP #134](https://github.com/SEMICeu/GeoDCAT-AP/issues/134) - Lack of information retrieval when having to process Anchor encodings.
+        * [GeoDCAT-AP #134](https://github.com/SEMICeu/GeoDCAT-AP/issues/134) - Lack of information retrieval when having to process Anchor encodings.
 
 * Less prioritised issues:
-    * [GeoDCAT-AP #140](https://github.com/SEMICeu/GeoDCAT-AP/issues/140) - Coupled resource
+    * [GeoDCAT-AP #140](https://github.com/SEMICeu/GeoDCAT-AP/issues/140) - Coupled resource
     * [XSLT #78](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/78) - parentIdentifier ISO metadata field not mapped to DCAT-AP / GeoDCAT-AP
 
 * ISSUES NOT DISCUSSED:
@@ -91,3 +91,10 @@ The JRC provided a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilo
 
 ## Agreements / Actions
 
+* Action 1. Close the following issues: 
+    * [Pilot #3](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/3)
+    * [Pilot #7](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/7)
+    * [Pilot #2](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/2)
+* Action 2. Open a new issue thread to discuss 'how to refer in the future to other legislations different from theELI-codes of High Value Dataset/ODD legislation, such as the ones from the PriorityDatasets codelist, in GeoDCAT-AP'. This topic was pending from [Pilot #2](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/2), which is now closed.
+    * The new issue is already open and available: [SEMICeu/GeoDCAT-AP#173](https://github.com/SEMICeu/GeoDCAT-AP/issues/173)
+* Action 3. 
