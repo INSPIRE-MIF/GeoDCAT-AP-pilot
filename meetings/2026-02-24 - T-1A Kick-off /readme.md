@@ -67,6 +67,8 @@ The JRC emphasised that the Excel summary spreadsheet from pìlot Phase 1 will n
 
 The JRC provided a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-02-24%20-%20T-1A%20Kick-off%20/presentations/20260224_03_ISO%26GeoDCAT-AP_Pilot_Ph%202-T1-A_ISO-GeoDCAT-AP%20Issues-JRC.pptx) summarising the most burning issues in the context of the ISO-to-GeoDCAT-AP mapping and transformation.
 
+Discussion was actively promoted, producing the outcomes summarised in 'Agreements / Actions' below.
+
 * Most critical issues / Prioritised issues
     * Distributions and their mapping in GeoDCAT-AP
         * Main issue: [Geo-DCAT-AP #139](https://github.com/SEMICeu/GeoDCAT-AP/issues/139) - Mapping for Resource locator (On-line resource)
