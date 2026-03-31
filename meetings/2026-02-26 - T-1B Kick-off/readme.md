@@ -63,6 +63,14 @@ The JRC gave the floor to the different Member States participants that agreed t
 
 FI and DK delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-02-26%20-%20T-1B%20Kick-off/presentations/20260226_02_ISO%26GeoDCAT-AP_Pilot_Ph%202-T1-B_Kick-GP_Data_Services-APIs-DK_FI_JRC.pptx) to set the scene for agreeing on a good practice for describing Data Services / APIs.
 
+An overview of the task was provided, involving investigations on the options to establish a mapping for distributions in other manners and checking that mapping rules and resulting DCAT-files support HVD-reporting.
+
+The presenters compared and contrasted the different approaches taken in the [INSPIRE Data-service Linking Simplification Good Practice](https://github.com/INSPIRE-MIF/gp-data-service-linking-simplification/blob/main/good-practice/data-service-linking-simplification-spec.md) with those in [(Geo)DCAT-AP](https://semiceu.github.io/GeoDCAT-AP/releases/3.1.0/), for describing services and APIs. Subsequently, they discussed the most relevant aspects related to the transformation from ISO 19139 to (Geo)DCAT-AP, highlighting several of the issues identified in the context of the pilot.
+
+The JRC reminded the importance of participating in the discussion and the provision of feedback on the open issues related to 'Distributions and their mapping in GeoDCAT-AP' - See [Working Team T-1A Kick off Meeting (Action 1)](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-02-24%20-%20T-1A%20Kick-off%20/readme.md#agreements--actions).
+
+Finally, it was discussed the specific working schedule to progress on this task, the need to split resposibilities and the convenience to set a repository to share the corresponding materials.
+
 #### Analysis of potential metadata information losses in the ISO-to-GeoDCAT-AP transformation
 
 ES delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-02-26%20-%20T-1B%20Kick-off/presentations/20260226_03_ISO%26GeoDCAT-AP_Pilot_Ph%202-T1-B_Kick-Mapping_losses_ES_JRC.pptx) on the analysis of potential metadata information losses in the ISO-to-GeoDCAT-AP transformation.
