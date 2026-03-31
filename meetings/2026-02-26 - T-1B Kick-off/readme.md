@@ -90,7 +90,14 @@ The work is expected to finish approximately by the end of April 2026.
 
 IT delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-02-26%20-%20T-1B%20Kick-off/presentations/20260226_04_ISO%26GeoDCAT-AP_Pilot_Ph%202-T1-B_Kick-GP_geospatial_HVD-tagging_spec_IT_JRC.pptx) to describe the pending work for drafting a formal specification for the Geospatial High-Value Datasets tagging good practice agreed during Pilot Phase 1.
 
+The presenters described at high-level the main agreements achieved during Pilot Phase 1, described the objectives for drafing them formally in a good practice specification, and called for contributions in the form of implementation examples and evidences, as well as for volunteers to collaborate in this task. 
+
+The draft specification will be progressing [here](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/good-practices/hvd-tagging/specification.md).
+
+The work is expected to finish approximately by the end of May 2026.
+
 ## Agreements / Actions
 - [ ] **Action 1**. All pilot participants to consider joining actively the work of the different team involved in the lead of each T-1B task.
-- [x] **Action 2**. The NL and BE-Flanders will join FI and DK, as part of the team involved in the work for agreeing on a good practice for describing Data Services / APIs.
-- [ ] **Action 3**. The JRC to organise a presentation on the work of ISO TC211 on the internal draft of ISO/TS 19115-5, which defines the mapping of ISO metadata to DCAT at global (international) level, in the next General Pilot Meeting. 
+- [x] **Action 2**. The NL and BE-Flanders to join FI and DK, as part of the team involved in the work for agreeing on a good practice for describing Data Services / APIs.
+- [ ] **Action 3**. The JRC to organise a presentation on the work of ISO TC211 on the internal draft of ISO/TS 19115-5, which defines the mapping of ISO metadata to DCAT at global (international) level, in the next General Pilot Meeting.
+- [ ] **Action 4**. Member States to share examples and evidences of implementation of the geospatial High-Value Datasets tagging good practice.
