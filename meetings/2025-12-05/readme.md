@@ -173,7 +173,7 @@ After an active and productive discussion between participants, and considering 
       - GeoDCAT-AP specification and XSLT transformation updates (by SEMIC)
       - Inputs for / Outputs from T-1B working team
 
-    * **Sub-working g team T-1B**. Specific analysis and good practices for INSPIRE-data.europa.eu alignment.
+    * **Sub-working team T-1B**. Specific analysis and good practices for INSPIRE-data.europa.eu alignment.
  
       _Objective_: Team for performing specific analysis, discussing on and formalising common good practices in the scope of the alignment and integration of INSPIRE into data.europa.eu.
 
