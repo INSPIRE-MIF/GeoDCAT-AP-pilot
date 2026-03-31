@@ -5,7 +5,7 @@
 * Welcome
 * Pilot Phase 2 Working Teams - Objectives & Set up (JRC) -  10 minutes
 * Latest GeoDCAT-AP release - v3.1.0 (SEMIC) - 10 minutes
-* Repositories for sharing and discussing issues - Procedure Remainder (JRC & SEMIC) - 5 minutes
+* Repositories for sharing and discussing issues - Procedure Reminder (JRC & SEMIC) - 5 minutes
 * ISO-GeoDCAT-AP Issues - Guided Discussion (JRC & SEMIC & All) - max. 90 minutes
 * Summary of actions from the meeting (JRC) - 5 minutes
 * AoB (All)
@@ -55,7 +55,7 @@ SEMIC described the main changes from [version 3.0.0](https://semiceu.github.io/
 
 Additionally, the changes which may affect the current work of the working teams were highlighted, especially the mapping of distributions and handling of geospatial HVDs. 
 
-### Repositories for sharing and discussing issues - Procedure Remainder
+### Repositories for sharing and discussing issues - Procedure Reminder
 
 SEMIC and the JRC reminded about the intended use of the pilot repositories - In summary, using:
 * the SEMIC repositories: [for GeoDCAT-AP specification issues](https://github.com/SEMICeu/GeoDCAT-AP/issues) / [for GeoDCAT-AP XSLT transformations issues](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues).
