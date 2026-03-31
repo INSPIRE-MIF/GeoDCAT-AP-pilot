@@ -22,7 +22,7 @@
 
 ## Presentations and recording
 
-Presentations can be downloaded [here]().
+Presentations can be downloaded [here](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-02-26%20-%20T-1B%20Kick-off/presentations/readme.md).
 
 Recording: Available on request. 
 
@@ -34,13 +34,17 @@ The objectives of the meeting were:
 * Explaining the purpose of Phase 2 and why specialised working groups are needed.
     * Generally define the scope, expected deliverables and timelines for each working team (T-1A, T-1B, T-2).
     * Clarify the working plan (independent work with regular cross‑team coordination) and potential interactions between them.
-* 
+* Describe the tasks assigned to working team T-1B, concerning the main objectives.
+    * Agreement on a good practice for describing Data Services / APIs.
+    * Analysis of potential metadata information losses in the ISO-to-GeoDCAT-AP transformation.
+    * Drafting of the Geospatial High-Value Datasets tagging good practice specification.
+* Invite participants to actvely join the team involved in the lead of the above-mentioned tasks.
 * Recap any important decisions taken and trace specific actions for future working team meetings.
 
 The JRC opened the meeting, welcoming the participants and confirming the agenda. 
 
 ###  Pilot Phase 2 Working Teams – Objectives & Set up
-The JRC delivered a [presentation]() explaining the purpose of Phase 2 and, more concretely, the different specialised working teams created. These will operate independently but in a coordinated manner:
+The JRC delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-02-26%20-%20T-1B%20Kick-off/presentations/20260226_01_ISO%26GeoDCAT-AP_Pilot_Ph%202-T1-B_Kick_off-JRC.pptx) explaining the purpose of Phase 2 and, more concretely, the different specialised working teams created. These will operate independently but in a coordinated manner:
 *	T-1A. Working team focused on managing issues with an impact on geospatial metadata harvesting and reporting of geospatial High-Value Datasets (HVDs), scoped in the integration of INSPIRE geospatial assets into data.europa.eu (hence, highly related to the ISO-to-GeoDCAT-AP mapping and transformation).
 *	T-1B (the one kicked-off in this meeting). Working team focused on specific analysis and good practices for the alignment of INSPIRE into data.europa.eu which deserve special attention and/or require substantial effort - mainly highlighting:
     *	Formalisation of the geospatial HVD tagging good practice.
@@ -57,15 +61,17 @@ The JRC gave the floor to the different Member States participants that agreed t
 
 #### Agreement on a good practice for describing Data Services / APIs
 
-FI & DK & JRC
+FI and DK delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-02-26%20-%20T-1B%20Kick-off/presentations/20260226_02_ISO%26GeoDCAT-AP_Pilot_Ph%202-T1-B_Kick-GP_Data_Services-APIs-DK_FI_JRC.pptx) to set the scene for agreeing on a good practice for describing Data Services / APIs.
 
 #### Analysis of potential metadata information losses in the ISO-to-GeoDCAT-AP transformation
 
-ES & JRC
+ES delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-02-26%20-%20T-1B%20Kick-off/presentations/20260226_03_ISO%26GeoDCAT-AP_Pilot_Ph%202-T1-B_Kick-Mapping_losses_ES_JRC.pptx) on the analysis of potential metadata information losses in the ISO-to-GeoDCAT-AP transformation.
 
 #### Drafting of the Geospatial High-Value Datasets tagging good practice specification
 
-IT & JRC
+IT delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-02-26%20-%20T-1B%20Kick-off/presentations/20260226_04_ISO%26GeoDCAT-AP_Pilot_Ph%202-T1-B_Kick-GP_geospatial_HVD-tagging_spec_IT_JRC.pptx) to describe the pending work for drafting a formal specification for the Geospatial High-Value Datasets tagging good practice agreed during Pilot Phase 1.
 
 ## Agreements / Actions
-- [ ] **Action 1**. Xxx
+- [ ] **Action 1**. All pilot participants to consider joining actively the work of the different team involved in the lead of each T-1B task.
+- [x] **Action 2**. The NL and BE-Flanders will join FI and DK, as part of the team involved in the work for agreeing on a good practice for describing Data Services / APIs.
+- [ ] **Action 3**. The JRC to organise a presentation on the work of ISO TC211 on the internal draft of ISO/TS 19115-5, which defines the mapping of ISO metadata to DCAT at global (international) level, in the next General Pilot Meeting. 
