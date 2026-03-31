@@ -75,6 +75,17 @@ Finally, it was discussed the specific working schedule to progress on this task
 
 ES delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-02-26%20-%20T-1B%20Kick-off/presentations/20260226_03_ISO%26GeoDCAT-AP_Pilot_Ph%202-T1-B_Kick-Mapping_losses_ES_JRC.pptx) on the analysis of potential metadata information losses in the ISO-to-GeoDCAT-AP transformation.
 
+Given the amount of metadata elements in ISO 19115, the analysis will only consider the most commonly used metadata elements which are absent from GeoDCAT- AP 3.1.0. The work will be organised in two phases: 
+* Revision of the ISO 19115 standard (considering mandatory, conditional, and optional metadata elements in this starndard).
+* Proposal of suggestions for the ISO-to-GeoDCAT-AP mapping of metadata elements which might be essential, and are missing or are not properly mapped to the target standard.  
+
+The presenters illustrated this work with several examples. 
+
+The JRC highlighted the importance of this task to quantify the loss of information when transforming geospatial / ISO 19139 metadata to (Geo)DCAT-AP, and the fact that this activity may lead to identifying new issues in the SEMIC repositories. 
+
+Finally, it was discussed the specific methodology and schedule to progress on this task, inviting other experts ot join the activity.
+The work is expected to finish approximately by the end of April 2026.
+
 #### Drafting of the Geospatial High-Value Datasets tagging good practice specification
 
 IT delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-02-26%20-%20T-1B%20Kick-off/presentations/20260226_04_ISO%26GeoDCAT-AP_Pilot_Ph%202-T1-B_Kick-GP_geospatial_HVD-tagging_spec_IT_JRC.pptx) to describe the pending work for drafting a formal specification for the Geospatial High-Value Datasets tagging good practice agreed during Pilot Phase 1.
