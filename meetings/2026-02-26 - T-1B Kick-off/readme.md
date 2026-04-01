@@ -74,7 +74,7 @@ To the fact that the dcat:DataService is only accessible from dcat:Dataset passi
 
 DK (Chirstian) mentioned that, according to his knowledge, the HVD Regulation requires a contact point for the DataService and a permanent reference to it (from the Dataset), which could be complex or pose limitations when connecting dcat:Dataset to dcat:DataService through dcat:Distribution. This could also pose issues when a DataService maintained by one organisation serves Datasets from several other orgnanisations (often the case of INSPIRE catalogues).
 
-BE-Flanders is exploring metadata encoding options in ISO 19139 with the aim to avoid the indetermination of the concrete formats served by specific DataServices / APIs. This country expressed interest in joining this work.
+BE-Flanders is exploring metadata encoding options in ISO 19139 with the aim to avoid the indetermination of the concrete formats served by specific DataServices / APIs. This country expressed interest in joining this work. NL also expressed interested in joining.
 
 DE expressed difficulties in interpreting the difference between the concept of Distribution and DataService, and would appreciate a common interpretation between data providers / countries.
 
@@ -111,9 +111,11 @@ The draft specification will be progressing [here](https://github.com/INSPIRE-MI
 
 The work should be finished approximately by the end of June 2026.
 
+The OP (Pavlina) expressed the importance of going further in the geospatial HVD tagging, including both the Category and Subcategory, and an INSPIRE 'label', to support future filtering of geospatial / INSPIRE assets in data.europa.eu, avoding complex queries to find out which assets stems from INSPIRE. 
+
 ## Agreements / Actions
 - [ ] **Action 1**. All pilot participants to consider joining actively the work of the different team involved in the lead of each T-1B task.
 - [x] **Action 2**. All Working Team T-1B sub-groups to start their work right after this Kick-off Meeting.
 - [x] **Action 3**. The NL and BE-Flanders to join FI and DK, as part of the team involved in the work for agreeing on a good practice for describing Data Services / APIs.
 - [ ] **Action 4**. The JRC to organise a presentation on the work of ISO TC211 on the internal draft of ISO/TS 19115-5, which defines the mapping of ISO metadata to DCAT at global (international) level, in the next General Pilot Meeting.
-- [ ] **Action 5**. Member States to share examples and evidences of implementation of the geospatial High-Value Datasets tagging good practice.
+- [ ] **Action 5**. Member States to share encoding examples and evidences of implementation of the geospatial High-Value Datasets tagging good practice.
