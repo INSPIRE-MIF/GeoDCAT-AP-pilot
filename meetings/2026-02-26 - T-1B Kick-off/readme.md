@@ -28,8 +28,6 @@ Recording: Available on request.
 
 ## Meeting summary
 
-## Meeting summary
-
 The objectives of the meeting were:
 * Explaining the purpose of Phase 2 and why specialised working groups are needed.
     * Generally define the scope, expected deliverables and timelines for each working team (T-1A, T-1B, T-2).
@@ -38,7 +36,7 @@ The objectives of the meeting were:
     * Agreement on a good practice for describing Data Services / APIs.
     * Analysis of potential metadata information losses in the ISO-to-GeoDCAT-AP transformation.
     * Drafting of the Geospatial High-Value Datasets tagging good practice specification.
-* Invite participants to actvely join the team involved in the lead of the above-mentioned tasks.
+* Invite participants to actively join the team involved in the lead of the above-mentioned tasks.
 * Recap any important decisions taken and trace specific actions for future working team meetings.
 
 The JRC opened the meeting, welcoming the participants and confirming the agenda. 
