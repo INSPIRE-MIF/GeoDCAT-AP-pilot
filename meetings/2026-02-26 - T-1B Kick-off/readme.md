@@ -116,4 +116,4 @@ The OP (Pavlina) expressed the importance of going further in the geospatial HVD
 - [x] **Action 2**. All Working Team T-1B sub-groups to start their work right after this Kick-off Meeting.
 - [x] **Action 3**. The NL and BE-Flanders to join FI and DK, as part of the team involved in the work for agreeing on a good practice for describing Data Services / APIs.
 - [ ] **Action 4**. The JRC to organise a presentation on the work of ISO TC211 on the internal draft of ISO/TS 19115-5, which defines the mapping of ISO metadata to DCAT at global (international) level, in the next General Pilot Meeting.
-- [ ] **Action 5**. Member States to share encoding examples and evidences of implementation of the geospatial High-Value Datasets tagging good practice.
+- [ ] **Action 5**. Member States to share encoding examples and evidences of implementation of the geospatial High-Value Datasets tagging good practice. See the corresponding [call for evidences](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/discussions/14) on GitHub.
