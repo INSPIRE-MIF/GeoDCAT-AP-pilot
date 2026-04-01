@@ -63,9 +63,9 @@ The JRC gave the floor to the different Member States participants that agreed t
 
 FI and DK delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-02-26%20-%20T-1B%20Kick-off/presentations/20260226_02_ISO%26GeoDCAT-AP_Pilot_Ph%202-T1-B_Kick-GP_Data_Services-APIs-DK_FI_JRC.pptx) to set the scene for agreeing on a good practice for describing Data Services / APIs.
 
-An overview of the task was provided, involving investigations on the options to establish a mapping for distributions in other manners and checking that mapping rules and resulting DCAT-files support HVD-reporting.
+An overview of the task was provided, including the first investigations on the options to establish a mapping for distributions, minimising information loss, and checking that mapping rules and resulting DCAT-files support HVD-reporting. The final objective is to reach an agreement on a good practice on this concern.
 
-The presenters compared and contrasted the different approaches taken in the [INSPIRE Data-service Linking Simplification Good Practice](https://github.com/INSPIRE-MIF/gp-data-service-linking-simplification/blob/main/good-practice/data-service-linking-simplification-spec.md) with those in [(Geo)DCAT-AP](https://semiceu.github.io/GeoDCAT-AP/releases/3.1.0/), for describing services and APIs. Subsequently, they discussed the most relevant aspects related to the transformation from ISO 19139 to (Geo)DCAT-AP, highlighting several of the issues identified in the context of the pilot.
+The presenters compared and contrasted the different approaches for describing distributions (services / APIs) taken in the [INSPIRE Data-service Linking Simplification Good Practice](https://github.com/INSPIRE-MIF/gp-data-service-linking-simplification/blob/main/good-practice/data-service-linking-simplification-spec.md) with those in [(Geo)DCAT-AP](https://semiceu.github.io/GeoDCAT-AP/releases/3.1.0/). Subsequently, they made relevant observations related to the transformation from ISO 19139 to (Geo)DCAT-AP, highlighting and discussing several of the issues identified in the context of the pilot.
 
 The JRC reminded the importance of participating in the discussion and the provision of feedback on the open issues related to 'Distributions and their mapping in GeoDCAT-AP' - See [Working Team T-1A Kick off Meeting (Action 1)](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-02-24%20-%20T-1A%20Kick-off%20/readme.md#agreements--actions).
 
@@ -84,7 +84,7 @@ The presenters illustrated this work with several examples.
 The JRC highlighted the importance of this task to quantify the loss of information when transforming geospatial / ISO 19139 metadata to (Geo)DCAT-AP, and the fact that this activity may lead to identifying new issues in the SEMIC repositories. 
 
 Finally, it was discussed the specific methodology and schedule to progress on this task, inviting other experts ot join the activity.
-The work is expected to finish approximately by the end of April 2026.
+The work should be finished approximately by the end of June 2026.
 
 #### Drafting of the Geospatial High-Value Datasets tagging good practice specification
 
@@ -94,7 +94,7 @@ The presenters described at high-level the main agreements achieved during Pilot
 
 The draft specification will be progressing [here](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/good-practices/hvd-tagging/specification.md).
 
-The work is expected to finish approximately by the end of May 2026.
+The work should be finished approximately by the end of June 2026.
 
 ## Agreements / Actions
 - [ ] **Action 1**. All pilot participants to consider joining actively the work of the different team involved in the lead of each T-1B task.
