@@ -86,13 +86,17 @@ Finally, the JRC reminded:
 
 ES delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-02-26%20-%20T-1B%20Kick-off/presentations/20260226_03_ISO%26GeoDCAT-AP_Pilot_Ph%202-T1-B_Kick-Mapping_losses_ES_JRC.pptx) on the analysis of potential metadata information losses in the ISO-to-GeoDCAT-AP transformation.
 
-Given the amount of metadata elements in ISO 19115, the analysis will only consider the most commonly used metadata elements which are absent from GeoDCAT- AP 3.1.0. The work will be organised in two phases: 
+Given the high amount of metadata elements in ISO 19115, the analysis will only consider the most commonly used metadata elements which are absent from GeoDCAT- AP 3.1.0. The work will be organised in two phases: 
 * Revision of the ISO 19115 standard (considering mandatory, conditional, and optional metadata elements in this starndard).
 * Proposal of suggestions for the ISO-to-GeoDCAT-AP mapping of metadata elements which might be essential, and are missing or are not properly mapped to the target standard.  
 
-The presenters illustrated this work with several examples. 
+The presenters illustrated this work with several examples (EX_VerticalExtent, DQ_DataQuality). 
 
-The JRC highlighted the importance of this task to quantify the loss of information when transforming geospatial / ISO 19139 metadata to (Geo)DCAT-AP, and the fact that this activity may lead to identifying new issues in the SEMIC repositories. 
+The JRC (Hagar) expressed interest in contributing to this work, especially in the analysis of the mapping of data quality vocabularies used in both, the ISO 19139 and (Geo)DCAT-AP standards. SEMIC (Bert) clarified that any considerations on this regard should be better captured as guidelines rather than requirements in (Geo)DCAT-AP, to prevent complexity of its scope and facilitate the maintenance of this standard. 
+
+The JRC (Jordi) expressed the convenience of adding, in the transformed GeoDCAT-AP metadata, a pointer to the original ISO 10139 metadata record (at source), to mitigate the impact of potential information losses in the GeoDCAT-AP record. SEMIC (Bert) commented that this would be a useful option, althought it is not clear if the relationship between both, the original and the transformed metadata records, would be always 1:1. This needs to be further analysed.
+
+The JRC highlighted the importance of this task to quantify the loss of information when transforming geospatial / ISO 19139 metadata to (Geo)DCAT-AP, and the fact that this activity may lead to identifying new additional issues in the SEMIC repositories. 
 
 Finally, it was discussed the specific methodology and schedule to progress on this task, inviting other experts ot join the activity.
 The work should be finished approximately by the end of June 2026.
@@ -109,6 +113,7 @@ The work should be finished approximately by the end of June 2026.
 
 ## Agreements / Actions
 - [ ] **Action 1**. All pilot participants to consider joining actively the work of the different team involved in the lead of each T-1B task.
-- [x] **Action 2**. The NL and BE-Flanders to join FI and DK, as part of the team involved in the work for agreeing on a good practice for describing Data Services / APIs.
-- [ ] **Action 3**. The JRC to organise a presentation on the work of ISO TC211 on the internal draft of ISO/TS 19115-5, which defines the mapping of ISO metadata to DCAT at global (international) level, in the next General Pilot Meeting.
-- [ ] **Action 4**. Member States to share examples and evidences of implementation of the geospatial High-Value Datasets tagging good practice.
+- [x] **Action 2**. All Working Team T-1B sub-groups to start their work right after this Kick-off Meeting.
+- [x] **Action 3**. The NL and BE-Flanders to join FI and DK, as part of the team involved in the work for agreeing on a good practice for describing Data Services / APIs.
+- [ ] **Action 4**. The JRC to organise a presentation on the work of ISO TC211 on the internal draft of ISO/TS 19115-5, which defines the mapping of ISO metadata to DCAT at global (international) level, in the next General Pilot Meeting.
+- [ ] **Action 5**. Member States to share examples and evidences of implementation of the geospatial High-Value Datasets tagging good practice.
