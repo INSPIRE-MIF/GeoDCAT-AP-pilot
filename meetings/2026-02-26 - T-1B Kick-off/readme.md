@@ -44,6 +44,7 @@ The objectives of the meeting were:
 The JRC opened the meeting, welcoming the participants and confirming the agenda. 
 
 ###  Pilot Phase 2 Working Teams – Objectives & Set up
+
 The JRC delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-02-26%20-%20T-1B%20Kick-off/presentations/20260226_01_ISO%26GeoDCAT-AP_Pilot_Ph%202-T1-B_Kick_off-JRC.pptx) explaining the purpose of Phase 2 and, more concretely, the different specialised working teams created. These will operate independently but in a coordinated manner:
 *	T-1A. Working team focused on managing issues with an impact on geospatial metadata harvesting and reporting of geospatial High-Value Datasets (HVDs), scoped in the integration of INSPIRE geospatial assets into data.europa.eu (hence, highly related to the ISO-to-GeoDCAT-AP mapping and transformation).
 *	T-1B (the one kicked-off in this meeting). Working team focused on specific analysis and good practices for the alignment of INSPIRE into data.europa.eu which deserve special attention and/or require substantial effort - mainly highlighting:
@@ -65,11 +66,21 @@ FI and DK delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-p
 
 An overview of the task was provided, including the first investigations on the options to establish a mapping for distributions, minimising information loss, and checking that mapping rules and resulting DCAT-files support HVD-reporting. The final objective is to reach an agreement on a good practice on this concern.
 
-The presenters compared and contrasted the different approaches for describing distributions (services / APIs) taken in the [INSPIRE Data-service Linking Simplification Good Practice](https://github.com/INSPIRE-MIF/gp-data-service-linking-simplification/blob/main/good-practice/data-service-linking-simplification-spec.md) with those in [(Geo)DCAT-AP](https://semiceu.github.io/GeoDCAT-AP/releases/3.1.0/). Subsequently, they made relevant observations related to the transformation from ISO 19139 to (Geo)DCAT-AP, highlighting and discussing several of the issues identified in the context of the pilot.
+The presenters compared and contrasted the different approaches for describing distributions (services / APIs) taken in the [INSPIRE Data-service Linking Simplification Good Practice](https://github.com/INSPIRE-MIF/gp-data-service-linking-simplification/blob/main/good-practice/data-service-linking-simplification-spec.md) with those in [(Geo)DCAT-AP](https://semiceu.github.io/GeoDCAT-AP/releases/3.1.0/). Afterwards, they made relevant observations related to the transformation from ISO 19139 to (Geo)DCAT-AP, highlighting and discussing several of the issues identified in the context of the pilot.
 
-The JRC reminded the importance of participating in the discussion and the provision of feedback on the open issues related to 'Distributions and their mapping in GeoDCAT-AP' - See [Working Team T-1A Kick off Meeting (Action 1)](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-02-24%20-%20T-1A%20Kick-off%20/readme.md#agreements--actions).
+Subsequently, it was discussed the specific working schedule to discuss with the community and progress on this task, the need to split resposibilities and the convenience to set a repository to share the corresponding materials.
 
-Finally, it was discussed the specific working schedule to progress on this task, the need to split resposibilities and the convenience to set a repository to share the corresponding materials.
+To the fact that the dcat:DataService is only accessible from dcat:Dataset passing through dcat:Distribution, SEMIC (Bert) commented that connecting directly these classes would be a potential future option, if needed. The important thing is that Dataset and DataService are connected via a relationship so that related instances can be queried.
+
+DK (Chirstian) mentioned that, according to his knowledge, the HVD Regulation requires a contact point for the DataService and a permanent reference to it (from the Dataset), which could be complex or pose limitations when connecting dcat:Dataset to dcat:DataService through dcat:Distribution. This could also pose issues when a DataService maintained by one organisation serves Datasets from several other orgnanisations (often the case of INSPIRE catalogues).
+
+BE-Flanders is exploring metadata encoding options in ISO 19139 with the aim to avoid the indetermination of the concrete formats served by specific DataServices / APIs. This country expressed interest in joining this work.
+
+DE expressed difficulties in interpreting the difference between the concept of Distribution and DataService, and would appreciate a common interpretation between data providers / countries.
+
+Finally, the JRC reminded: 
+* the importance of participating in the discussion and the provision of feedback on the open issues related to 'Distributions and their mapping in GeoDCAT-AP' - See [Working Team T-1A Kick off Meeting (Action 1)](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-02-24%20-%20T-1A%20Kick-off%20/readme.md#agreements--actions).
+* the need of identifying solutions for countries following either the good practice on Data-service Linking Simplification (from Dataset to DataService) OR the INSPIRE classical Data-service Linking (from DataService to Dataset).
 
 #### Analysis of potential metadata information losses in the ISO-to-GeoDCAT-AP transformation
 
