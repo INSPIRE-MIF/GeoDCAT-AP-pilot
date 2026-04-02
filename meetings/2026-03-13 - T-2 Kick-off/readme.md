@@ -25,6 +25,31 @@ Recording: Available on request.
 ## Meeting summary
 
 The objectives of the meeting were:
-* 
+* Explaining the purpose of Phase 2 and why specialised working groups are needed.
+    * Generally define the scope, expected deliverables and timelines for each working team (T-1A, T-1B, T-2).
+    * Clarify the working plan (independent work with regular cross‑team coordination) and potential interactions between them.
+* Describe the tasks assigned to working team T-2, concerning the main objectives.
+    * Exploration and testing of AI-assisted tools for metadata generation, in particular the exisiting prototype by the JRC.
+    * Identification of other areas where AI-assisted tools may be used to support metadata management.
+    * Other objectives yet to be identified and discussed, depending on the outcomes of the above-mentioned results.
+* Invite participants to actively join the team involved in the lead of the above-mentioned tasks.
+* Recap any important decisions taken and trace specific actions for future working team meetings.
+
+The JRC opened the meeting, welcoming the participants and confirming the agenda. 
+
+###  Pilot Phase 2 Working Teams – Objectives & Set up
+
+The JRC delivered a [presentation]() explaining the purpose of Phase 2 and, more concretely, the different specialised working teams created. These will operate independently but in a coordinated manner:
+*	T-1A. Working team focused on managing issues with an impact on geospatial metadata harvesting and reporting of geospatial High-Value Datasets (HVDs), scoped in the integration of INSPIRE geospatial assets into data.europa.eu (hence, highly related to the ISO-to-GeoDCAT-AP mapping and transformation).
+*	T-1B. Working team focused on specific analysis and good practices for the alignment of INSPIRE into data.europa.eu which deserve special attention and/or require substantial effort - mainly highlighting:
+    *	Formalisation of the geospatial HVD tagging good practice.
+    *	Agreement on a good practice for the description of data service / APIs, and related mapping and transformation issues.
+    *	Analysis of potential metadata information losses in the ISO-to-GeoDCAT-AP transformation.
+    *	Identification of any remaining gaps and discussion on the need for tackling them.
+*	T-2 (the one kicked-off in this meeting). Working team focused on explore the use of Artificial Intelligence (AI) assisted tools in metadata generation, and other potential uses in metadata management tasks.
+
+The initial plan is to organise working team meetings monthly, supported by continuous coordination, and bi-monthly / quarterly general pilot meetings to exchange progress and updates.
+
+###  AI- assisted metadata generation tool (JRC)
 
 ## Agreements / Actions
