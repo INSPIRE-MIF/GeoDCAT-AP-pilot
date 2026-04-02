@@ -50,13 +50,17 @@ The JRC delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pil
 
 The initial plan is to organise working team meetings monthly, supported by continuous coordination, and bi-monthly / quarterly general pilot meetings to exchange progress and updates.
 
-SEMIC is very active in AI for semantics, as well as semantics for AI. In that area, SEMIC is currently running pilots for semantic tagging using Large Language Models (LLMs), and also developing ChatBots (as a proof of concept) to support semantic modelling.  
+Subsequently, a discussion was held on additional objectives for T-2:
 
-OP is willing to support data providers in the annotation process and validate metadata using AI and other useful tools, with the aim to avoid errors and increase quality of the metadata records harvested in data.europa.eu.
+* SEMIC is very active in AI for semantics, as well as semantics for AI. In that area, SEMIC is currently running pilots for semantic tagging using Large Language Models (LLMs), and also developing ChatBots (as a proof of concept) to support semantic modelling. Although being more active in T-1A & T-1B Working Teams, SEMIC will try to support the activity of this working team as much as possible, depending on the needs identified. 
 
-Both, SEMIC and OP, are willing to explore the opportunities for simplifying metadata management with AI, but will be willing to concrete those once the needs from Member States are more clearly identified in a later stage of the pilot working team.
+* OP is willing to support data providers in the annotation process and validate metadata using AI and other useful tools, with the aim to avoid errors and increase quality of the metadata records harvested in data.europa.eu.
 
-Although being more active in T-1A & T-1B Working Teams, SEMIC will try to support the activity of this working team as much as possible, depending on the needs identified.
+* JRC commented that Member States may find useful such kind of tools, especially if they simplify their daily management tasks.
+  
+* Both, SEMIC and OP, are willing to explore the opportunities for simplifying metadata management with AI, but will be willing to concrete those once the needs from Member States are more clearly identified in a later stage of the pilot working team.
+
+^* The EEA interested to put in production tools that help them populate metadata, by the end of next year.
 
 ###  AI- assisted metadata generation tool (JRC)
 
