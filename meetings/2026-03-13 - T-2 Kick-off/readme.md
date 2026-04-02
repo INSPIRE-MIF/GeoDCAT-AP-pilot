@@ -37,7 +37,7 @@ The objectives of the meeting were:
 
 The JRC opened the meeting, welcoming the participants and confirming the agenda. 
 
-###  Pilot Phase 2 Working Teams – Objectives & Set up
+### Pilot Phase 2 Working Teams – Objectives & Set up
 
 The JRC delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-03-13%20-%20T-2%20Kick-off/presentations/20260313_01_ISO%26GeoDCAT-AP_Pilot_Ph%202-T2_Kick_off-JRC.pptx) explaining the purpose of Phase 2 and, more concretely, the different specialised working teams created. These will operate independently but in a coordinated manner:
 *	T-1A. Working team focused on managing issues with an impact on geospatial metadata harvesting and reporting of geospatial High-Value Datasets (HVDs), scoped in the integration of INSPIRE geospatial assets into data.europa.eu (hence, highly related to the ISO-to-GeoDCAT-AP mapping and transformation).
@@ -50,6 +50,8 @@ The JRC delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pil
 
 The initial plan is to organise working team meetings monthly, supported by continuous coordination, and bi-monthly / quarterly general pilot meetings to exchange progress and updates.
 
+#### T-2 Working Team – Objectives
+
 Subsequently, a discussion was held on additional objectives for T-2:
 
 * SEMIC is very active in AI for semantics, as well as semantics for AI. In that area, SEMIC is currently running pilots for semantic tagging using Large Language Models (LLMs), and also developing ChatBots (as a proof of concept) to support semantic modelling. Although being more active in T-1A & T-1B Working Teams, SEMIC will try to support the activity of this working team as much as possible, depending on the needs identified. 
@@ -60,8 +62,12 @@ Subsequently, a discussion was held on additional objectives for T-2:
   
 * Both, SEMIC and OP, are willing to explore the opportunities for simplifying metadata management with AI, but will be willing to concrete those once the needs from Member States are more clearly identified in a later stage of the pilot working team.
 
-^* The EEA interested to put in production tools that help them populate metadata, by the end of next year.
+* The EEA is interested in going in production with tools that help them populate metadata, relatively quickly, by the end of 2027. They are exploring with Model Context Procolol (MCP) that enables the AI to generate and maintain metadata working from their GeoNetwork catalogue. The main concern is how to make sure the AI-generated metadata have enough quality (content, keywords, etc.), especially when generating new records, and are looking for existing solutions to control it.  
 
-###  AI- assisted metadata generation tool (JRC)
+### AI-assisted metadata generation tool (JRC)
+
+The JRC (Margherita) delivered a nice demonstration of the metadata generation tool prototype that has been developed internally. The intention is to test it with real users (e.g., Member States) that are willing to explore it with the aim of enhancing the prototype.
+
+The demo was video recorded and is available on demand.
 
 ## Agreements / Actions
