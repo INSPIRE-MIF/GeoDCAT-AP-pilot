@@ -62,20 +62,30 @@ Subsequently, a discussion was held on additional objectives for T-2:
   
 * Both, SEMIC and OP, are willing to explore the opportunities for simplifying metadata management with AI, but will be willing to concrete those once the needs from Member States are more clearly identified in a later stage of the pilot working team.
 
-* The EEA is interested in going in production with tools that help them populate metadata, relatively quickly, by the end of 2027. They are exploring with Model Context Procolol (MCP) that enables the AI to generate and maintain metadata working from their GeoNetwork catalogue. The main concern is how to make sure the AI-generated metadata have enough quality (content, keywords, etc.), especially when generating new records, and are looking for existing solutions to control it.  
+* The EEA is interested in going in production with tools that help them populate metadata, relatively quickly, by the end of 2027. They are exploring with Model Context Procolol (MCP) that enables the AI to generate and maintain metadata working from their GeoNetwork catalogue, and offered the possibility to share the corresponding code. The main concern of EEA is how to make sure the AI-generated metadata have enough quality (content, keywords, etc.), especially when generating new records, and are looking for existing solutions to control it.  
 
 ### AI-assisted metadata generation tool (JRC)
 
 The JRC (Margherita) delivered a nice demonstration of the metadata generation tool prototype that has been developed internally. The intention is to test it with real users (e.g., Member States) that are willing to explore it with the aim of enhancing the prototype.
 
-The prototype supports the creation of geospatial metadata in GeoDCAT-AP, semi-automating these tasks based on a set of supporting materials and refining the output metadata with a human expert in the loop. The app relies on an Agentic AI architecture using the Model Context Protocol (MCP), and on a web user interface used to upload input materials (dataset, supporting documents, etc.) and interact with the system for refining the metadata.
+The prototype supports the creation of geospatial metadata in GeoDCAT-AP, semi-automating these tasks based on a set of supporting materials and refining the output metadata with a human expert in the loop. The app relies on an Agentic AI architecture using the Model Context Protocol (MCP), and Python tools activated by the AI when needed. A web user interface is used to upload input materials (dataset, supporting documents, etc.) and interact with the system for refining the metadata.
+The intention is to offer this tool as open source when enough tested.
 
 The demo was video recorded and is available on demand.
 
-The JRC invited the pilot participants to test the prototype tool and provide expert feedback on this solution. This might help defining new research directions and create opportunities for supporting future metadata management activities.  
+The EEA was interested on how to prevent AI hallucinations and explicitly asked about the methodology used to investigate the best prompting strategies. The JRC clarified that several prompting techniques were aanlysed and compared (object of an article recently submitted). Quality of results strongly depends on the LLMs. There is a need to test the tool with real examples to analyse and enhance the quality of the metadata being produced.
+
+Input data provided to the LLM needs to be correct, and this is responsibility of the human / expert which stays in the loop. 
+
+The EEA also commented the need to generate user-friendly descriptions in the metadata, avoiding acronyms, technicisms, etc. The JRC commented that soem of these aspects can be controlled via prompting (e.g., explanation of acronyms, use of simpler synonyms, etc.).
+
+BE-Flanders asked if the prototype is transparent in reporting how the metadata was generated, e.g. if AI was been used, and in which percentage it was used to generate metadata elements. The JRC commented this would be technically possible but it should be discussed how to report this information in the metadata standards. At the moment, it is not regulated. It was also mentioned the convenience to raise this question to standardisation bodies (ISO / OGC). The next OGC Europe Forum in Helsinki (June 2026) will be a nice opportunty to discuss this topic.
+
+JRC commented that AI-assisted tools might be useful to support the tagging of geospatial metadata, enhance it, with special focus on HVD reporting. BE-Flanders supported this idea.
+
+Finally, the JRC invited the pilot participants to test the prototype tool and provide expert feedback on this solution. This might help defining new research directions and create opportunities for supporting future metadata management activities.  
 
 ## Agreements / Actions
 
 - [ ] **Action 1**. All pilot participants to consider joining actively the work of the working team T-2.
-- [ ] **Action 2**. BE-Flanders, DE, and the EEA expressed interested in testing the metadata generation tool prototype. They will be contacted as soon as possible to start the testing activity.
-- [ ] **Action 3**. Xxx.
+- [ ] **Action 2**. BE-Flanders, DE, and the EEA expressed interested in testing the metadata generation tool prototype. They will be contacted as soon as possible to start the testing activity. The invitation for testing will be kept open to other participants.
