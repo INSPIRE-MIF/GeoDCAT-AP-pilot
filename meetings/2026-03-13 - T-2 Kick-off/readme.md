@@ -68,6 +68,14 @@ Subsequently, a discussion was held on additional objectives for T-2:
 
 The JRC (Margherita) delivered a nice demonstration of the metadata generation tool prototype that has been developed internally. The intention is to test it with real users (e.g., Member States) that are willing to explore it with the aim of enhancing the prototype.
 
+The prototype supports the creation of geospatial metadata in GeoDCAT-AP, semi-automating these tasks based on a set of supporting materials and refining the output metadata with a human expert in the loop. The app relies on an Agentic AI architecture using the Model Context Protocol (MCP), and on a web user interface used to upload input materials (dataset, supporting documents, etc.) and interact with the system for refining the metadata.
+
 The demo was video recorded and is available on demand.
 
+The JRC invited the pilot participants to test the prototype tool and provide expert feedback on this solution. This might help defining new research directions and create opportunities for supporting future metadata management activities.  
+
 ## Agreements / Actions
+
+- [ ] **Action 1**. All pilot participants to consider joining actively the work of the working team T-2.
+- [ ] **Action 2**. BE-Flanders, DE, and the EEA expressed interested in testing the metadata generation tool prototype. They will be contacted as soon as possible to start the testing activity.
+- [ ] **Action 3**. Xxx.
