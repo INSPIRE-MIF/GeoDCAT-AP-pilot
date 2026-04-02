@@ -12,9 +12,9 @@
 
 ## Participants
 
-* Member States: .
-* European Commission: .
-* Contractors: .
+* Member States: [Belgium (BE-Flanders)], [Croatia (HR)], [Denmark (DK)], [Italy (IT)], [Finland (FI)], [France (FR)], [Germany (DE)], Malta (MT), [the Netherlands (NL)], Spain (ES).
+* European Commission: Publications Office of the European Union (OP), Directorate-General for Digital Services SEMIC Group (DIGIT-SEMIC), Directorate-General Joint Research Centre (JRC), the European Environment Agency (EEA).
+* Contractors: con terra, Epsilon Italia.
 
 ## Presentations and recording
 
