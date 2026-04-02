@@ -12,7 +12,7 @@
 
 ## Participants
 
-* Member States: [Belgium (BE-Flanders)], [Croatia (HR)], [Denmark (DK)], [Italy (IT)], [Finland (FI)], [France (FR)], [Germany (DE)], Malta (MT), [the Netherlands (NL)], Spain (ES).
+* Member States: Belgium (BE-Flanders), Croatia (HR), Czech Republic (CZ), Denmark (DK), Latvia (LV), Finland (FI), France (FR), Germany (DE), Malta (MT), the Netherlands (NL), Spain (ES).
 * European Commission: Publications Office of the European Union (OP), Directorate-General for Digital Services SEMIC Group (DIGIT-SEMIC), Directorate-General Joint Research Centre (JRC), the European Environment Agency (EEA).
 * Contractors: con terra, Epsilon Italia.
 
@@ -49,6 +49,14 @@ The JRC delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pil
 *	T-2 (the one kicked-off in this meeting). Working team focused on explore the use of Artificial Intelligence (AI) assisted tools in metadata generation, and other potential uses in metadata management tasks.
 
 The initial plan is to organise working team meetings monthly, supported by continuous coordination, and bi-monthly / quarterly general pilot meetings to exchange progress and updates.
+
+SEMIC is very active in AI for semantics, as well as semantics for AI. In that area, SEMIC is currently running pilots for semantic tagging using Large Language Models (LLMs), and also developing ChatBots (as a proof of concept) to support semantic modelling.  
+
+OP is willing to support data providers in the annotation process and validate metadata using AI and other useful tools, with the aim to avoid errors and increase quality of the metadata records harvested in data.europa.eu.
+
+Both, SEMIC and OP, are willing to explore the opportunities for simplifying metadata management with AI, but will be willing to concrete those once the needs from Member States are more clearly identified in a later stage of the pilot working team.
+
+Although being more active in T-1A & T-1B Working Teams, SEMIC will try to support the activity of this working team as much as possible, depending on the needs identified.
 
 ###  AI- assisted metadata generation tool (JRC)
 
