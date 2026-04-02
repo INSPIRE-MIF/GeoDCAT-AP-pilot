@@ -75,7 +75,7 @@ The demo was video recorded and is available on demand.
 
 The EEA was interested on how to prevent AI hallucinations and explicitly asked about the methodology used to investigate the best prompting strategies. The JRC clarified that several prompting techniques were aanlysed and compared (object of an article recently submitted). Quality of results strongly depends on the LLMs. There is a need to test the tool with real examples to analyse and enhance the quality of the metadata being produced.
 
-Input data provided to the LLM needs to be correct, and this is responsibility of the human / expert which stays in the loop. 
+JRC clarified that the input data provided to the LLM needs to be correct, and this is responsibility of the human / expert which stays in the loop. 
 
 The EEA also commented the need to generate user-friendly descriptions in the metadata, avoiding acronyms, technicisms, etc. The JRC commented that soem of these aspects can be controlled via prompting (e.g., explanation of acronyms, use of simpler synonyms, etc.).
 
