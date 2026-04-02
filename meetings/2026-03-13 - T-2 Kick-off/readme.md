@@ -88,4 +88,4 @@ Finally, the JRC invited the pilot participants to test the prototype tool and p
 ## Agreements / Actions
 
 - [ ] **Action 1**. All pilot participants to consider joining actively the work of the working team T-2.
-- [ ] **Action 2**. BE-Flanders, DE, and the EEA expressed interested in testing the metadata generation tool prototype. They will be contacted as soon as possible to start the testing activity. The invitation for testing will be kept open to other participants.
+- [ ] **Action 2**. BE-Flanders, DE, and the EEA expressed interested in testing the metadata generation tool prototype. They will be contacted as soon as the testing architecture is ready to start the activity. The invitation for testing will be kept open to other participants.
