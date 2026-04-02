@@ -39,7 +39,7 @@ The JRC opened the meeting, welcoming the participants and confirming the agenda
 
 ###  Pilot Phase 2 Working Teams – Objectives & Set up
 
-The JRC delivered a [presentation]() explaining the purpose of Phase 2 and, more concretely, the different specialised working teams created. These will operate independently but in a coordinated manner:
+The JRC delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-03-13%20-%20T-2%20Kick-off/presentations/20260313_01_ISO%26GeoDCAT-AP_Pilot_Ph%202-T2_Kick_off-JRC.pptx) explaining the purpose of Phase 2 and, more concretely, the different specialised working teams created. These will operate independently but in a coordinated manner:
 *	T-1A. Working team focused on managing issues with an impact on geospatial metadata harvesting and reporting of geospatial High-Value Datasets (HVDs), scoped in the integration of INSPIRE geospatial assets into data.europa.eu (hence, highly related to the ISO-to-GeoDCAT-AP mapping and transformation).
 *	T-1B. Working team focused on specific analysis and good practices for the alignment of INSPIRE into data.europa.eu which deserve special attention and/or require substantial effort - mainly highlighting:
     *	Formalisation of the geospatial HVD tagging good practice.
