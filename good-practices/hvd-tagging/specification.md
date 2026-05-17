@@ -81,6 +81,8 @@ For the purposes of this document, the following terms and definitions apply:
 | dataset | Identifiable collection of data. | [ISO 19115](https://www.iso.org/obp/ui/#iso:std:iso:19115:-2:ed-2:v1:en:sec:3.6) |
 | encoding | Conversion of data into a series of codes. | [ISO 19118](https://www.iso.org/obp/ui/#iso:std:iso:19118:ed-2:v1:en:term:4.13) |
 | encoding rule | Identifiable collection of conversion rules that define the encoding for a particular data structure. | [ISO 19118](https://www.iso.org/obp/ui/#iso:std:iso:19118:ed-2:v1:en:term:4.14) |
+| metadata | Information about a resource. | [ISO 19115](https://www.iso.org/obp/ui#iso:std:iso:19115:-1:ed-1:v1:en) |
+| resource | Identifiable asset or means that fulfils a requirement (Example: dataset, dataset series, service, document, initiative, software, person or organization). | [ISO 19115](https://www.iso.org/obp/ui#iso:std:iso:19115:-1:ed-1:v1:en) |
 
 **NOTE** ISO and the European Commission maintain comprehensive terminological databases made available at the following addresses:
 - [ISO Online browsing platform](https://www.iso.org/obp)
