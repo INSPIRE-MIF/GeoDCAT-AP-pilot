@@ -115,6 +115,15 @@ For the purposes of this document, the following terms and definitions apply:
 ]REVISE--
 --->
 
+### 7.1. Main principles <a name="main-principles"></a>
+
+Annex I to Directive (EU) 2019/1024 lays down the themes of high-value datasets by listing six thematic data categories: 1) geospatial; 2) earth observation and environment; 3) meteorological; 4) statistics; 5) companies and company ownership; and 6) mobility. Three of these six categories fall within the scope of the INSPIRE Directive, namely: 1) geospatial; 2) earth observation and environment; 6) mobility.
+
+For each of these categories, Commission Implementing Regulation (EU) 2023/138 has established the list of high-value datasets held by public sector bodies among the existing documents to which that Open Data Directive applies and also laid down the arrangements for publishing and reusing high-value datasets, in particular the applicable conditions for re-use and the minimum requirements for disseminating data via application programming interfaces (‘APIs’).
+
+One of the arrangements for publication in the article 3(5) lays down that public sector bodies holding high-value datasets shall ensure that **the datasets are denoted as high-value datasets in their metadata description**.
+
+This document provides with the encoding rules for tagging the geospatial datasets as high-value datasets in the ISO 19115 metadata records in order to meet the above requirement. This will enable the transformation into GeoDCAT-AP by applying the XLST script in order to make those datasets discoverable in the EU Open Data portal data.europa.eu. 
 
 # Annex A: Examples <a name="annex-a"></a>
 
