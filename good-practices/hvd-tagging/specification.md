@@ -99,22 +99,6 @@ For the purposes of this document, the following terms and definitions apply:
 
 ## 7. Geospatial High-Value Dataset Tagging <a name="geo-hvd-tagging"></a>
 
-<!--
---REVISE[
-### 7.1. Main principles <a name="main-principles"></a>
-
-- An INSPIRE data set shall have INSPIRE View and Download services.
-- The linkage between the data set and the View and Download services shall be ensured by the bidirectional relationship between the data set metadata and the service metadata.
-
-### 7.2. Resources <a name="resources"></a>
-
-![Diagram of Simplified linkage model](./graphics/INSPIRE_models_v1.5_1.jpg)
-
-![Diagram of Simplified linkage model - Mandatory linkage in the simplification approach](./graphics/INSPIRE_models_v1.5_2.jpg)
-
-]REVISE--
---->
-
 ### 7.1. Main principles <a name="main-principles"></a>
 
 Annex I to Directive (EU) 2019/1024 lays down the themes of high-value datasets by listing six thematic data categories: 1) geospatial; 2) earth observation and environment; 3) meteorological; 4) statistics; 5) companies and company ownership; and 6) mobility. Three of these six categories fall within the scope of the INSPIRE Directive, namely: 1) geospatial; 2) earth observation and environment; 6) mobility.
@@ -123,7 +107,16 @@ For each of these categories, Commission Implementing Regulation (EU) 2023/138 h
 
 One of the arrangements for publication in the article 3(5) lays down that public sector bodies holding high-value datasets shall ensure that **the datasets are denoted as high-value datasets in their metadata description**.
 
-This document provides with the encoding rules for tagging the geospatial datasets as high-value datasets in the ISO 19115 metadata records in order to meet the above requirement. This will enable the transformation into GeoDCAT-AP by applying the XLST script in order to make those datasets discoverable in the EU Open Data portal data.europa.eu. 
+As HVDs are a subset of all the datasets published as Open Data (to which the DCAT-AP applies on general-purpose portals), [specific usage guidelines of DCAT-AP (DCAT-AP HVD)](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/) has been adopted in order to satisfy the HVD Implementation Regulation and the minimum metadata requirements.
+
+This document provides with the encoding rules for tagging the geospatial datasets as high-value datasets in the ISO 19115 metadata records in order to meet the above requirement. This will enable the transformation into GeoDCAT-AP by applying the XLST script in order to make those datasets discoverable in the EU Open Data portal data.europa.eu. It, however, does not mean a complete compliance with the Regulation and the DCAT-AP HVD because not all metadata requirements in DCAT-AP HVD are covered. 
+
+The scope of this document is limited to introduce the keywords to be used in ISO/INSPIRE metadata recrods in order to let the user to be aware that the dataset is a HVD and specifically that:
+- the dataset falls under the HVD Implementation Regulation;
+- the dataset belongs to a HVD category and/or subcategory as set out in the Annex to the Implementation Regulation and in the [controlled vocabulary](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category).
+All other aspects (e.g. issues related to formats, data services, ...) to be taken into account to garantuee the conformance to the DCAT-AP HVD are out of the scope and are addressed in other documents [NOTE: add link].
+
+### 7.2. Requirements for HVD tagging <a name="tagging-requirements"></a>
 
 # Annex A: Examples <a name="annex-a"></a>
 
