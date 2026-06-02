@@ -81,6 +81,8 @@ For the purposes of this document, the following terms and definitions apply:
 | dataset | Identifiable collection of data. | [ISO 19115](https://www.iso.org/obp/ui/#iso:std:iso:19115:-2:ed-2:v1:en:sec:3.6) |
 | encoding | Conversion of data into a series of codes. | [ISO 19118](https://www.iso.org/obp/ui/#iso:std:iso:19118:ed-2:v1:en:term:4.13) |
 | encoding rule | Identifiable collection of conversion rules that define the encoding for a particular data structure. | [ISO 19118](https://www.iso.org/obp/ui/#iso:std:iso:19118:ed-2:v1:en:term:4.14) |
+| HVD category | One of the thematic data categories laid down in the Annex I to Directive (EU) 2019/1024 (Open Data Directive)  | - |
+| HVD subcategory | One of the high-value dataset, belonging to a HVD category, established in the Annex to the Commission Implementing Regulation (EU) 2023/138 (HVD Implementing Regulation)  | - |
 | metadata | Information about a resource. | [ISO 19115](https://www.iso.org/obp/ui#iso:std:iso:19115:-1:ed-1:v1:en) |
 | resource | Identifiable asset or means that fulfils a requirement (Example: dataset, dataset series, service, document, initiative, software, person or organization). | [ISO 19115](https://www.iso.org/obp/ui#iso:std:iso:19115:-1:ed-1:v1:en) |
 
@@ -107,16 +109,105 @@ For each of these categories, Commission Implementing Regulation (EU) 2023/138 h
 
 One of the arrangements for publication in the article 3(5) lays down that public sector bodies holding high-value datasets shall ensure that **the datasets are denoted as high-value datasets in their metadata description**.
 
-As HVDs are a subset of all the datasets published as Open Data (to which the DCAT-AP applies on general-purpose portals), [specific usage guidelines of DCAT-AP (DCAT-AP HVD)](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/) has been adopted in order to satisfy the HVD Implementation Regulation and the minimum metadata requirements.
+As HVDs are a subset of all the datasets published as Open Data (to which the DCAT-AP applies on general-purpose portals), [specific usage guidelines of DCAT-AP (DCAT-AP HVD)](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/) has been adopted in order to satisfy the HVD Implementing Regulation and the minimum metadata requirements.
 
 This document provides with the encoding rules for tagging the geospatial datasets as high-value datasets in the ISO 19115 metadata records in order to meet the above requirement. This will enable the transformation into GeoDCAT-AP by applying the XLST script in order to make those datasets discoverable in the EU Open Data portal data.europa.eu. It, however, does not mean a complete compliance with the Regulation and the DCAT-AP HVD because not all metadata requirements in DCAT-AP HVD are covered. 
 
-The scope of this document is limited to introduce the keywords to be used in ISO/INSPIRE metadata recrods in order to let the user to be aware that the dataset is a HVD and specifically that:
-- the dataset falls under the HVD Implementation Regulation;
-- the dataset belongs to a HVD category and/or subcategory as set out in the Annex to the Implementation Regulation and in the [controlled vocabulary](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category).
-All other aspects (e.g. issues related to formats, data services, ...) to be taken into account to garantuee the conformance to the DCAT-AP HVD are out of the scope and are addressed in other documents [NOTE: add link].
+The scope of this document is limited to introduce the keywords to be used in ISO/INSPIRE metadata records in order to let the user to be aware that the dataset is a HVD and specifically that:
+- the dataset falls under the HVD Implementing Regulation;
+- the dataset belongs to a HVD category and/or subcategory as set out in the Annex to the Implementing Regulation and in the [controlled vocabulary](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category) derived from it.
+All other aspects (e.g. issues related to formats, data services, ...) to be taken into account to guarantee the conformance to the DCAT-AP HVD are out of the scope and are addressed in other documents [NOTE: add link].
 
 ### 7.2. Requirements for HVD tagging <a name="tagging-requirements"></a>
+
+### 7.2.1. Applicable legislation <a name="applicable-legislation"></a>
+
+### 7.2.2. HVD category and subcategory <a name="hvd-category"></a>
+
+#### Requirement `hvd-tag-req_02`: general requirement
+
+At least one HVD category or one HVD subcategory shall be provided as a keyword derived from the [EU Vocabularies HVD Categories]([https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category](https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://data.europa.eu/bna/asd487ae75)..
+
+If a HVD category is provided, then the declaration of the HVD subcategory (referring to that category) is optional, and vice versa.
+
+#### Requirement `hvd-tag-req_03`: HVD category
+
+The HVD category, to which the dataset belongs to, shall be declared using a keyword from the [EU Vocabularies HVD Categories](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category) corresponding to a HVD category as set out in the Annex to the Implementing Regulation. 
+
+These keyword shall be encoded using an `gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gmx:Anchor` element.
+
+The `xlink:href` attribute in the `gmx:Anchor` element shall refer to the URI corresponding to the relevant HVD category in the [EU Vocabularies HVD Categories](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category).
+
+The keyword value shall be the exact text value of the category in this vocabulary in the metadata language.
+
+##### Example of XML encoding (text in English)
+
+```xml
+   <gmd:descriptiveKeywords>
+		<gmd:MD_Keywords>
+			<!-- Category Keyword -->
+			<gmd:keyword>
+				<gmx:Anchor xlink:href="http://data.europa.eu/bna/c_dd313021">Earth observation and environment</gmx:Anchor>
+			</gmd:keyword>
+			[...]
+		</gmd:MD_Keywords>
+	</gmd:descriptiveKeywords>
+```
+
+#### Requirement `hvd-tag-req_04`: HVD subcategory
+
+The HVD subcategory shall be declared as specified in the previous section (`Requirement hvd-tag-req_03`) by referring to the resources in the [EU Vocabularies HVD Categories](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category) corresponding to the high-value datasets established in the Implementing Regulation.
+
+##### Example of XML encoding (text in English)
+
+```xml
+   <gmd:descriptiveKeywords>
+		<gmd:MD_Keywords>
+			[...]
+			<!-- Subcategory Keyword-->
+			<gmd:keyword>
+				<gmx:Anchor xlink:href="http://data.europa.eu/bna/c_f399050e">Sea regions</gmx:Anchor>
+			</gmd:keyword>
+			[...]
+		</gmd:MD_Keywords>
+	</gmd:descriptiveKeywords>
+```
+
+#### Requirement `hvd-tag-req_05`: HVD categories and subcategories thesaurus
+
+When declaring HVD category or subcategory, the originating controlled vocabulary (i.e. the EU Vocabularies HVD Categories) shall be cited using the `gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName/gmd:CI_Citation` element.
+
+The title of the vocabulary shall be given using the `gmd:title/gmx:Anchor` element, where the `xlink:href` attribute shall contain the URI `http://data.europa.eu/bna/asd487ae75` and the value of the element shall contain "High-value dataset categories".
+
+The date of the vocabulary shall be given using the `gmd:date/gmd:CI_Date/gmd:date/gco:Date` element. The date type of the vocabulary shall be given using the value "publication" derived from the [ISO 19139] code list CI_DateTypeCode.
+
+##### Example of XML encoding
+
+```xml
+   <gmd:descriptiveKeywords>
+		[...]
+			<!-- Thesaurus Reference -->
+			<gmd:thesaurusName>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gmx:Anchor xlink:href="http://data.europa.eu/bna/asd487ae75">High-value dataset categories</gmx:Anchor>
+					</gmd:title>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2023-09-05</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+				</gmd:CI_Citation>
+			</gmd:thesaurusName>
+		</gmd:MD_Keywords>
+	</gmd:descriptiveKeywords>
+```
+
 
 # Annex A: Examples <a name="annex-a"></a>
 
