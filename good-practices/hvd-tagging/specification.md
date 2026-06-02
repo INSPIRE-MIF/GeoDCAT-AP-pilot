@@ -55,26 +55,24 @@ Furthermore, at the time of writing, the requirements expressed here for the Dow
 - **[ISO 19115:2005]** - EN ISO 19115:2005, *Geographic information — Metadata*
 - **[ISO 19119:2016]** - EN ISO 19119:2016, *Geographic information — Services*
 - **[ISO/TS 19139:2007]** - ISO/TS 19139:2007, *Geographic information — Metadata — XML schema implementation*
--- CHECK LATEST VERSION
 - **[INSPIRE MD TG]** - JRC. *Technical Guidance for the implementation of INSPIRE dataset and service metadata based on ISO/TS 19139:2007*.  v2.0.1 - 2017-03-02
--- ADD DCAT 3
--- Add DCAT-AP for HVDs
--- ADD GeoDCAT-AP 3
--- ADD INSPIRE Directive
+- **[DCAT-AP]** - SEMIC, v.3.0 - 2024-06-14
+- **[DCAT-AP HVD]** - SEMIC, *Usage guidelines of DCAT-AP for High-Value Datasets*. v. 3.0.0-hvd - 2024-10-25
+- **[GeoDCAT-AP]** - SEMIC, v.3.1.0 - 2026-02-16
 
 <!-- Second parts of the reference-style links, see also https://www.markdownguide.org/basic-syntax/#reference-style-links  -->
 [ISO 19115:2005]: https://www.isotc211.org/2005/gmd "ISO 19115:2005, Geographic information — Metadata"
 [ISO 19119:2016]: https://www.iso.org/standard/59221.html?browse=tc "ISO 19119:2016, Geographic information — Services"
 [ISO/TS 19139:2007]: https://www.isotc211.org/2005/gmd/ "ISO/TS 19139:2007, Geographic information — Metadata — XML schema implementation"
 [INSPIRE MD TG]: https://inspire.ec.europa.eu/id/document/tg/metadata-iso19139 "Technical Guidance for the implementation of INSPIRE dataset and service metadata based on ISO/TS 19139:2007"
--- ADD OTHER THE NECESSARY LINKS
+[DCAT-AP]: https://semiceu.github.io/DCAT-AP/releases/3.0.0/
+[DCAT-AP HVD]: https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/
+[GeoDCAT-AP]: https://semiceu.github.io/GeoDCAT-AP/releases/3.1.0/
 
 ## 5. Terms and definitions <a name="terms-and-definitions"></a>
 
 For the purposes of this document, the following terms and definitions apply:
 
--- ADD OTHER NECESSARY TEMRS: e.g. metadata
--- CHECK THE LINKS
 | Term | Definition | Source |
 | --- | --- | --- |
 | dataset | Identifiable collection of data. | [ISO 19115](https://www.iso.org/obp/ui/#iso:std:iso:19115:-2:ed-2:v1:en:sec:3.6) |
@@ -94,6 +92,7 @@ For the purposes of this document, the following terms and definitions apply:
 | Abbreviation | Term |
 | --- | --- |
 | API | Application Programming Interface |
+| DCAT-AP | DCAT - Application Profile |
 | HVD | High-Value Dataset |
 | URL | Uniform Resource Locator |
 
