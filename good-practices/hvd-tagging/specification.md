@@ -15,8 +15,7 @@
 * [6. Acronyms](#acronyms)
 * [7. Geospatial High-Value Dataset Tagging](#geo-hvd-tagging)
     * [7.1. Main principles](#main-principles)
-    * [7.2. Resources](#resources)
-    * [7.3. Requirement classes](#reqclass)
+    * [7.2. Requirements for HVD tagging](#tagging-requirements)
 * [Annex A: Examples](#annex-a)
 
 
@@ -122,6 +121,29 @@ All other aspects (e.g. issues related to formats, data services, ...) to be tak
 
 ### 7.2.1. Applicable legislation <a name="applicable-legislation"></a>
 
+#### Requirement `hvd-tag-req_01`: applicable legislation
+
+To declare that the dataset falls under the HVD Implementing Regulation, the `gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gmx:Anchor` element shall be used.
+
+The `xlink:href` attribute in the `gmx:Anchor` element shall contain the ELI [http://data.europa.eu/eli/reg_impl/2023/138/oj](http://data.europa.eu/eli/reg_impl/2023/138/oj).
+
+The keyword value shall contain the text "High-value dataset".
+
+**NOTE**: The `gmd:descriptiveKeywords` element used for applicable legislation shall be different from that one used for the declaration of HVD category and/or subcategory.
+
+##### Example of XML encoding
+
+```xml
+   <gmd:descriptiveKeywords>
+		<gmd:MD_Keywords>
+			<!-- HVD Keyword -->
+			<gmd:keyword>
+				<gmx:Anchor xlink:href="http://data.europa.eu/eli/reg_impl/2023/138/oj">High-value dataset</gmx:Anchor>
+			</gmd:keyword>
+		</gmd:MD_Keywords>
+	</gmd:descriptiveKeywords>
+```
+
 ### 7.2.2. HVD category and subcategory <a name="hvd-category"></a>
 
 #### Requirement `hvd-tag-req_02`: general requirement
@@ -140,14 +162,20 @@ The `xlink:href` attribute in the `gmx:Anchor` element shall refer to the URI co
 
 The keyword value shall be the exact text value of the category in this vocabulary in the metadata language.
 
-##### Example of XML encoding (text in English)
+##### Example of XML encoding
 
 ```xml
+<!-- metadata language -->
+[...]
+<gmd:language>
+      <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2" codeListValue="ita">ita</gmd:LanguageCode>
+</gmd:language>
+ [...]
    <gmd:descriptiveKeywords>
 		<gmd:MD_Keywords>
 			<!-- Category Keyword -->
 			<gmd:keyword>
-				<gmx:Anchor xlink:href="http://data.europa.eu/bna/c_dd313021">Earth observation and environment</gmx:Anchor>
+				<gmx:Anchor xlink:href="http://data.europa.eu/bna/c_dd313021">Dati relativi all'osservazione della terra e all'ambiente</gmx:Anchor>
 			</gmd:keyword>
 			[...]
 		</gmd:MD_Keywords>
@@ -158,15 +186,21 @@ The keyword value shall be the exact text value of the category in this vocabula
 
 The HVD subcategory shall be declared as specified in the previous section (`Requirement hvd-tag-req_03`) by referring to the resources in the [EU Vocabularies HVD Categories](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category) corresponding to the high-value datasets established in the Implementing Regulation.
 
-##### Example of XML encoding (text in English)
+##### Example of XML encoding
 
 ```xml
-   <gmd:descriptiveKeywords>
+<!-- metadata language -->
+[...]
+<gmd:language>
+      <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2" codeListValue="ita">ita</gmd:LanguageCode>
+</gmd:language>
+ [...]
+<gmd:descriptiveKeywords>
 		<gmd:MD_Keywords>
 			[...]
 			<!-- Subcategory Keyword-->
 			<gmd:keyword>
-				<gmx:Anchor xlink:href="http://data.europa.eu/bna/c_f399050e">Sea regions</gmx:Anchor>
+				<gmx:Anchor xlink:href="http://data.europa.eu/bna/c_f399050e">Regioni marine</gmx:Anchor>
 			</gmd:keyword>
 			[...]
 		</gmd:MD_Keywords>
@@ -177,7 +211,7 @@ The HVD subcategory shall be declared as specified in the previous section (`Req
 
 When declaring HVD category or subcategory, the originating controlled vocabulary (i.e. the EU Vocabularies HVD Categories) shall be cited using the `gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName/gmd:CI_Citation` element.
 
-The title of the vocabulary shall be given using the `gmd:title/gmx:Anchor` element, where the `xlink:href` attribute shall contain the URI `http://data.europa.eu/bna/asd487ae75` and the value of the element shall contain "High-value dataset categories".
+The title of the vocabulary shall be given using the `gmd:title/gmx:Anchor` element, where the `xlink:href` attribute shall contain the URI [http://data.europa.eu/bna/asd487ae75](http://data.europa.eu/bna/asd487ae75) and the value of the element shall contain "High-value dataset categories".
 
 The date of the vocabulary shall be given using the `gmd:date/gmd:CI_Date/gmd:date/gco:Date` element. The date type of the vocabulary shall be given using the value "publication" derived from the [ISO 19139] code list CI_DateTypeCode.
 
@@ -208,11 +242,56 @@ The date of the vocabulary shall be given using the `gmd:date/gmd:CI_Date/gmd:da
 	</gmd:descriptiveKeywords>
 ```
 
+##### Complete example of XML encoding for HVD category and subcategory
+
+```xml
+<!-- metadata language -->
+[...]
+<gmd:language>
+      <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2" codeListValue="eng"/>
+</gmd:language>
+ [...]
+   <gmd:descriptiveKeywords>
+		<gmd:MD_Keywords>
+			<!-- Category Keyword -->
+			<gmd:keyword>
+				<gmx:Anchor xlink:href="http://data.europa.eu/bna/c_dd313021">Earth observation and environment</gmx:Anchor>
+			</gmd:keyword>
+			<!-- Subcategory Keyword-->
+			<gmd:keyword>
+				<gmx:Anchor xlink:href="http://data.europa.eu/bna/c_f399050e">Sea regions</gmx:Anchor>
+			</gmd:keyword>
+			<!-- Thesaurus Reference -->
+			<gmd:thesaurusName>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gmx:Anchor xlink:href="http://data.europa.eu/bna/asd487ae75">High-value dataset categories</gmx:Anchor>
+					</gmd:title>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2023-09-05</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+				</gmd:CI_Citation>
+			</gmd:thesaurusName>
+		</gmd:MD_Keywords>
+	</gmd:descriptiveKeywords>
+```
 
 # Annex A: Examples <a name="annex-a"></a>
 
 ## Examples (XML encoded)
-This annex points to a collection of XML dataset metadata records following this good practice.
-_These examples are purely informative and do not constitute a reference definition of a conformant metadata._
 
-The examples are available in the [implementation-examples folder](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/good-practices/hvd-tagging/implementation-examples) of the pilot repository on GitHub.
+A complete and detailed example is available both in [multilingual version](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/good-practices/hvd-tagging/ISO_HVD_Tagging_Anchor_Multilingual-clarification.xml) and in [non-multilingual version](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/good-practices/hvd-tagging/ISO_HVD_Tagging_Anchor_Non-Multilingual-clarification.xml).
+
+In addition, a collection of XML dataset metadata records following this good practice in Member States are available in the [implementation-examples folder](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/good-practices/hvd-tagging/implementation-examples) of the pilot repository on GitHub.
+
+_These examples are purely informative and do not constitute a reference definition of a conformant metadata._ 
+
+
+
