@@ -4,11 +4,14 @@
 
 * Welcome
 * Guest presentation (TBC) - 10 minutes
-* Summary of Pilot activities (JRC) - 5 minutes
-* Pilot progress (JRC) 
-    * Working Team T-1A - 10 minutes
-    * Working Team T-1B - 40 minutes
-    * Working Team T-1C - 10 minutes
+* Pilot activities and progress (JRC)
+    * Summary (JRC) - 5 minutes
+    * Working Team T-1A: Management of geospatial metadata harvesting and reporting issues - 10 minutes
+    * Working Team T-1B: Specific analysis and good practices for INSPIRE-data.europa.eu alignment 
+        * Agreement on a good practice for describing Data Services / APIs (FI & DK & JRC) - 20 minutes
+        * Analysis of potential metadata information losses in the ISO-to-GeoDCAT-AP transformation (ES & JRC) - 10 minutes
+        * Drafting of the Geospatial High-Value Datasets tagging good practice specification (IT & JRC) - 10 minutes
+    * Working Team T-1C: Exploration of the use of AI-powered tools for metadata management - 10 minutes
 * Open discussion (All) - 15 minutes
 * data.europa.eu updates (OP / con terra) - TBC - 10 minutes
 * SEMIC updates (Member States) - 10 minutes
