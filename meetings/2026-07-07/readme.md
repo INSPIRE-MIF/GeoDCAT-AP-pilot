@@ -4,7 +4,7 @@
 
 * Welcome
 * Guest presentation (TBC) - 10 minutes
-* Pilot activities and progress (JRC)
+* Pilot activities and progress
     * Summary (JRC) - 5 minutes
     * Working Team T-1A: Management of geospatial metadata harvesting and reporting issues - 10 minutes
     * Working Team T-1B: Specific analysis and good practices for INSPIRE-data.europa.eu alignment 
@@ -14,7 +14,7 @@
     * Working Team T-1C: Exploration of the use of AI-powered tools for metadata management - 10 minutes
 * Open discussion (All) - 15 minutes
 * data.europa.eu updates (OP / con terra) - TBC - 10 minutes
-* SEMIC updates (Member States) - 10 minutes
+* SEMIC updates (Member States) - TBC - 10 minutes
 * Wrap-up & Next meeting - 5 minutes
 * AoB (All) - 5 minutes
 
