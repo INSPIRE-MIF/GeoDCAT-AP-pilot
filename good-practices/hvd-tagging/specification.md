@@ -33,13 +33,13 @@ Within this context, the [GreenData4All](https://ec.europa.eu/info/law/better-re
 
 This simplification, conveyed by the [environmental simplification package](https://knowledge-base.inspire.ec.europa.eu/news-and-publications/news/simplification-inspire-directive-2025-12-10_en), will be supported by non-legislative actions and practical tools to support smart and efficient reuse of environmental data across the Union. 
 
-It will be also ensured that geospatial and environmental data are made available as open data according Directive (EU) 2019/1024, using common standards, APIs, and open licenses, thus avoiding duplication of efforts, reducing burdens for data providers, and maximizing accessibility and re-use for all users through the European Data Portal [data.europa.eu](https://data.europa.eu/en), as the central access point for European public sector data, as it is therefore also proposed to delete the obligation on the Commission to operate the Inspire geo-portal.
+It will be also ensured that INSPIRE geospatial and environmental data are made available as open data according Directive (EU) 2019/1024, using common standards, APIs, and open licenses, and maximizing accessibility and re-use for all users through the European Data Portal [data.europa.eu](https://data.europa.eu/en), as single entry point for European public sector data. To avoid duplication of efforts and reducing burdens for data providers, as of 1 July 2026, the [INSPIRE Geoportal](https://inspire-geoportal.ec.europa.eu/) will be discontinued and its content will be fully integrated with [data.europa.eu](https://data.europa.eu/en), operated by the [Publications Office of the European Union](https://op.europa.eu/).
 
-In light of the above, this document addresses the need to ensure to encode the dataset metadata descriptions in accordance with the standards used on the European Open Data Portal.
+In light of the above, this document addresses the need to ensure the encoding of High-Value Dataset tags in geospatial dataset metadata descriptions in accordance with the applicable standards ensuring their proper accessibility and filtering in the European Data Portal.
 
 It leverages on the initial discussions collected and described in the [Repository for Action 2.5 of the INSPIRE MIWP on the alignment of High-value datasets and INSPIRE](https://github.com/INSPIRE-MIF/hvd-inspire), made by members of the INSPIRE community.
 
-The main reference for the metadata specification re-used in this proposal is the [INSPIRE MD TG].
+The main reference for this specification is the [INSPIRE MD TG].
 
 ## 2. Scope <a name="scope"></a>
 
