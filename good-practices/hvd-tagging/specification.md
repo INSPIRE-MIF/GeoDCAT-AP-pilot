@@ -48,7 +48,7 @@ This document provides a set of rules, that normative and 'de facto' geospatial 
 ## 3. Conformance <a name="conformance"></a>
 
 The requirements classes expressed here apply to geospatial dataset metadata record documents.
-In particular, the dataset metadata records reported by Member States in the scope of the INSPIRE Directive (REF), shall be INSPIRE-compliant (verifiable through tests performed through the national instances of the Reference Validator), and should be available in the relevant national geoportal catalog (see https://knowledge-base.inspire.ec.europa.eu/tools/inspire-your-country_en) for their direct or indirect harvesting by the [European Data Portal](https://data.europa.eu/en).
+In particular, the dataset metadata records reported by Member States in the scope of the [INSPIRE Directive](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02007L0002-20241126), shall be INSPIRE-compliant (verifiable through tests performed through the national instances of the Reference Validator), and should be available in the relevant national geoportal catalog (see https://knowledge-base.inspire.ec.europa.eu/tools/inspire-your-country_en) for their direct or indirect harvesting by the [European Data Portal](https://data.europa.eu/en).
 
 ## 4. Normative references <a name="normative-references"></a>
 
