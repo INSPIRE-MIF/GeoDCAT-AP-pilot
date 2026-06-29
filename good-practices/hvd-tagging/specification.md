@@ -47,10 +47,11 @@ This document provides a set of rules, that normative and 'de facto' geospatial 
 
 ## 3. Conformance <a name="conformance"></a>
 
-The requirements classes expressed here apply to geospatial dataset metadata record documents.
+CONTENT TO BE REVISED
+[The requirements classes expressed here apply to geospatial dataset metadata record documents.
 In particular, the dataset metadata records reported by Member States in the scope of the INSPIRE Directive (REF), shall be INSPIRE-compliant (verifiable through tests performed in the Reference Validator), and should be available in the relevant national geoportal catalog (see https://knowledge-base.inspire.ec.europa.eu/tools/inspire-your-country_en), and consequently harvested by the [INSPIRE Geoportal](https://inspire-geoportal.ec.europa.eu).
 
-Furthermore, at the time of writing, the requirements expressed here for the Download Services are not applicable for specifications based on OGC APIs due to the lack of an agreed mapping for some conditional and mandatory INSPIRE metadata elements (in particular the Coupled Resource, and Unique Resource Identifier) in the [OAPIF GP] document.
+Furthermore, at the time of writing, the requirements expressed here for the Download Services are not applicable for specifications based on OGC APIs due to the lack of an agreed mapping for some conditional and mandatory INSPIRE metadata elements (in particular the Coupled Resource, and Unique Resource Identifier) in the [OAPIF GP] document.]
 
 ## 4. Normative references <a name="normative-references"></a>
 
