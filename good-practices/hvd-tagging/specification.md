@@ -122,10 +122,7 @@ All other aspects (e.g. issues related to formats, data services, ...) to be tak
 
 [ADD HERE THE CONFORMANCE CLASS]
 
-[SEED TABLE]
-| **Requirement/Recommendation** | **/req-rec/resource-locator-application-profile** |
-| --- | --- |
-| A | The element `applicationProfile` SHOULD be encoded with `gmx:Anchor`. The attribute `xlink:href` should point to a valid unique resource identifier of the mentioned codelist. The text value should match the related codelist label, expressed in the metadata language where available. | 
+
 
 ### 7.2.1. Applicable legislation <a name="applicable-legislation"></a>
 
