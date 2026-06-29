@@ -185,13 +185,17 @@ All other aspects (e.g. issues related to formats, data services, ...) to be tak
 
 #### Requirement `hvd-tag-req_03`: HVD category
 
-The HVD category, to which the dataset belongs to, shall be declared using a keyword from the [EU Vocabularies HVD Categories](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category) corresponding to a HVD category as set out in the Annex to the Implementing Regulation. 
+| **Requirement** | **/req/hvd-category** |
+| --- | --- |
+| A | If the HVD category to which the dataset belongs to is provided, it SHALL be declared using a keyword from the [EU Vocabularies HVD Categories](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category), thus corresponding to one of the HVD categories set out in the Annex to the HVD Implementing Regulation (Implementing Regulation (EU) 2023/138). | 
+| B | This keyword SHALL be encoded using a `gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gmx:Anchor` element, different from that one used for the declaration of the applicable legislation as er `hvd-tag-req_01`. |
+| C | For this purpose, the `xlink:href` attribute in the `gmx:Anchor` element SHALL point to the URI corresponding to the relevant HVD category in the [EU Vocabularies HVD Categories](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category). |
 
-These keyword shall be encoded using an `gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gmx:Anchor` element.
+#### Recommendation `hvd-tag-rec_03`: HVD category
 
-The `xlink:href` attribute in the `gmx:Anchor` element shall refer to the URI corresponding to the relevant HVD category in the [EU Vocabularies HVD Categories](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category).
-
-The keyword value shall be the exact text value of the category in this vocabulary in the metadata language.
+| **Recommendation** | **/rec/hvd-category** |
+| --- | --- |
+| A |  The keyword value encoded within the `gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gmx:Anchor` referenced in `hvd-tag-req_03` SHOULD be the exact text value of the HVD category extracted from the [EU Vocabularies HVD Categories](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category) in the main language of the metadata record. |
 
 ##### Example of XML encoding
 
