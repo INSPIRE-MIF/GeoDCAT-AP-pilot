@@ -131,14 +131,14 @@ All other aspects (e.g. issues related to formats, data services, ...) to be tak
 
 #### Requirement `hvd-tag-req_01`: applicable legislation
 
-| **Requirement** | **/req/application-legislation** |
+| **Requirement** | **/req/applicable-legislation** |
 | --- | --- |
 | A | To declare that the dataset corresponds to one of the high-value datasets listed in the Annex of the HVD Implementing Regulation (Implementing Regulation (EU) 2023/138), and thus belonging to one of the thematic categories set out in Annex I to Directive (EU) 2019/1024,  the `gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gmx:Anchor` element SHALL be used. |
 | B | For this purpose, the `xlink:href` attribute in the `gmx:Anchor` element SHALL point to the ELI [http://data.europa.eu/eli/reg_impl/2023/138/oj](http://data.europa.eu/eli/reg_impl/2023/138/oj). |
 
 #### Recommendation `hvd-tag-rec_01`: applicable legislation keyword
 
-| **Recommendation** | **/rec/application-legislation-keyword** |
+| **Recommendation** | **/rec/applicable-legislation-keyword** |
 | --- | --- |
 | A |  The keyword value encoded within the `gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gmx:Anchor` referenced in `hvd-tag-req_01` SHOULD contain as tag the text "High-value dataset" or "HVD", in English language. |
 
@@ -171,11 +171,17 @@ All other aspects (e.g. issues related to formats, data services, ...) to be tak
 
 ### 7.2.2. HVD category and subcategory <a name="hvd-category"></a>
 
-#### Requirement `hvd-tag-req_02`: general requirement
+#### Requirement `hvd-tag-req_02`: HVD category / subcategory - General requirement
 
-At least one HVD category or one HVD subcategory shall be provided as a keyword derived from the [EU Vocabularies HVD Categories]([https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category](https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://data.europa.eu/bna/asd487ae75)..
+| **Requirement** | **/req/hvd-category-subcategory-general** |
+| --- | --- |
+| A | At least one HVD category or one HVD subcategory SHALL be provided as a keyword derived from the [EU Vocabularies HVD Categories]([https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category](https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://data.europa.eu/bna/asd487ae75). | 
 
-If a HVD category is provided, then the declaration of the HVD subcategory (referring to that category) is optional, and vice versa.
+#### Recommendation `hvd-tag-rec_02`: HVD category / subcategory - General recommendation
+
+| **Recommendation** | **/rec/hvd-category-subcategory-general** |
+| --- | --- |
+| A |  If a HVD category is provided, then the declaration of the HVD subcategory corresponding to that category is OPTIONAL and MAY be provided. And vice versa, If a HVD subcategory is provided, then the declaration of the HVD category corresponding to that subcategory is OPTIONAL and MAY be provided. |
 
 #### Requirement `hvd-tag-req_03`: HVD category
 
