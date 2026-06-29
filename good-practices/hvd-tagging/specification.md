@@ -260,9 +260,9 @@ Requirement `hvd-tag-req_05` and Recommendation `hvd-tag-rec_05`.
 | --- | --- |
 | A |  The name value encoded within the `gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName/gmd:CI_Citation/gmd:title/gmx:Anchor` referenced in `hvd-tag-req_05` SHOULD be the text "High-value dataset categories", in English language. |
 | B | The date type code of the vocabulary date referenced in `hvd-tag-req_05` SHOULD be of type `publication`, according the the [ISO 19139] CI_DateTypeCode code list. |
-| NOTE | At the date of writing this specification, it is recommended to use `2023-09-27` as date of publication of the EU Vocabularies HVD Categories thesaurus. |
+| NOTE | At the date of the agreements of this specification, it was recommended to use `2023-09-27` as date of publication of the EU Vocabularies HVD Categories thesaurus v1.0. |
 
-[WARNING: NEED TO REVISE IF A DIFFERENT PUBLICATION DATE SHALL BE RECOMMENDED, AND PUT THE SAME IN THE EXAMPLES BELOW]
+[WARNING: TWO NEW VERSIONS OF THE THESAURUS HAVE BEEN PUBLISHED FROM SINCE: v2.0 AND v2.1 - NEED TO REVISE IF A DIFFERENT PUBLICATION DATE SHALL BE RECOMMENDED, AND USE THE SAME DATES IN THE XML EXAMPLES BELOW.]
 
 ##### Example of XML encoding
 
@@ -278,7 +278,7 @@ Requirement `hvd-tag-req_05` and Recommendation `hvd-tag-rec_05`.
 					<gmd:date>
 						<gmd:CI_Date>
 							<gmd:date>
-								<gco:Date>2023-09-05</gco:Date>
+								<gco:Date>2023-09-27</gco:Date>
 							</gmd:date>
 							<gmd:dateType>
 								<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
@@ -319,7 +319,7 @@ Requirement `hvd-tag-req_05` and Recommendation `hvd-tag-rec_05`.
 					<gmd:date>
 						<gmd:CI_Date>
 							<gmd:date>
-								<gco:Date>2023-09-05</gco:Date>
+								<gco:Date>2023-09-27</gco:Date>
 							</gmd:date>
 							<gmd:dateType>
 								<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
