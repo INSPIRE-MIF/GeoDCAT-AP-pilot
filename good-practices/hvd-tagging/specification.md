@@ -78,6 +78,7 @@ For the purposes of this document, the following terms and definitions apply:
 | dataset | Identifiable collection of data. | [ISO 19115](https://www.iso.org/obp/ui/#iso:std:iso:19115:-2:ed-2:v1:en:sec:3.6) |
 | encoding | Conversion of data into a series of codes. | [ISO 19118](https://www.iso.org/obp/ui/#iso:std:iso:19118:ed-2:v1:en:term:4.13) |
 | encoding rule | Identifiable collection of conversion rules that define the encoding for a particular data structure. | [ISO 19118](https://www.iso.org/obp/ui/#iso:std:iso:19118:ed-2:v1:en:term:4.14) |
+| HVD (high-value datasets) | Documents the re-use of which is associated with important benefits for society, the environment and the economy, in particular because of their suitability for the creation of value-added services, applications and new, high-quality and decent jobs, and of the number of potential beneficiaries of the value-added services and applications based on those datasets | [Directive (EU) 2019/1024](http://data.europa.eu/eli/dir/2019/1024/oj) |
 | HVD category | One of the thematic data categories laid down in the Annex I to Directive (EU) 2019/1024 (Open Data Directive)  | - |
 | HVD subcategory | One of the high-value dataset, belonging to a HVD category, established in the Annex to the Commission Implementing Regulation (EU) 2023/138 (HVD Implementing Regulation)  | - |
 | metadata | Information about a resource. | [ISO 19115](https://www.iso.org/obp/ui#iso:std:iso:19115:-1:ed-1:v1:en) |
