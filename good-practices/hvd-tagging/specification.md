@@ -129,21 +129,18 @@ All other aspects (e.g. issues related to formats, data services, ...) to be tak
 
 ### 7.2.1. Applicable legislation <a name="applicable-legislation"></a>
 
-#### Requirement `hvd-tag-req_01`: applicable legislation
+#### Applicable legislation and HVD keyword: Requirement `hvd-tag-req_01` and Recommendation `hvd-tag-rec_01`: 
 
-| **Requirement** | **/req/applicable-legislation** |
+| **Requirement `hvd-tag-req_01`** | **/req/applicable-legislation** |
 | --- | --- |
 | A | To declare that the dataset corresponds to one of the high-value datasets listed in the Annex of the HVD Implementing Regulation (Implementing Regulation (EU) 2023/138), and thus belonging to one of the thematic categories set out in Annex I to Directive (EU) 2019/1024,  the `gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gmx:Anchor` element SHALL be used. |
 | B | For this purpose, the `xlink:href` attribute in the `gmx:Anchor` element SHALL point to the ELI [http://data.europa.eu/eli/reg_impl/2023/138/oj](http://data.europa.eu/eli/reg_impl/2023/138/oj). |
 
-#### Recommendation `hvd-tag-rec_01`: applicable legislation keyword
-
-| **Recommendation** | **/rec/applicable-legislation-keyword** |
+| **Recommendation `hvd-tag-rec_01`** | **/rec/applicable-legislation-keyword** |
 | --- | --- |
 | A |  The keyword value encoded within the `gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gmx:Anchor` referenced in `hvd-tag-req_01` SHOULD contain as tag the text "High-value dataset" or "HVD", in English language. |
 
-[MOVE DOWN AS REQUIREMENT]
-**NOTE**: The `gmd:descriptiveKeywords` element used for applicable legislation shall be different from that one used for the declaration of HVD category and/or subcategory.
+**NOTE**: The `gmd:descriptiveKeywords` element used for the declaration of the applicable legislation shall be different from that one used for the declaration of HVD category and/or subcategory.
 
 ##### Examples of XML encoding
 
@@ -171,29 +168,25 @@ All other aspects (e.g. issues related to formats, data services, ...) to be tak
 
 ### 7.2.2. HVD category and subcategory <a name="hvd-category"></a>
 
-#### Requirement `hvd-tag-req_02`: HVD category / subcategory - General requirement
+#### HVD category / subcategory - General: Requirement `hvd-tag-req_02` and Recommendation `hvd-tag-rec_02`
 
-| **Requirement** | **/req/hvd-category-subcategory-general** |
+| **Requirement `hvd-tag-req_02`** | **/req/hvd-category-subcategory-general** |
 | --- | --- |
 | A | At least one HVD category or one HVD subcategory SHALL be provided as a keyword derived from the [EU Vocabularies HVD Categories]([https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category](https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://data.europa.eu/bna/asd487ae75). | 
 
-#### Recommendation `hvd-tag-rec_02`: HVD category / subcategory - General recommendation
-
-| **Recommendation** | **/rec/hvd-category-subcategory-general** |
+| **Recommendation `hvd-tag-rec_02`** | **/rec/hvd-category-subcategory-general** |
 | --- | --- |
 | A |  If a HVD category is provided, then the declaration of the HVD subcategory corresponding to that category is OPTIONAL and MAY be provided. And vice versa, If a HVD subcategory is provided, then the declaration of the HVD category corresponding to that subcategory is OPTIONAL and MAY be provided. |
 
-#### Requirement `hvd-tag-req_03`: HVD category
+#### HVD category: Requirement `hvd-tag-req_03` and Recommendation `hvd-tag-rec_03`
 
-| **Requirement** | **/req/hvd-category** |
+| **Requirement `hvd-tag-req_03`** | **/req/hvd-category** |
 | --- | --- |
 | A | If the HVD category to which the dataset belongs to is provided, it SHALL be declared using a keyword from the [EU Vocabularies HVD Categories](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category), thus corresponding to one of the HVD categories set out in the Annex to the HVD Implementing Regulation (Implementing Regulation (EU) 2023/138). | 
-| B | This keyword SHALL be encoded using a `gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gmx:Anchor` element, different from that one used for the declaration of the applicable legislation as er `hvd-tag-req_01`. |
+| B | This keyword SHALL be encoded using a `gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gmx:Anchor` element, different from that one used for the declaration of the applicable legislation as per `hvd-tag-req_01`. |
 | C | For this purpose, the `xlink:href` attribute in the `gmx:Anchor` element SHALL point to the URI corresponding to the relevant HVD category in the [EU Vocabularies HVD Categories](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category). |
 
-#### Recommendation `hvd-tag-rec_03`: HVD category
-
-| **Recommendation** | **/rec/hvd-category** |
+| **Recommendation `hvd-tag-rec_03`** | **/rec/hvd-category** |
 | --- | --- |
 | A |  The keyword value encoded within the `gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gmx:Anchor` referenced in `hvd-tag-req_03` SHOULD be the exact text value of the HVD category extracted from the [EU Vocabularies HVD Categories](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category) in the main language of the metadata record. |
 
@@ -217,9 +210,17 @@ All other aspects (e.g. issues related to formats, data services, ...) to be tak
 	</gmd:descriptiveKeywords>
 ```
 
-#### Requirement `hvd-tag-req_04`: HVD subcategory
+#### HVD subcategory: Requirement `hvd-tag-req_04` and Recommendation `hvd-tag-rec_04`
 
-The HVD subcategory shall be declared as specified in the previous section (`Requirement hvd-tag-req_03`) by referring to the resources in the [EU Vocabularies HVD Categories](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category) corresponding to the high-value datasets established in the Implementing Regulation.
+| **Requirement `hvd-tag-req_04`** | **/req/hvd-subcategory** |
+| --- | --- |
+| A | If the HVD subcategory to which the dataset belongs to is provided, it SHALL be declared using a subcategory keyword from the [EU Vocabularies HVD Categories](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category), thus corresponding to one of the HVD subcategories set out in the Annex to the HVD Implementing Regulation (Implementing Regulation (EU) 2023/138). | 
+| B | This keyword SHALL be encoded using a `gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gmx:Anchor` element, different from that one used for the declaration of the applicable legislation as per `hvd-tag-req_01`. |
+| C | For this purpose, the `xlink:href` attribute in the `gmx:Anchor` element SHALL point to the URI corresponding to the relevant HVD subcategory in the [EU Vocabularies HVD Categories](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category). |
+
+| **Recommendation `hvd-tag-rec_04`** | **/rec/hvd-subcategory** |
+| --- | --- |
+| A |  The keyword value encoded within the `gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gmx:Anchor` referenced in `hvd-tag-req_04` SHOULD be the exact text value of the HVD subcategory extracted from the [EU Vocabularies HVD Categories](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category) in the main language of the metadata record. |
 
 ##### Example of XML encoding
 
@@ -242,13 +243,21 @@ The HVD subcategory shall be declared as specified in the previous section (`Req
 	</gmd:descriptiveKeywords>
 ```
 
-#### Requirement `hvd-tag-req_05`: HVD categories and subcategories thesaurus
+#### HVD categories and subcategories thesaurus: Requirement `hvd-tag-req_05`
 
-When declaring HVD category or subcategory, the originating controlled vocabulary (i.e. the EU Vocabularies HVD Categories) shall be cited using the `gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName/gmd:CI_Citation` element.
+| **Requirement `hvd-tag-req_05`** | **/req/hvd-category-subcategory-thesaurus** |
+| --- | --- |
+| A | When the declaration of the HVD category or subcategory is provided using a `gmd:descriptiveKeywords` element, the originating controlled vocabulary (i.e. the EU Vocabularies HVD Categories) SHALL be cited using its `gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName/gmd:CI_Citation` element. | 
+| B | The title of the vocabulary SHALL be provided using the `gmd:title/gmx:Anchor` of the above-mentioned `gmd:CI_Citation` element, where the `xlink:href` attribute SHALL contain the URI [http://data.europa.eu/bna/asd487ae75](http://data.europa.eu/bna/asd487ae75) (i.e. URI of the EU Vocabularies HVD Categories thesaurus). |
+| C | The date of the vocabulary SHALL be provided using the `gmd:date/gmd:CI_Date/gmd:date/gco:Date` of the above-mentioned `gmd:CI_Citation` element. |
+| NOTE | --- |
 
-The title of the vocabulary shall be given using the `gmd:title/gmx:Anchor` element, where the `xlink:href` attribute shall contain the URI [http://data.europa.eu/bna/asd487ae75](http://data.europa.eu/bna/asd487ae75) and the value of the element shall contain "High-value dataset categories".
 
-The date of the vocabulary shall be given using the `gmd:date/gmd:CI_Date/gmd:date/gco:Date` element. The date type of the vocabulary shall be given using the value "publication" derived from the [ISO 19139] code list CI_DateTypeCode.
+
+and the value of the element shall contain "High-value dataset categories". - Recommended use of the tag in English
+
+The date type of the vocabulary shall be given using the value "publication" derived from the [ISO 19139] code list CI_DateTypeCode. - Recommended date value, date type ‘publication’
+
 
 ##### Example of XML encoding
 
