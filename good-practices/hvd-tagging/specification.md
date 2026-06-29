@@ -138,7 +138,7 @@ All other aspects (e.g. issues related to formats, data services, ...) to be tak
 
 | **Recommendation `hvd-tag-rec_01`** | **/rec/applicable-legislation-keyword** |
 | --- | --- |
-| A |  The keyword value encoded within the `gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gmx:Anchor` referenced in `hvd-tag-req_01` SHOULD contain as tag the text "High-value dataset" or "HVD", in English language. |
+| A |  The keyword value encoded within the `gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gmx:Anchor` referenced in `hvd-tag-req_01` SHOULD be the text "High-value dataset" or "HVD", in English language. |
 
 **NOTE**: The `gmd:descriptiveKeywords` element used for the declaration of the applicable legislation shall be different from that one used for the declaration of HVD category and/or subcategory.
 
@@ -168,7 +168,8 @@ All other aspects (e.g. issues related to formats, data services, ...) to be tak
 
 ### 7.2.2. HVD category and subcategory <a name="hvd-category"></a>
 
-#### HVD category / subcategory - General: Requirement `hvd-tag-req_02` and Recommendation `hvd-tag-rec_02`
+#### 7.2.2.1. HVD category / subcategory - General: 
+Requirement `hvd-tag-req_02` and Recommendation `hvd-tag-rec_02`.
 
 | **Requirement `hvd-tag-req_02`** | **/req/hvd-category-subcategory-general** |
 | --- | --- |
@@ -178,7 +179,8 @@ All other aspects (e.g. issues related to formats, data services, ...) to be tak
 | --- | --- |
 | A |  If a HVD category is provided, then the declaration of the HVD subcategory corresponding to that category is OPTIONAL and MAY be provided. And vice versa, If a HVD subcategory is provided, then the declaration of the HVD category corresponding to that subcategory is OPTIONAL and MAY be provided. |
 
-#### HVD category: Requirement `hvd-tag-req_03` and Recommendation `hvd-tag-rec_03`
+#### 7.2.2.2. HVD category: 
+Requirement `hvd-tag-req_03` and Recommendation `hvd-tag-rec_03`.
 
 | **Requirement `hvd-tag-req_03`** | **/req/hvd-category** |
 | --- | --- |
@@ -210,7 +212,8 @@ All other aspects (e.g. issues related to formats, data services, ...) to be tak
 	</gmd:descriptiveKeywords>
 ```
 
-#### HVD subcategory: Requirement `hvd-tag-req_04` and Recommendation `hvd-tag-rec_04`
+#### 7.2.2.3. HVD subcategory: 
+Requirement `hvd-tag-req_04` and Recommendation `hvd-tag-rec_04`.
 
 | **Requirement `hvd-tag-req_04`** | **/req/hvd-subcategory** |
 | --- | --- |
@@ -243,21 +246,23 @@ All other aspects (e.g. issues related to formats, data services, ...) to be tak
 	</gmd:descriptiveKeywords>
 ```
 
-#### HVD categories and subcategories thesaurus: Requirement `hvd-tag-req_05`
+#### 7.2.2.4. HVD categories and subcategories - Thesaurus: 
+Requirement `hvd-tag-req_05` and Recommendation `hvd-tag-rec_05`.
 
 | **Requirement `hvd-tag-req_05`** | **/req/hvd-category-subcategory-thesaurus** |
 | --- | --- |
 | A | When the declaration of the HVD category or subcategory is provided using a `gmd:descriptiveKeywords` element, the originating controlled vocabulary (i.e. the EU Vocabularies HVD Categories) SHALL be cited using its `gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName/gmd:CI_Citation` element. | 
 | B | The title of the vocabulary SHALL be provided using the `gmd:title/gmx:Anchor` of the above-mentioned `gmd:CI_Citation` element, where the `xlink:href` attribute SHALL contain the URI [http://data.europa.eu/bna/asd487ae75](http://data.europa.eu/bna/asd487ae75) (i.e. URI of the EU Vocabularies HVD Categories thesaurus). |
 | C | The date of the vocabulary SHALL be provided using the `gmd:date/gmd:CI_Date/gmd:date/gco:Date` of the above-mentioned `gmd:CI_Citation` element. |
-| NOTE | --- |
+| NOTE | See Recommendation `hvd-tag-rec_05` for further details on the provision of the name, date and date type of the above-mentioned thesaurus. |
 
+| **Recommendation `hvd-tag-rec_05`** | **/rec/hvd-category-subcategory-thesaurus** |
+| --- | --- |
+| A |  The name value encoded within the `gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName/gmd:CI_Citation/gmd:title/gmx:Anchor` referenced in `hvd-tag-req_05` SHOULD be the text "High-value dataset categories", in English language. |
+| B | The date type code of the vocabulary date referenced in `hvd-tag-req_05` SHOULD be of type `publication`, according the the [ISO 19139] CI_DateTypeCode code list. |
+| NOTE | At the date of writing this specification, it is recommended to use `2023-09-27` as date of publication of the EU Vocabularies HVD Categories thesaurus. |
 
-
-and the value of the element shall contain "High-value dataset categories". - Recommended use of the tag in English
-
-The date type of the vocabulary shall be given using the value "publication" derived from the [ISO 19139] code list CI_DateTypeCode. - Recommended date value, date type ‘publication’
-
+[WARNING: NEED TO REVISE IF A DIFFERENT PUBLICATION DATE SHALL BE RECOMMENDED, AND PUT THE SAME IN THE EXAMPLES BELOW]
 
 ##### Example of XML encoding
 
