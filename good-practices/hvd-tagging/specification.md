@@ -43,7 +43,7 @@ The main reference for this specification is the [INSPIRE MD TG].
 
 ## 2. Scope <a name="scope"></a>
 
-This document provides a set of rules, that normative and 'de facto' geospatial metadata standards can currently support, based on the list of Requirements and Recommendations agreed within the context of the [ISO & GeoDCAT-AP Metadata Implementation Pilot](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main) to appropiately tag geospatial / INSPIRE HVDs, defining concrete encoding rules.
+This document provides a set of rules, that normative and 'de facto' geospatial metadata standards can currently support, based on the list of Requirements and s agreed within the context of the [ISO & GeoDCAT-AP Metadata Implementation Pilot](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main) to appropiately tag geospatial / INSPIRE HVDs, defining concrete encoding rules.
 
 ## 3. Conformance <a name="conformance"></a>
 
@@ -120,19 +120,30 @@ All other aspects (e.g. issues related to formats, data services, ...) to be tak
 
 ### 7.2. Requirements for HVD tagging <a name="tagging-requirements"></a>
 
+[SEED]
+| **Requirement/Recommendation** | **/req-rec/resource-locator-application-profile** |
+| --- | --- |
+| A | The element `applicationProfile` SHOULD be encoded with `gmx:Anchor`. The attribute `xlink:href` should point to a valid unique resource identifier of the mentioned codelist. The text value should match the related codelist label, expressed in the metadata language where available. | 
+
 ### 7.2.1. Applicable legislation <a name="applicable-legislation"></a>
 
 #### Requirement `hvd-tag-req_01`: applicable legislation
 
-To declare that the dataset falls under the HVD Implementing Regulation, the `gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gmx:Anchor` element shall be used.
+| **Requirement** | **/req/application-legislation** |
+| --- | --- |
+| A | To declare that the dataset corresponds to one of the high-value datasets listed in the Annex of the HVD Implementing Regulation (Implementing Regulation (EU) 2023/138), and thus belonging to one of the thematic categories set out in Annex I to Directive (EU) 2019/1024,  the `gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gmx:Anchor` element SHALL be used. |
+| B | For this purpose, the `xlink:href` attribute in the `gmx:Anchor` element SHALL point to the ELI [http://data.europa.eu/eli/reg_impl/2023/138/oj](http://data.europa.eu/eli/reg_impl/2023/138/oj). |
 
-The `xlink:href` attribute in the `gmx:Anchor` element shall contain the ELI [http://data.europa.eu/eli/reg_impl/2023/138/oj](http://data.europa.eu/eli/reg_impl/2023/138/oj).
+#### Recommendation `hvd-tag-rec_01`: applicable legislation keyword
 
-The keyword value shall contain the text "High-value dataset".
+| **Recommendation** | **/rec/application-legislation-keyword** |
+| --- | --- |
+| A |  The keyword value encoded within the `gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gmx:Anchor` referenced in `hvd-tag-req_01` SHOULD contain as tag the text "High-value dataset" or "HVD", in English language. |
 
+[MOVE DOWN AS REQUIREMENT]
 **NOTE**: The `gmd:descriptiveKeywords` element used for applicable legislation shall be different from that one used for the declaration of HVD category and/or subcategory.
 
-##### Example of XML encoding
+##### Examples of XML encoding
 
 ```xml
    <gmd:descriptiveKeywords>
@@ -140,6 +151,17 @@ The keyword value shall contain the text "High-value dataset".
 			<!-- HVD Keyword -->
 			<gmd:keyword>
 				<gmx:Anchor xlink:href="http://data.europa.eu/eli/reg_impl/2023/138/oj">High-value dataset</gmx:Anchor>
+			</gmd:keyword>
+		</gmd:MD_Keywords>
+	</gmd:descriptiveKeywords>
+```
+
+```xml
+   <gmd:descriptiveKeywords>
+		<gmd:MD_Keywords>
+			<!-- HVD Keyword -->
+			<gmd:keyword>
+				<gmx:Anchor xlink:href="http://data.europa.eu/eli/reg_impl/2023/138/oj">HVD</gmx:Anchor>
 			</gmd:keyword>
 		</gmd:MD_Keywords>
 	</gmd:descriptiveKeywords>
