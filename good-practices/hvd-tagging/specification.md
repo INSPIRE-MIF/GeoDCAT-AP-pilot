@@ -35,7 +35,7 @@ This simplification, conveyed by the [environmental simplification package](http
 
 It will be also ensured that INSPIRE geospatial and environmental data are made available as open data according Directive (EU) 2019/1024, using common standards, APIs, and open licenses, and maximizing accessibility and re-use for all users through the European Data Portal ([data.europa.eu](https://data.europa.eu/en)), as single entry point for European public sector data. To avoid duplication of efforts and reducing burdens for data providers, as of 1 July 2026, the [INSPIRE Geoportal](https://inspire-geoportal.ec.europa.eu/) will be discontinued and its content will be fully integrated with [data.europa.eu](https://data.europa.eu/en), operated by the [Publications Office of the European Union](https://op.europa.eu/).
 
-In light of the above, this document addresses the need to ensure the encoding of High-Value Dataset tags in geospatial dataset metadata descriptions in accordance with the applicable standards ensuring their proper accessibility and filtering in the European Data Portal.
+In light of the above, this document addresses the need to ensure the encoding of HVD tags in geospatial dataset metadata descriptions in accordance with the applicable standards ensuring their proper accessibility and filtering in the European Data Portal.
 
 It leverages on the initial discussions collected and described in the [Repository for Action 2.5 of the INSPIRE MIWP on the alignment of High-value datasets and INSPIRE](https://github.com/INSPIRE-MIF/hvd-inspire), made by members of the INSPIRE community.
 
@@ -43,7 +43,7 @@ The main reference for this specification is the [INSPIRE MD TG].
 
 ## 2. Scope <a name="scope"></a>
 
-This document provides a set of rules, that de facto geospatial metadata standards can currently support, based on the list of Requirements and Recommendations agreed within the context of the mentioned pilot to appropiately tag geospatial / INSPIRE HVDs, defining concrete encoding rules.
+This document provides a set of rules, that normative and 'de facto' geospatial metadata standards can currently support, based on the list of Requirements and Recommendations agreed within the context of the [ISO & GeoDCAT-AP Metadata Implementation Pilot](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main) to appropiately tag geospatial / INSPIRE HVDs, defining concrete encoding rules.
 
 ## 3. Conformance <a name="conformance"></a>
 
