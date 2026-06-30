@@ -118,11 +118,14 @@ The scope of this document is limited to introduce the keywords to be used in IS
 - the dataset belongs to a HVD category and/or subcategory as set out in the Annex to the Implementing Regulation and in the [controlled vocabulary](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category) derived from it.
 All other aspects (e.g. issues related to formats, data services, ...) to be taken into account to guarantee the conformance to the DCAT-AP HVD are out of the scope and are addressed in other documents [NOTE: add link].
 
-### 7.2. Requirements for HVD tagging <a name="tagging-requirements"></a>
+### 7.2. Requirements for HVD tagging - Requirements class <a name="tagging-requirements"></a>
 
-[ADD HERE THE CONFORMANCE CLASS]
+| Requirements class | http://inspire.ec.europa.eu/id/spec/ds-geospatial-hvd-tagging/1.0/ds-md-resource-locator |
+| --- | --- |
+| Target type | ISO/TS 19139:2007 Geographic information Metadata XML schema implementation (Data sets and Data set series metadata) |
+| Dependency | https://inspire.ec.europa.eu/id/ats/metadata/2.0/datasets-and-series (See NOTE below) |
 
-
+\* NOTE: This is the URI of the candidate Conformance class, to be consider in a new version of the [INSPIRE MD TG] [Chapter 3.1](https://github.com/INSPIRE-MIF/technical-guidelines/blob/2022.2/metadata/metadata-iso19139/metadata-iso19139.adoc#31-baseline-metadata-for-data-sets-and-data-set-series).
 
 ### 7.2.1. Applicable legislation <a name="applicable-legislation"></a>
 
