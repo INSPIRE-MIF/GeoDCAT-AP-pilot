@@ -125,7 +125,7 @@ All other aspects (e.g. issues related to formats, data services, ...) to be tak
 | Target type | ISO/TS 19139:2007 Geographic information Metadata XML schema implementation (Data sets and Data set series metadata) |
 | Dependency | https://inspire.ec.europa.eu/id/ats/metadata/2.0/datasets-and-series (See NOTE below) |
 
-\* NOTE: This is the URI of the candidate Conformance class, to be consider in a new version of the [INSPIRE MD TG] [Chapter 3.1](https://github.com/INSPIRE-MIF/technical-guidelines/blob/2022.2/metadata/metadata-iso19139/metadata-iso19139.adoc#31-baseline-metadata-for-data-sets-and-data-set-series).
+\* NOTE: This is the URI of the candidate Conformance class, to be considered in a new version of the [INSPIRE MD TG] [Chapter 3.1](https://github.com/INSPIRE-MIF/technical-guidelines/blob/2022.2/metadata/metadata-iso19139/metadata-iso19139.adoc#31-baseline-metadata-for-data-sets-and-data-set-series).
 
 ### 7.2.1. Applicable legislation <a name="applicable-legislation"></a>
 
