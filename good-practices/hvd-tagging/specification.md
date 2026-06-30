@@ -120,12 +120,14 @@ All other aspects (e.g. issues related to formats, data services, ...) to be tak
 
 ### 7.2. Requirements for HVD tagging - Requirements class <a name="tagging-requirements"></a>
 
-| Requirements class | http://inspire.ec.europa.eu/id/spec/ds-geospatial-hvd-tagging/1.0/ds-md-resource-locator |
+| Requirements class | http://inspire.ec.europa.eu/id/spec/ds-geospatial-hvd-tagging/1.0/ds-md-hvd-tagging |
 | --- | --- |
 | Target type | ISO/TS 19139:2007 Geographic information Metadata XML schema implementation (Data sets and Data set series metadata) |
 | Dependency | https://inspire.ec.europa.eu/id/ats/metadata/2.0/datasets-and-series (See NOTE below) |
 
-\* NOTE: This is the URI of the candidate Conformance class, to be considered in a new version of the [INSPIRE MD TG] [Chapter 3.1](https://github.com/INSPIRE-MIF/technical-guidelines/blob/2022.2/metadata/metadata-iso19139/metadata-iso19139.adoc#31-baseline-metadata-for-data-sets-and-data-set-series).
+\* NOTE: This is the URI of the candidate Conformance Class, to be considered in a new version of the [INSPIRE MD TG] [Chapter 3.1](https://github.com/INSPIRE-MIF/technical-guidelines/blob/2022.2/metadata/metadata-iso19139/metadata-iso19139.adoc#31-baseline-metadata-for-data-sets-and-data-set-series).
+
+Conformance to the requirement class defined in this section is verified if a geospatial dataset metadata record complies with the set of requiments defined in sections [7.2.1](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/good-practices/hvd-tagging/specification.md#721-applicable-legislation-). and [7.2.2](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/good-practices/hvd-tagging/specification.md#722-hvd-category-and-subcategory-).
 
 ### 7.2.1. Applicable legislation <a name="applicable-legislation"></a>
 
@@ -262,7 +264,7 @@ Requirement `hvd-tag-req_05` and Recommendation `hvd-tag-rec_05`.
 | B | The date type code of the vocabulary date referenced in `hvd-tag-req_05` SHOULD be of type `publication`, according the the [ISO 19139] CI_DateTypeCode code list. |
 | NOTE | At the date of the agreements of this specification, it was recommended to use `2023-09-27` as date of publication of the EU Vocabularies HVD Categories thesaurus v1.0. |
 
-[WARNING: TWO NEW VERSIONS OF THE THESAURUS HAVE BEEN PUBLISHED FROM SINCE: v2.0 AND v2.1 - NEED TO REVISE IF A DIFFERENT PUBLICATION DATE SHALL BE RECOMMENDED, AND USE THE SAME DATES IN THE XML EXAMPLES BELOW.]
+* NOTE: Two new versions of the EU Vocabularies HVD Categories thesaurus (different from v1.0) have been published from since: v2.0 and v2.1. To be discussed with the INSPIRE Community if a  publication date different to `2023-09-27` (corresponding to v1.0) SHOULD be recommended. The example below shall be updated, if this would be the case.
 
 ##### Example of XML encoding
 
