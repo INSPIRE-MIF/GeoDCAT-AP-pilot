@@ -15,7 +15,7 @@
 * [6. Acronyms](#acronyms)
 * [7. Geospatial High-Value Dataset Tagging](#geo-hvd-tagging)
     * [7.1. Main principles](#main-principles)
-    * [7.2. Requirements for HVD tagging](#tagging-requirements)
+    * [7.2. Requirements for HVD tagging - Requirements class](#tagging-requirements)
 * [Annex A: Examples](#annex-a)
 
 
