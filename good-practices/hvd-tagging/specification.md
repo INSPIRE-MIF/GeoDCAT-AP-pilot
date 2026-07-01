@@ -102,7 +102,7 @@ For the purposes of this document, the following terms and definitions apply:
 | DCAT-AP | DCAT - Application Profile |
 | HVD | High-Value Dataset |
 | URL | Uniform Resource Locator |
-| XSLT | Extensible Stylesheet Language Transformations |
+| XSLT | Extensible Stylesheet Language Transformation |
 
 
 ## 7. Geospatial High-Value Dataset Tagging <a name="geo-hvd-tagging"></a>
