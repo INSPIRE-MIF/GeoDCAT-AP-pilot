@@ -3,7 +3,7 @@
 
 `Version: 1.0`
 `Date: 2026-07-01`
-`Note: This specification is a DRAFT - To be revised by the INSPIRE community`
+`Note: This specification is a DRAFT - Subject to Public Review by the INSPIRE community`
 
 ## Table of Contents
 
