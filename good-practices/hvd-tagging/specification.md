@@ -2,8 +2,8 @@
 # Geospatial High-Value Datasets (HVDs) tagging: Good Practice guidelines
 
 `Version: 1.0`
-`Date: 2026-06-29`
-`Note: This specification is a DRAFT - Work in progress`
+`Date: 2026-07-01`
+`Note: This specification is a DRAFT - To be revised by the INSPIRE community`
 
 ## Table of Contents
 
