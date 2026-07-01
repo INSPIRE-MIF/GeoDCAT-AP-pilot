@@ -170,7 +170,7 @@ Conformance to the requirement class defined in this section is verified if a ge
 
 ### 7.2.2. HVD category and subcategory <a name="hvd-category"></a>
 
-#### 7.2.2.1. HVD category / subcategory - General: 
+#### 7.2.2.1. HVD category / subcategory - General provisions: 
 Requirement `hvd-tag-req_02` and Recommendation `hvd-tag-rec_02`.
 
 | **Requirement `hvd-tag-req_02`** | **/req/hvd-category-subcategory-general** |
@@ -181,7 +181,7 @@ Requirement `hvd-tag-req_02` and Recommendation `hvd-tag-rec_02`.
 | --- | --- |
 | A |  If a HVD category is provided, then the declaration of the HVD subcategory corresponding to that category is OPTIONAL and MAY be provided. And vice versa, If a HVD subcategory is provided, then the declaration of the HVD category corresponding to that subcategory is OPTIONAL and MAY be provided. |
 
-#### 7.2.2.2. HVD category: 
+#### 7.2.2.2. HVD category provisions: 
 Requirement `hvd-tag-req_03` and Recommendation `hvd-tag-rec_03`.
 
 | **Requirement `hvd-tag-req_03`** | **/req/hvd-category** |
@@ -214,7 +214,7 @@ Requirement `hvd-tag-req_03` and Recommendation `hvd-tag-rec_03`.
 	</gmd:descriptiveKeywords>
 ```
 
-#### 7.2.2.3. HVD subcategory: 
+#### 7.2.2.3. HVD subcategory provisions: 
 Requirement `hvd-tag-req_04` and Recommendation `hvd-tag-rec_04`.
 
 | **Requirement `hvd-tag-req_04`** | **/req/hvd-subcategory** |
@@ -248,7 +248,7 @@ Requirement `hvd-tag-req_04` and Recommendation `hvd-tag-rec_04`.
 	</gmd:descriptiveKeywords>
 ```
 
-#### 7.2.2.4. HVD categories and subcategories - Thesaurus: 
+#### 7.2.2.4. HVD categories and subcategories - Thesaurus provisions: 
 Requirement `hvd-tag-req_05` and Recommendation `hvd-tag-rec_05`.
 
 | **Requirement `hvd-tag-req_05`** | **/req/hvd-category-subcategory-thesaurus** |
