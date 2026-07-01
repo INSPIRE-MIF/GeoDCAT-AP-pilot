@@ -102,8 +102,7 @@ For the purposes of this document, the following terms and definitions apply:
 
 ### 7.1. Main principles <a name="main-principles"></a>
 
-[PENDING TO REVISE]
-Annex I of Directive (EU) 2019/1024 lays down the list of thematic categories of high-value datasets, currently corresponding to the following data categories: 1) geospatial; 2) earth observation and environment; 3) meteorological; 4) statistics; 5) companies and company ownership; and 6) mobility. Six of them are in in the scope of the INSPIRE Directive (namely: 1) geospatial; 2) earth observation and environment; and 6) mobility).
+Annex I of Directive (EU) 2019/1024 lays down the list of thematic categories of high-value datasets, currently corresponding to the following data categories: 1) geospatial; 2) earth observation and environment; 3) meteorological; 4) statistics; 5) companies and company ownership; and 6) mobility. Six of them are in the scope of the INSPIRE Directive (namely: 1) geospatial; 2) earth observation and environment; and 6) mobility).
 
 For each of these HVD categories, Commission Implementing Regulation (EU) 2023/138 establishes the list of high-value datasets held by public sector bodies among the existing 'documents' to which that Open Data Directive applies, while also lays down the arrangements for the publication and re-use of high-value datasets. In particular, the applicable conditions for re-use (including licensing conditions) and the minimum requirements for disseminating data via Application Programming Interfaces (‘APIs’).
 
@@ -114,9 +113,10 @@ As HVDs are a subset of all datasets published as Open Data (to which the DCAT-A
 This document provides with the encoding rules for tagging the geospatial datasets as high-value datasets in the ISO 19115 metadata records in order to meet the above requirement. This will enable the transformation into GeoDCAT-AP by applying the XLST script in order to make those datasets discoverable in the EU Open Data portal data.europa.eu. It, however, does not mean a complete compliance with the Regulation and the DCAT-AP HVD because not all metadata requirements in DCAT-AP HVD are covered. 
 
 The scope of this specification is focused on defining the keywords to be used in ISO / INSPIRE metadata records, including their encoding rules, to allow machines and users to identify if a a dataset is classified as a HVD, meaning that:
-- the dataset falls under the HVD Implementing Regulation;
-- the dataset belongs to a HVD category and/or subcategory as set out in the Annex to the Implementing Regulation and in the [controlled vocabulary](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category) derived from it.
-All other aspects (e.g. issues related to formats, data services, ...) to be taken into account to guarantee the conformance to the DCAT-AP HVD are out of the scope and are addressed in other documents [NOTE: add link].
+- the dataset is the scope of the HVD Implementing Regulation;
+- the dataset belongs to a HVD category and/or subcategory as set out in the Annex to the Implementing Regulation, encoded in the and in the [EU Vocabularies HVD Categories](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category) controlled vocabulary.
+
+All other aspects to guarantee the conformance to the DCAT-AP HVD, such as issues related to data formats and/or data services, are out of the scope of this document.
 
 ### 7.2. Requirements for HVD tagging - Requirements class <a name="tagging-requirements"></a>
 
