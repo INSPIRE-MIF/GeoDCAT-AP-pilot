@@ -59,19 +59,19 @@ In particular, the dataset metadata records reported by Member States in the sco
 ## 4. Normative references <a name="normative-references"></a>
 
 - **[ISO 19115:2005]** - EN ISO 19115:2005, *Geographic information — Metadata*
-- **[ISO 19119:2016]** - EN ISO 19119:2016, *Geographic information — Services*
+- **[ISO 19119:2005]** - EN ISO 19119:2005, *Geographic information — Services*
 - **[ISO/TS 19139:2007]** - ISO/TS 19139:2007, *Geographic information — Metadata — XML schema implementation*
 - **[INSPIRE MD TG]** - JRC. *Technical Guidance for the implementation of INSPIRE dataset and service metadata based on ISO/TS 19139:2007*.  v2.0.1 - 2017-03-02
-- **[DCAT-AP]** - SEMIC, v.3.0 - 2024-06-14
+- **[DCAT-AP]** - SEMIC, v.3.0.1 - 2025-10-27
 - **[DCAT-AP HVD]** - SEMIC, *Usage guidelines of DCAT-AP for High-Value Datasets*. v. 3.0.0-hvd - 2024-10-25
 - **[GeoDCAT-AP]** - SEMIC, v.3.1.0 - 2026-02-16
 
 <!-- Second parts of the reference-style links, see also https://www.markdownguide.org/basic-syntax/#reference-style-links  -->
 [ISO 19115:2005]: https://www.isotc211.org/2005/gmd "ISO 19115:2005, Geographic information — Metadata"
-[ISO 19119:2016]: https://www.iso.org/standard/59221.html?browse=tc "ISO 19119:2016, Geographic information — Services"
+[ISO 19119:2005]: https://www.iso.org/standard/39890.html "ISO 19119:2005, Geographic information – Services"
 [ISO/TS 19139:2007]: https://www.isotc211.org/2005/gmd/ "ISO/TS 19139:2007, Geographic information — Metadata — XML schema implementation"
 [INSPIRE MD TG]: https://inspire.ec.europa.eu/id/document/tg/metadata-iso19139 "Technical Guidance for the implementation of INSPIRE dataset and service metadata based on ISO/TS 19139:2007"
-[DCAT-AP]: https://semiceu.github.io/DCAT-AP/releases/3.0.0/
+[DCAT-AP]: https://semiceu.github.io/DCAT-AP/releases/3.0.1/
 [DCAT-AP HVD]: https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd/
 [GeoDCAT-AP]: https://semiceu.github.io/GeoDCAT-AP/releases/3.1.0/
 
@@ -132,7 +132,7 @@ All other aspects to guarantee the conformance to the DCAT-AP HVD, such as issue
 | Target type | ISO/TS 19139:2007 Geographic information Metadata XML schema implementation (Data sets and Data set series metadata) |
 | Dependency | https://inspire.ec.europa.eu/id/ats/metadata/2.0/datasets-and-series (See NOTE below) |
 
-\* NOTE: This is the URI of the candidate Conformance Class, to be considered in a new version of the [INSPIRE MD TG] [Chapter 3.1](https://github.com/INSPIRE-MIF/technical-guidelines/blob/2022.2/metadata/metadata-iso19139/metadata-iso19139.adoc#31-baseline-metadata-for-data-sets-and-data-set-series).
+\* NOTE: This is the URI of the candidate Conformance Class, to be considered in a new version of the [INSPIRE MD TG - Chapter 3.1](https://github.com/INSPIRE-MIF/technical-guidelines/blob/2022.2/metadata/metadata-iso19139/metadata-iso19139.adoc#31-baseline-metadata-for-data-sets-and-data-set-series).
 
 Conformance to the requirement class defined in this section is verified if a geospatial dataset metadata record complies with the set of requiments defined in sections [7.2.1](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/good-practices/hvd-tagging/specification.md#721-applicable-legislation-). and [7.2.2](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/good-practices/hvd-tagging/specification.md#722-hvd-category-and-subcategory-).
 
