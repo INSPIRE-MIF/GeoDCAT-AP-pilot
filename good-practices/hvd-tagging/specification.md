@@ -109,7 +109,7 @@ For the purposes of this document, the following terms and definitions apply:
 
 ### 7.1. Main principles <a name="main-principles"></a>
 
-Annex I of Directive (EU) 2019/1024 lays down the list of thematic categories of high-value datasets, currently corresponding to the following data categories: 1) geospatial; 2) earth observation and environment; 3) meteorological; 4) statistics; 5) companies and company ownership; and 6) mobility. Six of them are in the scope of the INSPIRE Directive (namely: 1) geospatial; 2) earth observation and environment; and 6) mobility).
+Annex I of Directive (EU) 2019/1024 lays down the list of thematic categories of high-value datasets, currently corresponding to the following data categories: 1) geospatial; 2) earth observation and environment; 3) meteorological; 4) statistics; 5) companies and company ownership; and 6) mobility. Three of them are in the scope of the INSPIRE Directive (namely: 1) geospatial; 2) earth observation and environment; and 6) mobility).
 
 For each of these HVD categories, Commission Implementing Regulation (EU) 2023/138 establishes the list of high-value datasets held by public sector bodies among the existing 'documents' to which that Open Data Directive applies, while also lays down the arrangements for the publication and re-use of high-value datasets. In particular, the applicable conditions for re-use (including licensing conditions) and the minimum requirements for disseminating data via Application Programming Interfaces (‘APIs’).
 
