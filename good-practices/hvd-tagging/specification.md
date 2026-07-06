@@ -119,7 +119,7 @@ As HVDs are a subset of all datasets published as Open Data (to which the DCAT-A
 
 This document provides with the encoding rules for tagging the geospatial datasets as high-value datasets in the ISO 19115 metadata records in order to meet the above requirement. This will enable the transformation into GeoDCAT-AP by applying the XLST script in order to make those datasets discoverable in the EU Open Data portal data.europa.eu. It, however, does not mean a complete compliance with the Regulation and the DCAT-AP HVD because not all metadata requirements in DCAT-AP HVD are covered. 
 
-The scope of this specification is focused on defining the keywords to be used in ISO / INSPIRE metadata records, including their encoding rules, to allow machines and users to identify if a a dataset is classified as a HVD, meaning that:
+The scope of this specification is focused on defining the keywords to be used in ISO / INSPIRE metadata records, including their encoding rules, to allow machines and users to identify if a dataset is classified as a HVD, meaning that:
 - the dataset is the scope of the HVD Implementing Regulation;
 - the dataset belongs to a HVD category and/or subcategory as set out in the Annex to the Implementing Regulation, encoded in the and in the [EU Vocabularies HVD Categories](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category) controlled vocabulary.
 
