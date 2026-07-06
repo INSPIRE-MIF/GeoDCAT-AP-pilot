@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  DCAT-AP 3.0 HVD + GeoDCAT-AP 3.1.0 – conform RDF/XML
+  Mapped from ISO 19139 metadata
+  Source:   19139metadata-50b921ea-935e-d605-2287-4ee364046795.xml
+  Dataset:  INSPIRE - Addresses (DK INSPIRE Addresses)
+  Publisher: Klimadatastyrelsen
+
+  Mapping-notes (ISO 19139 → DCAT-AP):
+  gmd:fileIdentifier                → dct:identifier / URI-nøgle
+  gmd:dateStamp                     → CatalogueRecord dct:modified
+  gmd:language (metadata)           → CatalogueRecord dct:language
+  gmd:contact                       → CatalogueRecord-niveau info
+  gmd:identificationInfo/title      → dct:title
+  gmd:identificationInfo/abstract   → dct:description
+  gmd:identificationInfo/purpose    → geodcatap:purpose
+  gmd:pointOfContact (owner)        → dct:publisher + DataService dcat:contactPoint
+  gmd:maintenanceFrequency (weekly) → dct:accrualPeriodicity WEEKLY
+  gmd:descriptiveKeywords (INSPIRE) → dcat:theme (inspire.ec.europa.eu/theme/ad)
+  gmd:descriptiveKeywords (HVD cat) → dcatap:hvdCategory
+  gmd:descriptiveKeywords (EU-lov)  → dcatap:applicableLegislation
+  gmd:otherConstraints (CC BY 4.0)  → dct:license
+  gmd:accessConstraints             → dct:accessRights
+  gmd:EX_GeographicBoundingBox      → dct:spatial / dcat:bbox
+  gmd:spatialResolution             → dcat:spatialResolutionInMeters (scale 1:1 → 1m)
+  gmd:language (data)               → dct:language ENG
+  gmd:topicCategory (society)       → geodcatap:topicCategory
+  gmd:referenceSystemInfo           → dct:conformsTo EPSG:25832
+  gmd:lineage                       → dct:provenance
+  gmd:onLine (OGC API, protocol=17-069r3, function=download) → DataService + Distribution
+  gmd:onLine (WMS, protocol=ogc/wms, function=download)      → DataService + Distribution
+  gmd:onLine (ATOM, applicationProfile=download)             → Distribution (direkte feed)
+  gmd:onLine (WWW:LINK til Dataforsyningen)                  → dcat:landingPage
+  gmd:onLine (WWW:LINK til danmarksadresser.dk)              → foaf:page
+  gmd:graphicOverview                                        → foaf:depiction
+  gmd:DQ_ConformanceResult (INSPIRE interop. reg.)           → dct:conformsTo
+  gmd:featureCatalogueCitation                               → rdfs:seeAlso
+-->
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dcatap="http://data.europa.eu/r5r/"
+  xmlns:eli="http://data.europa.eu/eli/ontology#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geodcatap="http://data.europa.eu/930/"
+>
+
+  <!-- ============================================================ -->
+  <!-- Catalogue                                                     -->
+  <!-- ============================================================ -->
+  <dcat:Catalog rdf:about="https://geodata-info.dk/srv/api">
+    <dct:title xml:lang="da">Danmarks Geodata-katalog</dct:title>
+    <dct:description xml:lang="da">Den nationale geoportal for Danmarks officielle geodata administreret af Klimadatastyrelsen.</dct:description>
+    <dct:publisher rdf:resource="https://www.kds.dk"/>
+    <dcat:dataset rdf:resource="https://geo.data.gov.dk/dataset/50b921ea-935e-d605-2287-4ee364046795"/>
+    <dcat:record rdf:resource="https://geodata-info.dk/srv/api/records/50b921ea-935e-d605-2287-4ee364046795/catalogueRecord"/>
+    <!-- dcat:service: begge DataServices -->
+    <dcat:service rdf:resource="https://geo.data.gov.dk/dataservice/ogcapi-features/ad_inspire"/>
+    <dcat:service rdf:resource="https://geo.data.gov.dk/dataservice/wms/ad_inspire"/>
+  </dcat:Catalog>
+
+  <!-- ============================================================ -->
+  <!-- CatalogueRecord                                              -->
+  <!-- gmd:dateStamp → dct:modified (MANDATORY)                    -->
+  <!-- gmd:language (metadata) = dan → dct:language                -->
+  <!-- ============================================================ -->
+  <dcat:CatalogRecord rdf:about="https://geodata-info.dk/srv/api/records/50b921ea-935e-d605-2287-4ee364046795/catalogueRecord">
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-04-27T11:09:16Z</dct:modified>
+    <foaf:primaryTopic rdf:resource="https://geo.data.gov.dk/dataset/50b921ea-935e-d605-2287-4ee364046795"/>
+    <!-- gmd:metadataStandardName → conformsTo ISO 19115 -->
+    <dct:conformsTo rdf:resource="http://www.isotc211.org/2005/gmd"/>
+    <!-- gmd:language = dan -->
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DAN"/>
+    <rdfs:seeAlso rdf:resource="https://geodata-info.dk/srv/api/records/50b921ea-935e-d605-2287-4ee364046795"/>
+  </dcat:CatalogRecord>
+
+  <!-- ============================================================ -->
+  <!-- Publisher / foaf:Agent                                       -->
+  <!-- gmd:contact + gmd:pointOfContact (owner) → dct:publisher    -->
+  <!-- ============================================================ -->
+  <foaf:Organization rdf:about="https://www.kds.dk">
+    <foaf:name xml:lang="da">Klimadatastyrelsen</foaf:name>
+    <foaf:mbox rdf:resource="mailto:support@kds.dk"/>
+  </foaf:Organization>
+
+  <!-- ============================================================ -->
+  <!-- Dataset                                                      -->
+  <!-- ============================================================ -->
+  <dcat:Dataset rdf:about="https://geo.data.gov.dk/dataset/50b921ea-935e-d605-2287-4ee364046795">
+
+    <!-- gmd:title + gmd:alternateTitle → dct:title -->
+    <dct:title xml:lang="da">INSPIRE - Adresser</dct:title>
+    <dct:title xml:lang="en">DK INSPIRE Addresses</dct:title>
+
+    <!-- gmd:abstract → dct:description (MANDATORY) -->
+    <dct:description xml:lang="da">Dette INSPIRE datasæt viser adresser. Data kan anvendes alene eller i kombination med andre data fra Danmark og Europa til analyser af f.eks. risici for oversvømmelser, forurening og værdisætning.</dct:description>
+
+    <!-- gmd:purpose → geodcatap:purpose -->
+    <geodcatap:purpose xml:lang="da">Danmarks Adresseregister indeholder ca. 3,9 millioner adresser i DAR og ca. 111.000 vejnavne. Adressedata opdateres løbende, med ca. 230.000 ændringer i adressedata pr år. INSPIRE-direktivet sikrer en fælles europæisk infrastruktur for geodata, så data kan anvendes både lokalt, nationalt og på europæisk niveau samt på tværs af sektorer.</geodcatap:purpose>
+
+    <!-- gmd:identifier (CI_Citation) → dct:identifier -->
+    <dct:identifier>https://geo.data.gov.dk/dataset/50b921ea-935e-d605-2287-4ee364046795</dct:identifier>
+
+    <!-- dct:publisher -->
+    <dct:publisher rdf:resource="https://www.kds.dk"/>
+
+    <!-- gmd:date publication → dct:issued, dateStamp → dct:modified -->
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-06-02</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-04-27T11:09:16Z</dct:modified>
+
+    <!-- gmd:descriptiveKeywords (EU-lovgivning) → dcatap:applicableLegislation (MANDATORY HVD) -->
+    <!-- xlink:href=http://data.europa.eu/eli/reg_impl/2023/138/oj = HVD-forordning -->
+    <!-- xlink:href=http://data.europa.eu/eli/dir/2007/2/2019-06-26 = INSPIRE-direktiv -->
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2007/2/2019-06-26"/>
+
+    <!-- gmd:descriptiveKeywords (HVD categories) → dcatap:hvdCategory (MANDATORY HVD) -->
+    <!-- xlink:href=http://data.europa.eu/bna/c_c3de25e4 = Adresser -->
+    <!-- xlink:href=http://data.europa.eu/bna/c_ac64a52d = Geospatiale data -->
+    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_c3de25e4"/>
+    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
+
+    <!-- gmd:descriptiveKeywords (INSPIRE theme) → dcat:theme -->
+    <!-- xlink:href=http://inspire.ec.europa.eu/theme/ad -->
+    <dcat:theme rdf:resource="http://inspire.ec.europa.eu/theme/ad"/>
+    <!-- gmd:topicCategory=society → EU Data Theme -->
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+
+    <!-- Free-text keywords -->
+    <dcat:keyword xml:lang="da">Adresser</dcat:keyword>
+    <dcat:keyword xml:lang="da">Geospatiale data</dcat:keyword>
+    <dcat:keyword xml:lang="da">INSPIRE</dcat:keyword>
+    <dcat:keyword xml:lang="da">High-value dataset</dcat:keyword>
+    <dcat:keyword xml:lang="da">Danmark</dcat:keyword>
+    <!-- gmd:SpatialScope = National -->
+    <dcat:keyword xml:lang="en">National</dcat:keyword>
+
+    <!-- gmd:otherConstraints CC BY 4.0 → dct:license -->
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
+    <!-- gmd:accessConstraints noLimitations → dct:accessRights (PUBLIC) -->
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+
+    <!-- gmd:referenceSystemInfo EPSG:25832 → dct:conformsTo -->
+    <dct:conformsTo rdf:resource="http://www.opengis.net/def/crs/EPSG/0/25832"/>
+    <!-- gmd:DQ_ConformanceResult (INSPIRE interop. reg.) → dct:conformsTo -->
+    <dct:conformsTo rdf:resource="http://data.europa.eu/eli/reg/2010/1089"/>
+
+    <!-- gmd:EX_GeographicBoundingBox → dct:spatial -->
+    <dct:spatial>
+      <dct:Location>
+        <dcat:bbox rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON((8.094 54.569, 15.151 54.569, 15.151 57.751, 8.094 57.751, 8.094 54.569))</dcat:bbox>
+        <skos:prefLabel xml:lang="en">Denmark</skos:prefLabel>
+        <owl:sameAs rdf:resource="http://publications.europa.eu/resource/authority/country/DNK"/>
+      </dct:Location>
+    </dct:spatial>
+
+    <!-- gmd:spatialResolution equivalentScale 1:1 → dcat:spatialResolutionInMeters -->
+    <dcat:spatialResolutionInMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</dcat:spatialResolutionInMeters>
+
+    <!-- gmd:maintenanceFrequency weekly → dct:accrualPeriodicity -->
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/WEEKLY"/>
+
+    <!-- gmd:language (data) = eng → dct:language -->
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/DAN"/>
+
+    <!-- gmd:topicCategory society → geodcatap:topicCategory -->
+    <geodcatap:topicCategory rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/society"/>
+
+    <!-- gmd:lineage → dct:provenance -->
+    <dct:provenance>
+      <dct:ProvenanceStatement>
+        <rdfs:label xml:lang="da">DAR som selvstændigt register blev idriftsat i 2018. Adresserne var før dette registreret i BBR, mens vejnavnene var registreret i CPR-vej. Fuldstændigheden af adresser og vejnavne, målt i forhold til den reelle verden er højere end 99 %. Ca. 0,02% af adressepunkterne er placeret omtrentligt baseret på centrum af matrikelnummeret, medens øvrige er manuelt placeret af de kommunale adressemyndigheder.</rdfs:label>
+      </dct:ProvenanceStatement>
+    </dct:provenance>
+
+    <!-- gmd:onLine WWW:LINK (Dataforsyningen) → dcat:landingPage -->
+    <dcat:landingPage rdf:resource="https://dataforsyningen.dk/data/3937"/>
+
+    <!-- gmd:onLine WWW:LINK (danmarksadresser.dk, function=information) → foaf:page -->
+    <foaf:page rdf:resource="https://danmarksadresser.dk/"/>
+
+    <!-- gmd:otherCitationDetails (HTML-metadataside) → foaf:page -->
+    <foaf:page rdf:resource="https://www.geodata-info.dk/srv/dan/catalog.search#/metadata/50b921ea-935e-d605-2287-4ee364046795"/>
+
+    <!-- gmd:graphicOverview → foaf:depiction -->
+    <foaf:depiction rdf:resource="https://dataforsyningen.dk/asset/Images/dawa.png"/>
+
+    <!-- gmd:featureCatalogueCitation → rdfs:seeAlso -->
+    <rdfs:seeAlso rdf:resource="https://github.com/INSPIRE-MIF/technical-guidelines/blob/main/data/ad/dataspecification_ad.pdf"/>
+
+    <!-- Distributions -->
+    <dcat:distribution rdf:resource="https://geo.data.gov.dk/dataset/50b921ea-935e-d605-2287-4ee364046795/distribution/ogcapi-features"/>
+    <dcat:distribution rdf:resource="https://geo.data.gov.dk/dataset/50b921ea-935e-d605-2287-4ee364046795/distribution/wms"/>
+    <dcat:distribution rdf:resource="https://geo.data.gov.dk/dataset/50b921ea-935e-d605-2287-4ee364046795/distribution/atom"/>
+
+  </dcat:Dataset>
+
+  <!-- ============================================================ -->
+  <!-- DataService 1: OGC API Features (Download)                  -->
+  <!-- gmd:onLine: protocol=17-069r3, applicationProfile=other,    -->
+  <!--             function=download, URL=ogcapi/features/ad_inspire-->
+  <!-- ============================================================ -->
+  <dcat:DataService rdf:about="https://geo.data.gov.dk/dataservice/ogcapi-features/ad_inspire">
+
+    <dct:title xml:lang="da">OGC API Features – INSPIRE Adresser</dct:title>
+
+    <!-- Mandatory: endpointURL = gmd:linkage URL -->
+    <dcat:endpointURL rdf:resource="https://api.dataforsyningen.dk/ogcapi/features/ad_inspire"/>
+
+    <!-- Recommended: endpointDescription (OpenAPI) -->
+    <dcat:endpointDescription rdf:resource="https://api.dataforsyningen.dk/ogcapi/features/ad_inspire/api"/>
+
+    <!-- Mandatory HVD: applicableLegislation -->
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2007/2/2019-06-26"/>
+
+    <!-- Mandatory HVD: hvdCategory -->
+    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_c3de25e4"/>
+    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
+
+    <!-- Mandatory HVD: contactPoint -->
+    <!-- gmd:pointOfContact (owner) incl. hoursOfService -->
+    <dcat:contactPoint>
+      <vcard:Organization>
+        <vcard:fn>Klimadatastyrelsen</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:support@kds.dk"/>
+        <vcard:hasNote xml:lang="da">mandag til torsdag kl. 09:00-14:00 og fredag kl. 10:00-14:00</vcard:hasNote>
+      </vcard:Organization>
+    </dcat:contactPoint>
+
+    <!-- Mandatory HVD: foaf:page (human-readable documentation) -->
+    <foaf:page rdf:resource="https://dataforsyningen.dk/data/3937"/>
+
+    <!-- Recommended: licence -->
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
+    <!-- Constraint A: dcat:servesDataset -->
+    <dcat:servesDataset rdf:resource="https://geo.data.gov.dk/dataset/50b921ea-935e-d605-2287-4ee364046795"/>
+
+    <dct:publisher rdf:resource="https://www.kds.dk"/>
+
+    <!-- geodcatap:serviceType: gmd:applicationProfile = SpatialDataServiceType/other -->
+   <geodcatap:serviceType rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceType/download"/>
+
+    <!-- geodcatap:serviceProtocol: gmd:protocol xlink:href=17-069r3 -->
+    <geodcatap:serviceProtocol rdf:resource="http://www.opengis.net/def/docs/17-069r3"/>
+
+    <dct:conformsTo rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+
+  </dcat:DataService>
+
+  <!-- ============================================================ -->
+  <!-- DataService 2: WMS View Service                             -->
+  <!-- gmd:onLine: protocol=ogc/wms, applicationProfile=view,     -->
+  <!--             function=download, URL=wms/ad_inspire?...       -->
+  <!-- ============================================================ -->
+  <dcat:DataService rdf:about="https://geo.data.gov.dk/dataservice/wms/ad_inspire">
+
+    <dct:title xml:lang="da">INSPIRE Visningstjeneste WMS – Adresser</dct:title>
+
+    <!-- Mandatory: endpointURL = gmd:linkage URL -->
+    <dcat:endpointURL rdf:resource="https://api.dataforsyningen.dk/wms/ad_inspire?service=WMS&amp;request=GetCapabilities"/>
+
+    <!-- Recommended: endpointDescription = WMS GetCapabilities -->
+    <dcat:endpointDescription rdf:resource="https://api.dataforsyningen.dk/wms/ad_inspire?service=WMS&amp;request=GetCapabilities"/>
+
+    <!-- Mandatory HVD: applicableLegislation -->
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2007/2/2019-06-26"/>
+
+    <!-- Mandatory HVD: hvdCategory -->
+    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_c3de25e4"/>
+    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
+
+    <!-- Mandatory HVD: contactPoint -->
+    <dcat:contactPoint>
+      <vcard:Organization>
+        <vcard:fn>Klimadatastyrelsen</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:support@kds.dk"/>
+        <vcard:hasNote xml:lang="da">mandag til torsdag kl. 09:00-14:00 og fredag kl. 10:00-14:00</vcard:hasNote>
+      </vcard:Organization>
+    </dcat:contactPoint>
+
+    <!-- Mandatory HVD: foaf:page -->
+    <foaf:page rdf:resource="https://dataforsyningen.dk/data/3937"/>
+
+    <!-- Recommended: licence -->
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
+    <!-- Constraint A: dcat:servesDataset -->
+    <dcat:servesDataset rdf:resource="https://geo.data.gov.dk/dataset/50b921ea-935e-d605-2287-4ee364046795"/>
+
+    <dct:publisher rdf:resource="https://www.kds.dk"/>
+
+    <!-- geodcatap:serviceType: gmd:applicationProfile = view -->
+    <geodcatap:serviceType rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceType/view"/>
+
+    <!-- geodcatap:serviceProtocol: gmd:protocol xlink:href=ogc/wms -->
+    <geodcatap:serviceProtocol rdf:resource="http://www.opengis.net/def/serviceType/ogc/wms"/>
+
+  </dcat:DataService>
+
+  <!-- ============================================================ -->
+  <!-- Distribution 1: OGC API Features                            -->
+  <!-- Constraint B: accessURL = endpointURL + dcat:accessService  -->
+  <!-- ============================================================ -->
+  <dcat:Distribution rdf:about="https://geo.data.gov.dk/dataset/50b921ea-935e-d605-2287-4ee364046795/distribution/ogcapi-features">
+
+    <dct:title xml:lang="da">Downloadtjeneste – OGC API Features</dct:title>
+    <dct:description xml:lang="da">Downloadtjeneste via OGC API Features. Udstiller INSPIRE Adresser i GeoPackage og GeoJSON.</dct:description>
+
+    <!-- Constraint B: accessURL = DataService endpointURL -->
+    <dcat:accessURL rdf:resource="https://api.dataforsyningen.dk/ogcapi/features/ad_inspire"/>
+
+    <!-- Constraint B: accessService URI = DataService URI -->
+    <dcat:accessService rdf:resource="https://geo.data.gov.dk/dataservice/ogcapi-features/ad_inspire"/>
+
+    <!-- gmd:distributionFormat GeoPackage + GeoJSON -->
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GPKG"/>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GEOJSON"/>
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/geopackage+sqlite3"/>
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/geo+json"/>
+
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2007/2/2019-06-26"/>
+    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_c3de25e4"/>
+    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
+
+  </dcat:Distribution>
+
+  <!-- ============================================================ -->
+  <!-- Distribution 2: WMS View Service                            -->
+  <!-- Constraint B: accessURL = endpointURL + dcat:accessService  -->
+  <!-- ============================================================ -->
+  <dcat:Distribution rdf:about="https://geo.data.gov.dk/dataset/50b921ea-935e-d605-2287-4ee364046795/distribution/wms">
+
+    <dct:title xml:lang="da">Visningstjeneste – WMS</dct:title>
+    <dct:description xml:lang="da">INSPIRE visningstjeneste via OGC Web Map Service (WMS).</dct:description>
+
+    <!-- Constraint B: accessURL = WMS DataService endpointURL -->
+    <dcat:accessURL rdf:resource="https://api.dataforsyningen.dk/wms/ad_inspire?service=WMS&amp;request=GetCapabilities"/>
+
+    <!-- Constraint B: accessService URI = DataService URI -->
+    <dcat:accessService rdf:resource="https://geo.data.gov.dk/dataservice/wms/ad_inspire"/>
+
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/MAP_WMS"/>
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/xml"/>
+
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2007/2/2019-06-26"/>
+    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_c3de25e4"/>
+    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
+
+  </dcat:Distribution>
+
+  <!-- ============================================================ -->
+  <!-- Distribution 3: INSPIRE Atom Feed (Download)                -->
+  <!-- gmd:onLine: protocol=rfc4287, applicationProfile=download   -->
+  <!-- accessURL -> feed – no DataService         				   -->
+  <!-- ============================================================ -->
+  <dcat:Distribution rdf:about="https://geo.data.gov.dk/dataset/50b921ea-935e-d605-2287-4ee364046795/distribution/atom">
+
+    <dct:title xml:lang="da">INSPIRE Downloadtjeneste – Atom feed</dct:title>
+    <dct:description xml:lang="da">INSPIRE Downloadtjeneste leveret som Atom Syndication Format feed.</dct:description>
+
+    <!-- gmd:linkage URL -->
+    <dcat:accessURL rdf:resource="http://www2.sdfe.dk/INSPIRE/feeds/Addresses.xml"/>
+    <dcat:downloadURL rdf:resource="http://www2.sdfe.dk/INSPIRE/feeds/Addresses.xml"/>
+
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ATOM"/>
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/atom+xml"/>
+
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+    <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/dir/2007/2/2019-06-26"/>
+    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_c3de25e4"/>
+    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_ac64a52d"/>
+
+  </dcat:Distribution>
+
+  <!-- ============================================================ -->
+  <!-- Legislation (eli:LegalResource)                             -->
+  <!-- ============================================================ -->
+  <eli:LegalResource rdf:about="http://data.europa.eu/eli/reg_impl/2023/138/oj">
+    <dct:title xml:lang="en">Commission Implementing Regulation (EU) 2023/138 of 21 December 2022 – list of high-value datasets</dct:title>
+    <dct:title xml:lang="da">Kommissionens gennemførelsesforordning (EU) 2023/138 om liste over specifikke højværdidatasæt</dct:title>
+  </eli:LegalResource>
+
+  <eli:LegalResource rdf:about="http://data.europa.eu/eli/dir/2007/2/2019-06-26">
+    <dct:title xml:lang="en">INSPIRE Directive 2007/2/EC (consolidated 2019-06-26)</dct:title>
+    <dct:title xml:lang="da">INSPIRE-direktivet 2007/2/EF (konsolideret 2019-06-26)</dct:title>
+  </eli:LegalResource>
+
+  <eli:LegalResource rdf:about="http://data.europa.eu/eli/reg/2010/1089">
+    <dct:title xml:lang="en">Commission Regulation (EU) No 1089/2010 – interoperability of spatial data sets and services</dct:title>
+  </eli:LegalResource>
+
+  <!-- ============================================================ -->
+  <!-- Licence                                                      -->
+  <!-- ============================================================ -->
+  <dct:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+    <dct:title xml:lang="da">CC BY 4.0</dct:title>
+    <dct:title xml:lang="en">Creative Commons Attribution 4.0 International</dct:title>
+  </dct:LicenseDocument>
+
+  <!-- ============================================================ -->
+  <!-- HVD-categories (skos:Concept)                               -->
+  <!-- ============================================================ -->
+  <skos:Concept rdf:about="http://data.europa.eu/bna/c_c3de25e4">
+    <skos:prefLabel xml:lang="da">Adresser og adressedata</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Addresses</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://data.europa.eu/bna/asd487ae75"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://data.europa.eu/bna/c_ac64a52d">
+    <skos:prefLabel xml:lang="da">Geospatiale data</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Geospatial data</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://data.europa.eu/bna/asd487ae75"/>
+  </skos:Concept>
+
+  <skos:ConceptScheme rdf:about="http://data.europa.eu/bna/asd487ae75">
+    <dct:title xml:lang="en">High-value dataset (HVD) categories</dct:title>
+  </skos:ConceptScheme>
+
+  <!-- ============================================================ -->
+  <!-- INSPIRE theme                                                -->
+  <!-- ============================================================ -->
+  <skos:Concept rdf:about="http://inspire.ec.europa.eu/theme/ad">
+    <skos:prefLabel xml:lang="da">Adresser</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Addresses</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://inspire.ec.europa.eu/theme"/>
+  </skos:Concept>
+
+  <!-- ============================================================ -->
+  <!-- INSPIRE Service Type concepts                                -->
+  <!-- ============================================================ -->
+  <skos:Concept rdf:about="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceType/download">
+    <skos:prefLabel xml:lang="en">Download Service</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceType"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceType/view">
+    <skos:prefLabel xml:lang="en">View Service</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceType"/>
+  </skos:Concept>
+
+</rdf:RDF>
