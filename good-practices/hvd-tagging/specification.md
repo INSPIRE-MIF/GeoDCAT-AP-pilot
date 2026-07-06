@@ -121,7 +121,7 @@ This document provides with the encoding rules for tagging the geospatial datase
 
 The scope of this specification is focused on defining the keywords to be used in ISO / INSPIRE metadata records, including their encoding rules, to allow machines and users to identify if a dataset is classified as a HVD, meaning that:
 - the dataset is the scope of the HVD Implementing Regulation;
-- the dataset belongs to a HVD category and/or subcategory as set out in the Annex to the Implementing Regulation, encoded in the and in the [EU Vocabularies HVD Categories](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category) controlled vocabulary.
+- the dataset belongs to a HVD category and/or subcategory as set out in the Annex to the Implementing Regulation, encoded in the [EU Vocabularies HVD Categories](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/high-value-dataset-category) controlled vocabulary.
 
 All other aspects to guarantee the conformance to the DCAT-AP HVD, such as issues related to data formats and/or data services, are out of the scope of this document.
 
