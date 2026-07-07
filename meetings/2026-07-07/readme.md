@@ -33,7 +33,7 @@
 
 ## Presentations and recording
 
-Presentations can be downloaded [here]().
+Presentations can be downloaded [here](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-07-07/presentations).
 
 Recording: Available on request. 
 
