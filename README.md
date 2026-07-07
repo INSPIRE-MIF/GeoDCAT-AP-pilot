@@ -22,21 +22,20 @@ For more infomation about the pilot, its purpose, objectives and outputs/results
 ### Phase 1
 
 * [Kick-off Meeting Phase 1](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2024-10-02) (2 October 2024)
-
 * [Second Meeting](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2024-11-20) (20 November 2024)
-  
 * [Third Meeting](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2025-01-23) (23 January 2025)
-  
 * [Fourth Meeting](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2025-04-28) (28 April 2025)
-  
 * [Fifth Meeting](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2025-06-03) (3 June 2025)
-
 * [Sixth Meeting](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2025-06-25) (25 June 2025)
 
 ### Phase 2
 
-* [Kick-off Meeting Phase 2](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2025-12-05) (5 December 2025)
-
+* [Kick-off General Meeting Phase 2](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2025-12-05) (5 December 2025)
+* [Working Team T-1A Kick-off meeting](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-02-24%20-%20T-1A%20Kick-off%20) (24 February 2026)
+* [Working Team T-1B Kick-off meeting](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-02-26%20-%20T-1B%20Kick-off) (26 February 2026)
+* [Working Team T-2 Kick-off meeting](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-03-13%20-%20T-2%20Kick-off) (13 March 2026)
+* [Second General Meeting Phase 2](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-07-07) (7 July 2026)
+  
 * Future meetings
 
 ## Good practices 
