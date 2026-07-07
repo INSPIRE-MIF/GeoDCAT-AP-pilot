@@ -49,7 +49,7 @@ The main reference for this specification is the [INSPIRE MD TG].
 
 ## 2. Scope <a name="scope"></a>
 
-This document provides a set of rules, that normative and 'de facto' geospatial metadata standards can currently support, based on the list of Requirements and s agreed within the context of the [ISO & GeoDCAT-AP Metadata Implementation Pilot](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main) to appropiately tag geospatial / INSPIRE HVDs, defining concrete encoding rules.
+This document provides a set of rules, that normative and 'de facto' geospatial metadata standards can currently support, based on the list of Requirements and Recommendations agreed within the context of the [ISO & GeoDCAT-AP Metadata Implementation Pilot](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main) to appropiately tag geospatial / INSPIRE HVDs, defining concrete encoding rules.
 
 ## 3. Conformance <a name="conformance"></a>
 
