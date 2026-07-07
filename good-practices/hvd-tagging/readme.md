@@ -1,6 +1,10 @@
 # Good practice on Geospatial High-Value Datasets (HVDs) tagging
 
-* The geospatial HVD-tagging good practice (final candidate) specification is available at: https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/good-practices/hvd-tagging/specification.md - Open for public review until the 15th of September. It is consistent to the agreements documented in the reference materials available below.
+* The **Geospatial HVD-tagging Good Practice Specification (final candidate)**  is available at:
+  
+  https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/good-practices/hvd-tagging/specification.md -
+  
+  **Open for public review until the 15th of September**. It is consistent to the agreements documented in the reference materials available below.
 * The root of this folder contains the **final good practice** presented during the [81 INSPIRE MIG-T Meeting](https://webgate.ec.europa.eu/fpfis/wikis/spaces/InspireMIG/pages/2226922041/81st+MIG-T+meeting+2025-02-14), which has been endorsed by the INSPIRE MIG-T at the [82nd MIG-T Meeting](https://webgate.ec.europa.eu/fpfis/wikis/spaces/InspireMIG/pages/2226922061/82nd+MIG-T+meeting+2025-06-27) on 27 June 2025:
 
   * '**[ISO_HVD_Tagging_Anchor_Multilingual-clarification.xml](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/good-practices/hvd-tagging/ISO_HVD_Tagging_Anchor_Multilingual-clarification.xml)**' file: represents the good practice when using a multilingual ISO geospatial metadata record - The example shows a multilingual metadata record based on English as primary language, and dutch as secondary language.
