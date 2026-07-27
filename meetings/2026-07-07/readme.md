@@ -27,9 +27,9 @@
 
 ## Participants
 
-* Member States: .
-* European Commission: .
-* Contractors: .
+* Member States: Belgium (BE-Flanders), Croatia (HR), Czech Republic (CZ), Denmark (DK), Finland (FI), France (FR), Germany (DE), Italy (IT), Latvia (LV), Malta (MT), the Netherlands (NL) and Spain (ES).
+* European Commission: Publications Office of the European union (OP), Directorate-General for Digital Services SEMIC Group (DIGIT-SEMIC), Directorate-General Joint Research Centre (JRC), and the European Environment Agency (EEA). The Directorate-General for Environment (ENV) excused its attendance.
+* Contractors: Epsilon Italia.
 
 ## Presentations and recording
 
