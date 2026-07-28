@@ -114,6 +114,10 @@ T-1B core team for the description of Services / APIs is still pending to work o
 
 #### Working Team T-2: Exploration of the use of AI-powered tools for metadata management
 
+The JRC provided a short summary about the status of the AI-Assisted metadata generation tool developed in-house.
+The tool has recently being released as open source software in [code.europa.eu](https://code.europa.eu/jrc-dsi-lab/geospatial-metadata).
+
+Pilot participants interested to test the tool are invited to download, test and provide feedback on the tool with the aim to enhance it - See related Action 5.
 
 
 ## Agreements / Actions
@@ -126,3 +130,7 @@ T-1B core team for the description of Services / APIs is still pending to work o
 - [ ] **Action 2**. Pilot participants requested to provide relevant feedback on the [T-1B proposed initial mapping for the description of Data Services / APIs](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-07-07/T-1B-data-services-apis) on GitHub **until 15 September 2026** - The Excel file with the participants' feedback shall be shared using [this post](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/15#issue-4826314143) on GitHub.
 
 - [ ] **Action 3**. Publications Office of the European Union to analyse of the content of the draft [metadata encoding examples](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-07-07/T-1B-data-services-apis/example-metadata-files) is sufficient for HVD reporting.
+      
+- [ ] **Action 4**. Xxx
+      
+- [ ] **Action 5**. Interested Pilot participants to provide feedback to enhance the [AI-Assisted metadata generation tool](https://code.europa.eu/jrc-dsi-lab/geospatial-metadata) developed by the JRC.
