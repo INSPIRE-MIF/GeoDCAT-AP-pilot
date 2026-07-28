@@ -41,7 +41,7 @@ Recording: Available on request.
 
 The objectives of the meeting were:
 * Share with all pilot partcipants the progress and latest news about the different [Working Teams set up in Phase 2](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2025-12-05#annex---working-teams-agreed-for-pilot-phase-2).
-* Discussing on the upcoming actions of the Working Teams .
+* Discussing on the upcoming actions of the Working Teams.
 * Promoting a more active participation of these Temas and the pilot itself.
 
 ### Summary of Pilot activities (JRC)
