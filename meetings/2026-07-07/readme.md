@@ -64,6 +64,7 @@ Other less-prioritised issues will be tackled in the next T1-A ad-hoc meeting fo
 * [GeoDCAT-AP #140](https://github.com/SEMICeu/GeoDCAT-AP/issues/140); [XSLT #78](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/78); [XSLT #84](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/84); [XSLT #64](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/64); [Pilot #11](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/11); [XSLT #71](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/71); [XSLT #72](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/72); [GeoDCAT-AP #171](https://github.com/SEMICeu/GeoDCAT-AP/issues/171).
 
 The JRC discussed with the audience possible ways to reactivate the discussions and ensure the resolution of the most-burning issues.
+DK (Christian) suggested to organise an ad-hoc workshop, or inviting relavant people to a meeting that may provide substantial inputs to specific topics / issues. The JRC will take this consideration into account when scheduling the next meeting for T-1A.
 
 #### WORKING TEAM T-1B: Specific analysis and good practices for INSPIRE-data.europa.eu alignment
 
