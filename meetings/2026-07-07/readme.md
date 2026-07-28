@@ -92,6 +92,7 @@ This is an initial mapping but feedback is needed to understand if the work is i
 
 The documentation describing the T-1B proposed mapping is available in [this folder](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-07-07/T-1B-data-services-apis) of the Pilot GitHub repository - More concretely: 
 * Excel file with the proposed mapping a spreadsheet with the : '[20260707_Service-API_description_proposal.xlsx](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-07-07/T-1B-data-services-apis/20260707_Service-API_description_proposal.xlsx)' - It contains: 
+    * a spreadsheet stating the mandatory elements to be provided for reporting HVDs (according the different relevant sources cited above).
     * a spreadsheet with the Dataset metadata mapping to GeoDCAT-AP.
     * a spreadsheet with the Service metadata mapping to GeoDCAT-AP.
 * Example metadata encodings (for datasets following the [Data-Service Linking Simplification](https://github.com/INSPIRE-MIF/gp-data-service-linking-simplification/blob/main/good-practice/data-service-linking-simplification-spec.md) approach): [Metadata encoding examples](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-07-07/T-1B-data-services-apis/example-metadata-files). Examples are available in ISO-XML and in GeoDCAT-AP RDF (for the moment, manually transformed but validated using SHACL level 3).
