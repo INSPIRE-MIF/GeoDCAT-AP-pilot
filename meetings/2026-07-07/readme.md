@@ -48,7 +48,7 @@ The objectives of the meeting were:
 
 The JRC provided an overview of the pilot activities performed during the last months, which have been focused on the set up of the [Working Teams for Phase 2](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2025-12-05#annex---working-teams-agreed-for-pilot-phase-2) - namely T-1A, T-1B and T-2, their respective kick-off meetings, and the start of their corresponding duties.
 
-#### Working Team T-1A: Management of geospatial metadata harvesting and reporting issues
+#### WORKING TEAM T-1A: Management of geospatial metadata harvesting and reporting issues
 
 The JRC delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-07-07/presentations/20260707_01_ISO%26GeoDCAT-AP_Pilot_Ph%202-T1-A_Issues.pptx) summarising the open and closed issues after the [Kick-off meeting of Working Team T-1A](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-02-24%20-%20T-1A%20Kick-off%20), on 24 February 2026:
 
@@ -65,7 +65,7 @@ Other less-prioritised issues will be tackled in the next T1-A ad-hoc meeting fo
 
 The JRC discussed with the audience possible ways to reactivate the discussions and ensure the resolution of the most-burning issues.
 
-#### Working Team T-1B: Specific analysis and good practices for INSPIRE-data.europa.eu alignment
+#### WORKING TEAM T-1B: Specific analysis and good practices for INSPIRE-data.europa.eu alignment
 
 ##### PART 1: Agreement on a good practice for describing Data Services / APIs
 
@@ -124,7 +124,7 @@ The main principles inspiring the good practioce specification were duly explain
 
 Pilot participants were invited to share 1) any comments on the draft specification document, and 2) encoding examples and evidences of implementation of the good practice - See related Actions 5 and 6.
 
-#### Working Team T-2: Exploration of the use of AI-powered tools for metadata management
+#### WORKING TEAM T-2: Exploration of the use of AI-powered tools for metadata management
 
 The JRC provided a short summary about the status of the AI-Assisted metadata generation tool developed in-house.
 The tool has recently being released as open source software in [code.europa.eu](https://code.europa.eu/jrc-dsi-lab/geospatial-metadata).
