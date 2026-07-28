@@ -124,9 +124,11 @@ After the inputs received in September, testing activities might be planned.
 
 BE-Flanders delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-07-07/presentations/20260707_02b_ISO%26GeoDCAT-AP_Pilot_Ph%202-T1-B_Distribution_Formats.pptx) on a research topic exploring a workaround for explicitly encoding, in ISO metadata, the distribution options available for each data format. This workaround proposes making use of the `gmd:distributorTransferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:linkage/gmd:URL` as possible alternative XML path to implement TG Requirement 1.8 of the [INSPIRE Technhical Guidelines on Metadata](https://inspire-mif.github.io/technical-guidelines/metadata/metadata-iso19139/metadata-iso19139.html), instead of only allowing the `gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd: linkage/gmd:URL` path.
 
-Joachim (BE-Flanders) explained, on behalf of Bianca, the benefits of this change, which will allow connecting an online resource URL to a `MD_format` without ambiguity, while adhering to the ISO 19115-1 STANDARD (and therefore to ISO 19115-3). He also illustrated the applicable mappings and showed metadata encoding examples implementing this workround.
+Joachim (BE-Flanders) explained, on behalf of Bianca, the benefits of this change, which will allow connecting an online resource URL to a `MD_format` without ambiguity, while adhering to the ISO 19115-1 standard (and therefore to ISO 19115-3). He also illustrated the applicable mappings applicable to the GeoNetwork DCAT formatter / XSLT, and showed metadata encoding examples implementing this workround.
 
 BE-Flanders will make a Pull Request to change the [INSPIRE Technhical Guidelines on Metadata](https://inspire-mif.github.io/technical-guidelines/metadata/metadata-iso19139/metadata-iso19139.html) accordingly (scoped to TG Requirement 1.8) - See Action 5.
+
+GeoNetwork DCAT formatter / XSLT would also need some adjustments.
 
 ##### PART 2: Analysis of potential metadata information losses in the ISO-to-GeoDCAT-AP transformation
 
