@@ -88,7 +88,7 @@ BE-Flanders also explored workarrounds for encoding (in the ISO metadata formats
 
 The core team work focused the **T-1B mapping proposal** on distribution-related metadata fields (describing services / APIs), for the moment only scoped to MANDATORY elements to be provided for reporting HVDs (according the analysis performed of DCAT-AP 3.0, GeoDCAT-AP v3.0.0, DCAT-AP for HVDs), and following an approach consistent with the Data-Service Linking Simplification Good Practice. Inspiration was taken from the [German ISO-to-DCAT bridge/mapping](https://gitlab.opencode.de/sh/zit/opendata/csw2dcat), available as the [CSW2DCAT solution](https://interoperable-europe.ec.europa.eu/eu-oss-catalogue/solutions/csw2dcat-bridge) in the Interoperable Europe Portal, reusing relevant parts.
 
-This is an initial mapping but feedback is needed to understand if the work is in the good direction and continue with it. 
+This initial mapping mainly proposes to replace `gmd:function` as the main mapping criterion for linking to Services and APIs, using it still as a fallback alternative when the dataset metadata does not contain `gmd:applicationProfile` (proposed to replace `gmd:function` as first mapping criterion). Feedback from the community is needed to understand if the work is going in the good direction and, this being the case, continuing with it.
 
 The documentation describing the T-1B proposed mapping is available in [this folder](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-07-07/T-1B-data-services-apis) of the Pilot GitHub repository - More concretely: 
 * Excel file with the proposed mapping a spreadsheet with the : '[20260707_Service-API_description_proposal.xlsx](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-07-07/T-1B-data-services-apis/20260707_Service-API_description_proposal.xlsx)' - It contains: 
@@ -154,7 +154,7 @@ The JRC is available to provide any information and/or resolving any doubts in c
  
 - [ ] **Action 2**. Pilot participants requested to provide relevant feedback **until 15 September 2026** on the [T-1B proposed initial mapping for the description of Data Services / APIs](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-07-07/T-1B-data-services-apis) on GitHub - The Excel file with the participants' feedback shall be shared using [this post](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/15#issue-4826314143).
 
-- [ ] **Action 3**. Publications Office of the European Union to analyse if the content of the draft [metadata encoding examples](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-07-07/T-1B-data-services-apis/example-metadata-files) is sufficient for HVD reporting.
+- [ ] **Action 3**. Publications Office of the European Union to analyse if the content of the draft [metadata encoding examples](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-07-07/T-1B-data-services-apis/example-metadata-files) is sufficient for HVD reporting, if possible by 15 September 2026.
 
 - [ ] **Action 4**. SEMIC to respond the technical questions about the XSLT transformation (possibility for applying sifferent separated mappings for dataset metadata and service metadata) **by the end of September 2026**.
 
