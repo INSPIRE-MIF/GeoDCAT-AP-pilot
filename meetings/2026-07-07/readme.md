@@ -88,7 +88,7 @@ BE-Flanders also explored workarrounds for encoding (in the ISO metadata formats
 
 The core team work focused the **T-1B mapping proposal** on distribution-related metadata fields (describing services / APIs), for the moment only scoped to MANDATORY elements to be provided for reporting HVDs (according the analysis performed of DCAT-AP 3.0, GeoDCAT-AP v3.0.0, DCAT-AP for HVDs), and following an approach consistent with the Data-Service Linking Simplification Good Practice. Inspiration was taken from the [German ISO-to-DCAT bridge/mapping](https://gitlab.opencode.de/sh/zit/opendata/csw2dcat), available as the [CSW2DCAT solution](https://interoperable-europe.ec.europa.eu/eu-oss-catalogue/solutions/csw2dcat-bridge) in the Interoperable Europe Portal, reusing relevant parts.
 
-This is an initial mapping but feedback is needed to continue the work. 
+This is an initial mapping but feedback is needed to understand if the work is in the good direction and continue with it. 
 
 The documentation describing the T-1B proposed mapping is available in [this folder](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-07-07/T-1B-data-services-apis) of the Pilot GitHub repository - More concretely: 
 * Excel file with the proposed mapping a spreadsheet with the : '[20260707_Service-API_description_proposal.xlsx](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-07-07/T-1B-data-services-apis/20260707_Service-API_description_proposal.xlsx)' - It contains: 
