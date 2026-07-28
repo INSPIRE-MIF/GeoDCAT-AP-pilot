@@ -60,7 +60,7 @@ However, activity on GitHub is low. Feedback from the INSPIRE community and the 
 The issues concerned to the implementation of the geospatial High-Value Datasets (HVD) tagging Good practice have been already closed:
 * [Pilot #3](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/3); [GeoDCAT-AP #147](https://github.com/SEMICeu/GeoDCAT-AP/issues/147); [Pilot #7](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/7); [Pilot #2](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/2); [GeoDCAT-AP #134](https://github.com/SEMICeu/GeoDCAT-AP/issues/134).
 
-Other less-prioritised issues will be tackled in the next T1-A ad-hoc meeting foreseen in September.
+Other less-prioritised issues will be tackled in the next T1-A ad-hoc meeting foreseen in September:
 * [GeoDCAT-AP #140](https://github.com/SEMICeu/GeoDCAT-AP/issues/140); [XSLT #78](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/78); [XSLT #84](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/84); [XSLT #64](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/64); [Pilot #11](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/11); [XSLT #71](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/71); [XSLT #72](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/72); [GeoDCAT-AP #171](https://github.com/SEMICeu/GeoDCAT-AP/issues/171).
 
 The JRC discussed with the audience possible ways to reactivate the discussions and ensure the resolution of the most-burning issues.
