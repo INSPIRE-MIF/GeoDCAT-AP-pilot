@@ -67,7 +67,7 @@ Other less-prioritised issues will be tackled in the next T1-A ad-hoc meeting fo
 
 #### Working Team T-1B: Specific analysis and good practices for INSPIRE-data.europa.eu alignment
 
-##### Agreement on a good practice for describing Data Services / APIs
+##### PART 1: Agreement on a good practice for describing Data Services / APIs
 
 The JRC delivered - on behalf of Working Team T-1B - a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-07-07/presentations/20260707_02a_ISO%26GeoDCAT-AP_Pilot_Ph%202-T1-B_GP_Services-APIs_description.pptx) summarising the work for the agreement on a good practice for describing Data Services / APIs, which may end up in proposing possible changes to the mapping between ISO and GeoDCAT-AP inplemented in the SEMIC XSLT transformation, as well as alternative ways of providing information within the relevant metadata formats. As part of the work, encoding examples in ISO (XML format) and GeoDCAT-AP (RDF format) will be provided.
 
@@ -106,26 +106,30 @@ T-1B core team for the description of Services / APIs is still pending to work o
 * Refining the mapping (Excel file), based on the feedback from Pilot participants.Propose consistent updates to GeoDCAT-AP v3.1.0. 
 * Start drafting a good practice.
 
-##### Analysis of potential metadata information losses in the ISO-to-GeoDCAT-AP transformation
+##### PART 2: Analysis of potential metadata information losses in the ISO-to-GeoDCAT-AP transformation
 
-Paloma (ES) delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-07-07/presentations/20260707_03_ISO%26GeoDCAT-AP_Pilot_Ph%202-T-1B_Information_losses.pptx) summarising the work...
+Paloma (ES) delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-07-07/presentations/20260707_03_ISO%26GeoDCAT-AP_Pilot_Ph%202-T-1B_Information_losses.pptx) explaining the work on the analysis of potential metadata information losses in the ISO-to-GeoDCAT-AP transformation, still in progress.
 
+There are two-main pahses for this work: 
+* Revision of the ISO 19115 standard (considering mandatory, conditional, and optional metadata elements in this starndard).
+* Proposal of suggestions for the ISO-to-GeoDCAT-AP mapping of metadata elements which might be essential, and are missing or are not properly mapped to the target standard.  
 
+Once an initial proposal is ready, hopefully by the end of July 2026, it will be shared on the Pilot repository on GitHub.
 
-##### Drafting of the Geospatial High-Value Datasets tagging good practice specification
+##### PART 3: Drafting of the Geospatial High-Value Datasets tagging good practice specification
 
 Antonio (IT) delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-07-07/presentations/20260707_04_ISO%26GeoDCAT-AP_Pilot_Ph%202-T1-B_HVD-tagging_GP_specification.pptx) summarising the work for drafting the Geospatial High-Value Datasets tagging good practice specification.
 
 The main principles inspiring the good practioce specification were duly explained, sharing also some examples.
 
-Pilot participants were invited to share 1) any comments on the draft specification document, and 2) encoding examples and evidences of implementation of the good practice - See related Actions 4 and 5.
+Pilot participants were invited to share 1) any comments on the draft specification document, and 2) encoding examples and evidences of implementation of the good practice - See related Actions 5 and 6.
 
 #### Working Team T-2: Exploration of the use of AI-powered tools for metadata management
 
 The JRC provided a short summary about the status of the AI-Assisted metadata generation tool developed in-house.
 The tool has recently being released as open source software in [code.europa.eu](https://code.europa.eu/jrc-dsi-lab/geospatial-metadata).
 
-Pilot participants interested to test the tool are invited to download, test and provide feedback on the tool with the aim to enhance it - See related Action 6.
+Pilot participants interested to test the tool are invited to download, test and provide feedback on the tool with the aim to enhance it - See related Action 7.
 
 
 ## Agreements / Actions
@@ -139,8 +143,10 @@ Pilot participants interested to test the tool are invited to download, test and
 
 - [ ] **Action 3**. Publications Office of the European Union to analyse of the content of the draft [metadata encoding examples](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-07-07/T-1B-data-services-apis/example-metadata-files) is sufficient for HVD reporting.
 
-- [ ] **Action 4**. Pilot participants requested to provide **until 15 September 2026** relevant feedback on the first draft of the [Geospatial High-Value Datasets tagging good practice specification](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/good-practices/hvd-tagging/specification.md).
+- [ ] **Action 4**. ES to share **by the end of July 2026** the initial analysis on the potential metadata information losses in the ISO-to-GeoDCAT-AP transformation.
       
-- [ ] **Action 5**. Member States to share encoding examples and evidences of implementation of the geospatial High-Value Datasets tagging good practice. See the corresponding [call for evidences](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/discussions/14) on GitHub.
+- [ ] **Action 5**. Pilot participants requested to provide **until 15 September 2026** relevant feedback on the first draft of the [Geospatial High-Value Datasets tagging good practice specification](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/good-practices/hvd-tagging/specification.md).
+      
+- [ ] **Action 6**. Member States to share encoding examples and evidences of implementation of the geospatial High-Value Datasets tagging good practice. See the corresponding [call for evidences](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/discussions/14) on GitHub.
 
-- [ ] **Action 6**. Interested Pilot participants to provide feedback to enhance the [AI-Assisted metadata generation tool](https://code.europa.eu/jrc-dsi-lab/geospatial-metadata) developed by the JRC.
+- [ ] **Action 7**. Interested Pilot participants to provide feedback to enhance the [AI-Assisted metadata generation tool](https://code.europa.eu/jrc-dsi-lab/geospatial-metadata) developed by the JRC.
