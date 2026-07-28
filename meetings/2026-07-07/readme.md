@@ -50,7 +50,7 @@ The JRC provided an overview of the pilot activities performed during the last m
 
 #### Working Team T-1A: Management of geospatial metadata harvesting and reporting issues
 
-The JRC delivered a presentation summarising the open and closed issues after the [Kick-off meeting of Working Team T-1A](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-02-24%20-%20T-1A%20Kick-off%20), on 24 February 2026:
+The JRC delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-07-07/presentations/20260707_01_ISO%26GeoDCAT-AP_Pilot_Ph%202-T1-A_Issues.pptx) summarising the open and closed issues after the [Kick-off meeting of Working Team T-1A](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-02-24%20-%20T-1A%20Kick-off%20), on 24 February 2026:
 
 Progress has been made for issues directly or indirectly in the scope of them Working Team T-1B. More details will be share in the specific report for this Working Team.
 * [Geo-DCAT-AP #139](https://github.com/SEMICeu/GeoDCAT-AP/issues/139); [Pilot #9](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/9); [XSLT #57](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/57); [Geo-DCAT-AP #135](https://github.com/SEMICeu/GeoDCAT-AP/issues/135); [XSLT #98](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/98); [Pilot #8](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/8); [XSLT #74](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/74). 
@@ -69,7 +69,7 @@ Other less-prioritised issues will be tackled in the next T1-A ad-hoc meeting fo
 
 ##### Agreement on a good practice for describing Data Services / APIs
 
-The JRC delivered - on behalf of Working Team T-1B - a presentation summarising the work for the agreement on a good practice for describing Data Services / APIs, which may end up in proposing possible changes to the mapping between ISO and GeoDCAT-AP inplemented in the SEMIC XSLT transformation, as well as alternative ways of providing information within the relevant metadata formats. As part of the work, encoding examples in ISO (XML format) and GeoDCAT-AP (RDF format) will be provided.
+The JRC delivered - on behalf of Working Team T-1B - a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-07-07/presentations/20260707_02a_ISO%26GeoDCAT-AP_Pilot_Ph%202-T1-B_GP_Services-APIs_description.pptx) summarising the work for the agreement on a good practice for describing Data Services / APIs, which may end up in proposing possible changes to the mapping between ISO and GeoDCAT-AP inplemented in the SEMIC XSLT transformation, as well as alternative ways of providing information within the relevant metadata formats. As part of the work, encoding examples in ISO (XML format) and GeoDCAT-AP (RDF format) will be provided.
 
 The working procedure applied by the core team since [T-1B Kick-off Meeting](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-02-26%20-%20T-1B%20Kick-off) on 26 February 2026 was duly explained. It was followed by a working meeting of the core team on 27 March 2026, which was devoted to prepare an inventory and an outline of the different options available:
 * Which code lists and values are relevant for APIs/Services?
@@ -95,8 +95,9 @@ The documentation describing the T-1B proposed mapping is available in [this fol
     * a spreadsheet with the Service metadata mapping to GeoDCAT-AP.
 * Example metadata encodings (for datasets following the [Data-Service Linking Simplification](https://github.com/INSPIRE-MIF/gp-data-service-linking-simplification/blob/main/good-practice/data-service-linking-simplification-spec.md) approach): [Metadata encoding examples](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-07-07/T-1B-data-services-apis/example-metadata-files)
 
-Feedback from the INSPIRE community and the pilot participats on this initial mapping is crucial for guiding the work of T-1B and achieving consensus on a good practice to describe services and APIs - See related Action 2.
-The JRC explained how to use the Excel template to provide this feedback.
+Feedback from the INSPIRE community and the pilot participats on this initial mapping is crucial for guiding the work of T-1B and achieving consensus on a good practice to describe services and APIs - See Slides 14-16 of the [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-07-07/presentations/20260707_02a_ISO%26GeoDCAT-AP_Pilot_Ph%202-T1-B_GP_Services-APIs_description.pptx) and related Action 2. The JRC explained how to use the Excel template to provide this feedback.
+
+Some Questions & Remarks were exposed to help Pilot participants to focus their anaysis and enrich their feedback on the initial mapping proposal - See Slides 17-18 of the [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-07-07/presentations/20260707_02a_ISO%26GeoDCAT-AP_Pilot_Ph%202-T1-B_GP_Services-APIs_description.pptx).
 
 T-1B core team for the description of Services / APIs is still pending to work on the follwoing items:
 * Preparing encoding (ISO XML & GeoDCAT-AP) examples for service metadata.
