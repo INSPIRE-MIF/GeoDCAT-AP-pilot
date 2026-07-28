@@ -144,7 +144,7 @@ The JRC is available to provide any information and/or resolving any doubts in c
  
 - [ ] **Action 2**. Pilot participants requested to provide relevant feedback **until 15 September 2026** on the [T-1B proposed initial mapping for the description of Data Services / APIs](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-07-07/T-1B-data-services-apis) on GitHub - The Excel file with the participants' feedback shall be shared using [this post](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/15#issue-4826314143).
 
-- [ ] **Action 3**. Publications Office of the European Union to analyse of the content of the draft [metadata encoding examples](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-07-07/T-1B-data-services-apis/example-metadata-files) is sufficient for HVD reporting.
+- [ ] **Action 3**. Publications Office of the European Union to analyse if the content of the draft [metadata encoding examples](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-07-07/T-1B-data-services-apis/example-metadata-files) is sufficient for HVD reporting.
 
 - [ ] **Action 4**. ES to share **by the end of July 2026** the initial analysis on the potential metadata information losses in the ISO-to-GeoDCAT-AP transformation.
       
