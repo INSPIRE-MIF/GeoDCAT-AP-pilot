@@ -144,6 +144,8 @@ There are two-main phases for this work:
 
 Once an initial proposal is ready, hopefully by the end of July 2026, it will be shared on the Pilot repository on GitHub - See Action 6.
 
+JRC commented that the information about data quality - currently missing in GeoDCAT-AP - is particularly important for AI-ready (meta)data.
+
 ##### PART 3: Drafting of the Geospatial High-Value Datasets tagging good practice specification
 
 Antonio (IT) delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-07-07/presentations/20260707_04_ISO%26GeoDCAT-AP_Pilot_Ph%202-T1-B_HVD-tagging_GP_specification.pptx) summarising the work for drafting the Geospatial High-Value Datasets tagging good practice specification.
