@@ -132,6 +132,8 @@ BE-Flanders will make a Pull Request to change the [INSPIRE Technhical Guideline
 
 GeoNetwork DCAT formatter / XSLT would also need some adjustments.
 
+JRC invited the Pilot participants to test if this option for encoding formats and distributions is helpful for them.
+
 ##### PART 2: Analysis of potential metadata information losses in the ISO-to-GeoDCAT-AP transformation
 
 Paloma (ES) delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-07-07/presentations/20260707_03_ISO%26GeoDCAT-AP_Pilot_Ph%202-T-1B_Information_losses.pptx) explaining the work on the analysis of potential metadata information losses in the ISO-to-GeoDCAT-AP transformation, still in progress.
