@@ -75,7 +75,7 @@ The JRC delivered - on behalf of Working Team T-1B - a [presentation](https://gi
 The working procedure applied by the core team since [T-1B Kick-off Meeting](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-02-26%20-%20T-1B%20Kick-off) on 26 February 2026 was duly explained. It was followed by a working meeting of the core team on 27 March 2026, which was devoted to prepare an inventory and an outline of the different options available:
 * Which code lists and values are relevant for APIs/Services?
 * In which context are they required and provided by data providers.
-* Which workarounds exist for the format of the distributions?
+* Which workarounds exist for making explicit which distributions deliver an specific format?
 
 An ad-hoc Teams channel was created for sharing related documentation between the core team. 
 
