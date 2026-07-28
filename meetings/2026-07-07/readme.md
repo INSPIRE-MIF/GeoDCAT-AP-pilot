@@ -86,7 +86,7 @@ Bi-weekly meetings of the core team took place in the period from April until th
 * Exchanges and feedback in the scope of the core team (within the internal Teams repository).
 BE-Flanders also explored workarrounds for encoding (in the ISO metadata formats) explicit distribution options available for each data format. 
 
-The core team work focused the **T-1B mapping proposal** on distribution-related metadata fields (describing services / APIs), for the moment only scoped to MANDATORY elements to be provided for reporting HVDs (accoording the analysis performed), and following an approach consistent with the Data-Service Linking Simplification Good Practice. Inspiration was taken from the [German ISO-to-DCAT bridge/mapping](https://gitlab.opencode.de/sh/zit/opendata/csw2dcat), available as the [CSW2DCAT solution](https://interoperable-europe.ec.europa.eu/eu-oss-catalogue/solutions/csw2dcat-bridge) in the Interoperable Europe Portal, reusing relevant parts.
+The core team work focused the **T-1B mapping proposal** on distribution-related metadata fields (describing services / APIs), for the moment only scoped to MANDATORY elements to be provided for reporting HVDs (according the analysis performed of DCAT-AP 3.0, GeoDCAT-AP v3.0.0, DCAT-AP for HVDs), and following an approach consistent with the Data-Service Linking Simplification Good Practice. Inspiration was taken from the [German ISO-to-DCAT bridge/mapping](https://gitlab.opencode.de/sh/zit/opendata/csw2dcat), available as the [CSW2DCAT solution](https://interoperable-europe.ec.europa.eu/eu-oss-catalogue/solutions/csw2dcat-bridge) in the Interoperable Europe Portal, reusing relevant parts.
 
 This is an initial mapping but feedback is needed to continue the work. 
 
