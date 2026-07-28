@@ -106,6 +106,12 @@ T-1B core team for the description of Services / APIs is still pending to work o
 * Refining the mapping (Excel file), based on the feedback from Pilot participants.Propose consistent updates to GeoDCAT-AP v3.1.0. 
 * Start drafting a good practice.
 
+##### Analysis of potential metadata information losses in the ISO-to-GeoDCAT-AP transformation
+
+
+##### Drafting of the Geospatial High-Value Datasets tagging good practice specification
+
+
 #### Working Team T-2: Exploration of the use of AI-powered tools for metadata management
 
 
