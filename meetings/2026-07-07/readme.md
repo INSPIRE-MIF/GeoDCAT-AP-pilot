@@ -179,7 +179,7 @@ The JRC is available to provide any information and/or resolving any doubts in c
 
 - [x] **Action 5**. BE-Flanders to make a Pull Request to change TG Requirement 1.8 of the [INSPIRE Technhical Guidelines on Metadata](https://inspire-mif.github.io/technical-guidelines/metadata/metadata-iso19139/metadata-iso19139.html) for allowing the usage of an alternative ISO metadata path in its implementation.
              
-- [ ] **Action 6**. ES to share **by the end of July 2026** the initial analysis on the potential metadata information losses in the ISO-to-GeoDCAT-AP transformation.
+- [ ] **Action 6**. ES to share **as soon as possible** the initial analysis on the potential metadata information losses in the ISO-to-GeoDCAT-AP transformation.
       
 - [ ] **Action 7**. Pilot participants requested to provide **until 15 September 2026** relevant feedback on the first draft of the [Geospatial High-Value Datasets tagging good practice specification](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/good-practices/hvd-tagging/specification.md), preferably via Pull Request.
       
