@@ -130,7 +130,9 @@ The JRC provided a short summary about the status of the AI-Assisted metadata ge
 The tool has recently being released as open source software in [code.europa.eu](https://code.europa.eu/jrc-dsi-lab/geospatial-metadata).
 
 Pilot participants interested to test the tool are invited to download, test and provide feedback on the tool with the aim to enhance it - See related Action 7.
+At least BE-Flanders, DE, the EEA, and recently ES, expressed interested in testing the metadata generation tool prototype. 
 
+The JRC is available to provide any information and/or resolving any doubts in case of need.
 
 ## Agreements / Actions
 
