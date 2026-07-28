@@ -108,11 +108,16 @@ T-1B core team for the description of Services / APIs is still pending to work o
 * Refining the mapping (Excel file), based on the feedback from Pilot participants.Propose consistent updates to GeoDCAT-AP v3.1.0. 
 * Start drafting a good practice.
 
+Ine (NL) commented that `foaf:page` is used in DCAT to provide quality of service metadata, while ISO contains other elements to provide this quality information which are not page-based. Therefore, this opens the question about how to provide this information in DCAT.
+
+NL commented as well that for an specific HVD, there might be several services providing access to it. This means that various descriptions of the same HVD may exist. Additionally, ISO service metadata is focused on descrbing the service and not the datasets being served through the service. For this reason, making clear distinction between dataset metadata and service metadata is absolutely needed when facinf the transformations to GeoDCAT-AP in the HVD context.
+ 
+
 ##### PART 2: Analysis of potential metadata information losses in the ISO-to-GeoDCAT-AP transformation
 
 Paloma (ES) delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-07-07/presentations/20260707_03_ISO%26GeoDCAT-AP_Pilot_Ph%202-T-1B_Information_losses.pptx) explaining the work on the analysis of potential metadata information losses in the ISO-to-GeoDCAT-AP transformation, still in progress.
 
-There are two-main pahses for this work: 
+There are two-main phases for this work: 
 * Revision of the ISO 19115 standard (considering mandatory, conditional, and optional metadata elements in this starndard).
 * Proposal of suggestions for the ISO-to-GeoDCAT-AP mapping of metadata elements which might be essential, and are missing or are not properly mapped to the target standard.  
 
