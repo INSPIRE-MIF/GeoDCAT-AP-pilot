@@ -66,6 +66,26 @@ The JRC delivered a presentation summarising the open and closed issues after th
 
 #### Working Team T-1B: Specific analysis and good practices for INSPIRE-data.europa.eu alignment
 
+##### Agreement on a good practice for describing Data Services / APIs
+
+The JRC delivered - on behalf of Working Team T-1B - a presentation summarising the work for the agreement on a good practice for describing Data Services / APIs, which may end up in proposing possible changes to the mapping between ISO and GeoDCAT-AP inplemented in the SEMIC XSLT transformation, as well as alternative ways of providing information within the relevant metadata formats. As part of the work, encoding examples in ISO (XML format) and GeoDCAT-AP (RDF format) will be provided.
+
+The working procedure applied by the core team since [T-1B Kick-off Meeting](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-02-26%20-%20T-1B%20Kick-off) on 26 February 2026 was duly explained. It was followed by a working meeting of the core team on 27 March 2026, which was devoted to prepare an inventory and an outline of the different options available:
+    - Which code lists and values are relevant for APIs/Services?
+    - In which context are they required and provided by data providers.
+    - Which workarounds exist for the format of the distributions?
+
+An ad-hoc Teams channel was created for sharing related documentation between the core team. 
+
+Bi-weekly meetings of the core team took place in the period from April until the end of June, in which the following activities took place:
+    - Analysys of the DCAT elements being mandatory in relevant DCAT profiles.
+    - Preparation of example files to demonstrate the mapping for the Data-Service Linking Simplification Good Practice approach.
+    - Documentation of a proposed mapping using an Excel emplate (draft presented in this meeting).
+    - Exchanges and feedback in the scope of the core team (within the internal Teams repository).
+BE-Flanders also explored workarrounds for encoding (in the ISO metadata formats) explicit distribution options available for each data format. 
+
+The core team work focused the **T-1B mapping proposal** on distribution-related metadata fields (describing services / APIs), for the moment only scoped to MANDATORY elements (accoording the analysis performed), and following an approach consistent with the Data-Service Linking Simplification Good Practice. Inspiration was taken from the [German ISO-to-DCAT bridge/mapping](https://gitlab.opencode.de/sh/zit/opendata/csw2dcat), available as the [CSW2DCAT solution](https://interoperable-europe.ec.europa.eu/eu-oss-catalogue/solutions/csw2dcat-bridge) in the Interoperable Europe Portal, reusing relevant parts.
+
 
 
 #### Working Team T-2: Exploration of the use of AI-powered tools for metadata management
