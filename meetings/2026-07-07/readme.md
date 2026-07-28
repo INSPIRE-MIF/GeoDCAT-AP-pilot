@@ -120,7 +120,7 @@ On this regard, convergence between the mappings used by [data.europa.eu](https:
 OP requested a workflow to plan the next steps. JRC responded that, before setting the next steps, feedback from the community, OP and SEMIC is needed to understand the situation - See the Actions on this meeting. 
 After the inputs received in September, testing activities might be planned.
 
-##### PART 1b: Agreement on a good practice for describing Data Services / APIs - Formats
+##### PART 1b: Agreement on a good practice for describing Data Services / APIs - Formats (Research topic)
 
 BE-Flanders delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-07-07/presentations/20260707_02b_ISO%26GeoDCAT-AP_Pilot_Ph%202-T1-B_Distribution_Formats.pptx) on a research topic exploring a workaround for explicitly encoding, in ISO metadata, the distribution options available for each data format. This workaround proposes making use of the `gmd:distributorTransferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:linkage/gmd:URL` as possible alternative XML path to implement TG Requirement 1.8 of the [INSPIRE Technhical Guidelines on Metadata](https://inspire-mif.github.io/technical-guidelines/metadata/metadata-iso19139/metadata-iso19139.html), instead of only allowing the `gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd: linkage/gmd:URL` path.
 
