@@ -52,7 +52,7 @@ The JRC provided an overview of the pilot activities performed during the last m
 
 The JRC delivered a [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-07-07/presentations/20260707_01_ISO%26GeoDCAT-AP_Pilot_Ph%202-T1-A_Issues.pptx) summarising the open and closed issues after the [Kick-off meeting of Working Team T-1A](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-02-24%20-%20T-1A%20Kick-off%20), on 24 February 2026:
 
-Progress has been made for issues directly or indirectly in the scope of them Working Team T-1B. More details will be share in the specific report for this Working Team.
+Progress has been made for issues directly or indirectly in the scope of Working Team T-1B. More details will be share in the specific section for this Working Team.
 * [Geo-DCAT-AP #139](https://github.com/SEMICeu/GeoDCAT-AP/issues/139); [Pilot #9](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/9); [XSLT #57](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/57); [Geo-DCAT-AP #135](https://github.com/SEMICeu/GeoDCAT-AP/issues/135); [XSLT #98](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/98); [Pilot #8](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/8); [XSLT #74](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/74). 
 
 However, activity on GitHub is low. Feedback from the INSPIRE community and the pilot participats on these issues on GitHub is crucial for achieving consensus on the solutions proposed - See related Action 1.
