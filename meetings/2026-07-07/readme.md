@@ -128,11 +128,11 @@ It consists on workaround for explicitly encoding, in ISO metadata, the distribu
 
 Joachim (BE-Flanders) explained, on behalf of Bianca, the benefits of this change, which will allow connecting an online resource URL to a `MD_format` without ambiguity, while adhering to the ISO 19115-1 standard (and therefore to ISO 19115-3). He also illustrated the applicable mappings applicable to the GeoNetwork DCAT formatter / XSLT, and showed metadata encoding examples implementing this workround.
 
-BE-Flanders will make a Pull Request to change the [INSPIRE Technhical Guidelines on Metadata](https://inspire-mif.github.io/technical-guidelines/metadata/metadata-iso19139/metadata-iso19139.html) accordingly (scoped to TG Requirement 1.8) - See Action 5.
+BE-Flanders will make a Pull Request to change the [INSPIRE Technhical Guidelines on Metadata](https://inspire-mif.github.io/technical-guidelines/metadata/metadata-iso19139/metadata-iso19139.html) accordingly (scoped to TG Requirement 1.8) - See Action 5. This is a pressing issue fopr BE-Flanders to ake their metadata more explicit as for distributions is concerned. Changes to the [INSPIRE Technhical Guidelines on Metadata](https://inspire-mif.github.io/technical-guidelines/metadata/metadata-iso19139/metadata-iso19139.html) will be considered.
 
 GeoNetwork DCAT formatter / XSLT would also need some adjustments.
 
-JRC invited the Pilot participants to test if this option for encoding formats and distributions is helpful for them.
+JRC invited the Pilot participants to test if this option for encoding formats and distributions is helpful for them. 
 
 ##### PART 2: Analysis of potential metadata information losses in the ISO-to-GeoDCAT-AP transformation
 
