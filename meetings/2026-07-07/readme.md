@@ -1,4 +1,4 @@
-# Pilot Phase 2 - General Meeting (7 July 2025, 10:00 - 12:00 CEST)
+# Pilot Phase 2 - General Meeting (7 July 2026, 10:00 - 12:00 CEST)
 
 ## Agenda
 
