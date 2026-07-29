@@ -19,7 +19,7 @@
         * **Drafting of the Geospatial High-Value Datasets tagging good practice specification** (IT & JRC) - 15 minutes
             * Status of activities (Presenter TBD) - 10 minutes
             * Q&A and discussion - 5 minutes
-    * **Working Team T-1C: Exploration of the use of AI-powered tools for metadata management** - 10 minutes
+    * **Working Team T-2: Exploration of the use of AI-powered tools for metadata management** - 10 minutes
         * Status of activities (Presenter TBD) - 5 minutes
         * Q&A and discussion - 5 minutes
 * **Wrap-up & Next meeting** - 5 minutes
