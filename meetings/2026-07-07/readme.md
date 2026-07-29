@@ -159,7 +159,7 @@ Pilot participants were invited to share 1) any comments on the draft specificat
 The JRC provided a short summary about the status of the AI-Assisted metadata generation tool developed in-house.
 The tool has recently being released as open source software in [code.europa.eu](https://code.europa.eu/jrc-dsi-lab/geospatial-metadata), under a EUPL v1.2 license. The community is able to contribute to it.
 
-The JRC explained the logic behind the tool and how LLMs are used to produce a GeoDCAT-like metadata records from existing documentation, previous metadata records and/or other type of resources.  
+The JRC explained the logic behind the tool and how LLMs are used to produce a GeoDCAT-like metadata records starting from existing documentation, previous metadata records and/or other type of resources. More details are available on this [presentation](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/meetings/2026-07-07/presentations/20260707_05_AI_metadata_editor_FOSS4GE2026.pptx). 
 
 Pilot participants interested to test the tool are invited to download, test and provide feedback on the tool with the aim to enhance it - See related Action 9.
 At least BE-Flanders, DE, the EEA, and recently ES, expressed interested in testing the metadata generation tool prototype. 
