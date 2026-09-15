@@ -115,7 +115,7 @@ For each of these HVD categories, Commission Implementing Regulation (EU) 2023/1
 
 One of the arrangements for publication, article 3(5), states that public sector bodies holding high-value datasets shall '**ensure that the datasets are denoted as high-value datasets in their metadata description**'.
 
-As HVDs are a subset of all datasets published as Open Data (to which the DCAT-AP metadata profile applies on general-purpose portals), [specific usage guidelines of DCAT-AP (DCAT-AP HVD)](https://semiceu.github.io/DCAT-AP/releases/2.2.0-hvd/) have been adopted to satisfy the HVD Implementing Regulation and the minimum specific metadata requirements.
+As HVDs are a subset of all datasets published as Open Data (to which the DCAT-AP metadata profile applies on general-purpose portals), [specific usage guidelines of DCAT-AP (DCAT-AP HVD)](https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd) have been adopted to satisfy the HVD Implementing Regulation and the minimum specific metadata requirements.
 
 This document provides with the encoding rules for tagging the geospatial datasets as high-value datasets in the ISO 19115 metadata records in order to meet the above requirement. This will enable the transformation into GeoDCAT-AP by applying the XLST script in order to make those datasets discoverable in the EU Open Data portal data.europa.eu. It, however, does not mean a complete compliance with the Regulation and the DCAT-AP HVD because not all metadata requirements in DCAT-AP HVD are covered. 
 
