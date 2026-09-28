@@ -173,7 +173,7 @@ The JRC is available to provide any information and/or resolving any doubts in c
 - [ ] **Action 1**. Pilot participants requested to provide **until 15 September 2026** relevant feedback on GitHub issues, especially for the issues stated below, concerned to 'Distributions and their mapping in GeoDCAT-AP':
     - [Geo-DCAT-AP #139](https://github.com/SEMICeu/GeoDCAT-AP/issues/139); [Pilot #9](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/9); [XSLT #57](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/57); [Geo-DCAT-AP #135](https://github.com/SEMICeu/GeoDCAT-AP/issues/135); [XSLT #98](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/98); [Pilot #8](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/8); [XSLT #74](https://github.com/SEMICeu/iso-19139-to-dcat-ap/issues/74); 
  
-- [ ] **Action 2**. Pilot participants requested to provide relevant feedback **until 15 September 2026** on the [T-1B proposed initial mapping for the description of Data Services / APIs](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-07-07/T-1B-data-services-apis) on GitHub - The Excel file with the participants' feedback shall be shared using [this post](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/15#issue-4826314143).
+- [x] **Action 2**. Pilot participants requested to provide relevant feedback **until 15 September 2026** on the [T-1B proposed initial mapping for the description of Data Services / APIs](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-07-07/T-1B-data-services-apis) on GitHub - The Excel file with the participants' feedback shall be shared using [this post](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/15#issue-4826314143).
 
 - [ ] **Action 3**. Publications Office of the European Union to analyse if the content of the draft [metadata encoding examples](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-07-07/T-1B-data-services-apis/example-metadata-files) is sufficient for HVD reporting, if possible by the end of September 2026.
 
@@ -185,7 +185,7 @@ The JRC is available to provide any information and/or resolving any doubts in c
              
 - [ ] **Action 6**. ES to share **as soon as possible** the initial analysis on the potential metadata information losses in the ISO-to-GeoDCAT-AP transformation.
       
-- [ ] **Action 7**. Pilot participants requested to provide **until 15 September 2026** relevant feedback on the first draft of the [Geospatial High-Value Datasets tagging good practice specification](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/good-practices/hvd-tagging/specification.md), preferably via Pull Request.
+- [x] **Action 7**. Pilot participants requested to provide **until 15 September 2026** relevant feedback on the first draft of the [Geospatial High-Value Datasets tagging good practice specification](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/blob/main/good-practices/hvd-tagging/specification.md), preferably via Pull Request.
       
 - [ ] **Action 8**. Member States to share encoding examples and evidences of implementation of the geospatial High-Value Datasets tagging good practice. See the corresponding [call for evidences](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/discussions/14) on GitHub.
 
