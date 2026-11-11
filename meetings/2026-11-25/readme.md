@@ -1,11 +1,14 @@
 # Pilot Phase 2 - General Meeting (25 November 2026, 15:00 - 17:00 CET)
 
-## Agenda
+## DRAFT Agenda
 
 * **Welcome**
 * **Pilot activities and progress**
-    * **Item 1** (JRC) - 5 minutes
-    * **Item 2** - XX minutes
+    * **Pilot news. Review of Actions from [previous meeting (2026-07-07)](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/tree/main/meetings/2026-07-07)** (JRC) - 15 minutes
+    * **News from SEMIC** - 10 minutes
+    * **News from OP** - 10 minutes
+* **ISO-to-GeoDCAT-AP mapping - [Discussion](https://github.com/INSPIRE-MIF/GeoDCAT-AP-pilot/issues/15#issue-4826314143)** - 55 minutes
+* **Future of the pilot - Discussion & Next steps** - 25 minutes
 * **Wrap-up & Next meeting** - 5 minutes
 * **AoB** (All) - 5 minutes
 
