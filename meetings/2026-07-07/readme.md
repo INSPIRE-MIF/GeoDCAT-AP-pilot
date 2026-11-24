@@ -191,4 +191,4 @@ The JRC is available to provide any information and/or resolving any doubts in c
 
 - [ ] **Action 9**. Interested Pilot participants to provide feedback to enhance the [AI-Assisted metadata generation tool](https://code.europa.eu/jrc-dsi-lab/geospatial-metadata) developed by the JRC.
       
-- [ ] **Action 10**. Ad-hoc working meetings for Working Teams T-1A and T-1B will be scheduled from the end of September, after processing the feedback received as per Actions 1 to 4, and Actions 6 to 8.
+- [x] **Action 10**. Ad-hoc working meetings for Working Teams T-1A and T-1B will be scheduled from the end of September, after processing the feedback received as per Actions 1 to 4, and Actions 6 to 8.
